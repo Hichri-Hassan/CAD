@@ -1,0 +1,290 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "unit": "mm",
+    "source_format": "FCStd",
+    "parser_version": "0.1",
+    "source_path": "/Users/hassenhicheri/Desktop/test.FCStd",
+    "source_label": "test"
+  },
+  "operations": [
+    {
+      "id": "op_001",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Line",
+          "start": [
+            -35.776,
+            34.914
+          ],
+          "end": [
+            -35.776,
+            0.0
+          ]
+        },
+        {
+          "id": "e_002",
+          "type": "Line",
+          "start": [
+            -35.776,
+            0.0
+          ],
+          "end": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "id": "e_003",
+          "type": "Line",
+          "start": [
+            0.0,
+            0.0
+          ],
+          "end": [
+            0.0,
+            34.914
+          ]
+        },
+        {
+          "id": "e_004",
+          "type": "Line",
+          "start": [
+            0.0,
+            34.914
+          ],
+          "end": [
+            -35.776,
+            34.914
+          ]
+        }
+      ],
+      "constraints": [
+        {
+          "type": "Coincident",
+          "entity_1": "e_001",
+          "entity_2": "e_002"
+        },
+        {
+          "type": "Coincident",
+          "entity_1": "e_002",
+          "entity_2": "e_003"
+        },
+        {
+          "type": "Coincident",
+          "entity_1": "e_003",
+          "entity_2": "e_004"
+        },
+        {
+          "type": "Coincident",
+          "entity_1": "e_004",
+          "entity_2": "e_001"
+        },
+        {
+          "type": "Vertical",
+          "entity": "e_001"
+        },
+        {
+          "type": "Vertical",
+          "entity": "e_003"
+        },
+        {
+          "type": "Horizontal",
+          "entity": "e_002"
+        },
+        {
+          "type": "Horizontal",
+          "entity": "e_004"
+        },
+        {
+          "type": "Coincident",
+          "entity": "e_002"
+        }
+      ],
+      "plane": "XZ"
+    },
+    {
+      "id": "op_002",
+      "type": "Pad",
+      "profile": "op_001",
+      "length": 10.0
+    },
+    {
+      "id": "op_003",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Line",
+          "start": [
+            -29.885,
+            22.845
+          ],
+          "end": [
+            -29.885,
+            -22.845
+          ]
+        },
+        {
+          "id": "e_002",
+          "type": "Line",
+          "start": [
+            -29.885,
+            -22.845
+          ],
+          "end": [
+            -5.316,
+            -22.845
+          ]
+        },
+        {
+          "id": "e_003",
+          "type": "Line",
+          "start": [
+            -5.316,
+            -22.845
+          ],
+          "end": [
+            -5.316,
+            22.845
+          ]
+        },
+        {
+          "id": "e_004",
+          "type": "Line",
+          "start": [
+            -5.316,
+            22.845
+          ],
+          "end": [
+            -29.885,
+            22.845
+          ]
+        }
+      ],
+      "constraints": [
+        {
+          "type": "Coincident",
+          "entity_1": "e_001",
+          "entity_2": "e_002"
+        },
+        {
+          "type": "Coincident",
+          "entity_1": "e_002",
+          "entity_2": "e_003"
+        },
+        {
+          "type": "Coincident",
+          "entity_1": "e_003",
+          "entity_2": "e_004"
+        },
+        {
+          "type": "Coincident",
+          "entity_1": "e_004",
+          "entity_2": "e_001"
+        },
+        {
+          "type": "Vertical",
+          "entity": "e_001"
+        },
+        {
+          "type": "Vertical",
+          "entity": "e_003"
+        },
+        {
+          "type": "Horizontal",
+          "entity": "e_002"
+        },
+        {
+          "type": "Horizontal",
+          "entity": "e_004"
+        }
+      ],
+      "plane": "XY",
+      "attachment_offset": {
+        "position": [
+          0.0,
+          7.0,
+          19.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "op_004",
+      "type": "Pocket",
+      "profile": "op_003",
+      "depth": 5.0
+    },
+    {
+      "id": "op_005",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Circle",
+          "center": [
+            -25.85,
+            27.721
+          ],
+          "radius": 5.653
+        }
+      ],
+      "constraints": [],
+      "plane": "XZ"
+    },
+    {
+      "id": "op_006",
+      "type": "Hole",
+      "profile": "op_005",
+      "diameter": 6.0,
+      "depth": 4.0,
+      "reversed": true
+    },
+    {
+      "id": "op_007",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Circle",
+          "center": [
+            -29.085,
+            28.57
+          ],
+          "radius": 5.239
+        }
+      ],
+      "constraints": [],
+      "plane": "XZ",
+      "attachment_offset": {
+        "position": [
+          20.0,
+          -1.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "op_008",
+      "type": "Hole",
+      "profile": "op_007",
+      "diameter": 6.0,
+      "depth": 25.0,
+      "reversed": true
+    }
+  ]
+}

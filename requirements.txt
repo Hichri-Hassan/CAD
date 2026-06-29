@@ -1,0 +1,6 @@
+# CAD Copilot dependencies
+#
+# Parser V0 uses only the Python standard library.
+# Compiler V0 requires FreeCAD (freecadcmd) installed separately.
+#   macOS: brew install --cask freecad
+#   Set FREECAD_CMD to override the freecadcmd path if needed.

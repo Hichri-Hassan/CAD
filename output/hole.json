@@ -1,0 +1,164 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "unit": "mm",
+    "source_format": "FCStd",
+    "parser_version": "0.1",
+    "source_path": "/Users/hassenhicheri/Desktop/hole.FCStd",
+    "source_label": "hole"
+  },
+  "operations": [
+    {
+      "id": "op_001",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Line",
+          "start": [
+            -44.971,
+            34.196
+          ],
+          "end": [
+            -44.971,
+            0.0
+          ]
+        },
+        {
+          "id": "e_002",
+          "type": "Line",
+          "start": [
+            -44.971,
+            0.0
+          ],
+          "end": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "id": "e_003",
+          "type": "Line",
+          "start": [
+            0.0,
+            0.0
+          ],
+          "end": [
+            0.0,
+            34.196
+          ]
+        },
+        {
+          "id": "e_004",
+          "type": "Line",
+          "start": [
+            0.0,
+            34.196
+          ],
+          "end": [
+            -44.971,
+            34.196
+          ]
+        }
+      ],
+      "constraints": [
+        {
+          "type": "Coincident",
+          "entity_1": "e_001",
+          "entity_2": "e_002"
+        },
+        {
+          "type": "Coincident",
+          "entity_1": "e_002",
+          "entity_2": "e_003"
+        },
+        {
+          "type": "Coincident",
+          "entity_1": "e_003",
+          "entity_2": "e_004"
+        },
+        {
+          "type": "Coincident",
+          "entity_1": "e_004",
+          "entity_2": "e_001"
+        },
+        {
+          "type": "Vertical",
+          "entity": "e_001"
+        },
+        {
+          "type": "Vertical",
+          "entity": "e_003"
+        },
+        {
+          "type": "Horizontal",
+          "entity": "e_002"
+        },
+        {
+          "type": "Horizontal",
+          "entity": "e_004"
+        },
+        {
+          "type": "Coincident",
+          "entity": "e_002"
+        }
+      ],
+      "plane": "XZ"
+    },
+    {
+      "id": "op_002",
+      "type": "Pad",
+      "profile": "op_001",
+      "length": 10.0
+    },
+    {
+      "id": "op_003",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Point",
+          "position": [
+            -23.851,
+            -5.46
+          ]
+        }
+      ],
+      "constraints": [],
+      "support": {
+        "type": "face",
+        "reference": "op_002",
+        "selector": "Face4"
+      }
+    },
+    {
+      "id": "op_004",
+      "type": "Hole",
+      "profile": "op_003",
+      "diameter": 6.0,
+      "depth": 16.0
+    },
+    {
+      "id": "op_005",
+      "type": "Chamfer",
+      "distance": 1.0,
+      "edges": [
+        {
+          "reference": "op_004",
+          "selector": "Edge7"
+        }
+      ]
+    },
+    {
+      "id": "op_006",
+      "type": "Fillet",
+      "radius": 1.0,
+      "edges": [
+        {
+          "reference": "op_005",
+          "selector": "Edge6"
+        }
+      ]
+    }
+  ]
+}

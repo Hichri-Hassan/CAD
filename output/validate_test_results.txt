@@ -1,0 +1,9 @@
+hole_distance_original=16.766
+hole_distance_rebuilt=16.766
+pocket_centroid_original=-17.601,7.000,19.000
+pocket_centroid_rebuilt=-17.601,7.000,19.000
+hole distance=PASS
+hole 1 match=PASS
+hole 2 match=PASS
+pocket Y=PASS
+pocket Z=PASS

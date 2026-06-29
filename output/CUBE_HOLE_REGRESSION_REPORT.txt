@@ -1,0 +1,42 @@
+CUBE / HOLE REGRESSION REPORT
+==================================================
+
+## CUBE
+original: /Users/hassenhicheri/Desktop/cube.FCStd
+rebuilt:  /Users/hassenhicheri/Desktop/CAD/output/cube_rebuilt.FCStd
+
+  json_attachment_offset_identity_or_absent: PASS
+  feature_order: PASS
+  pad_face_signatures: PASS
+  pad_bbox: PASS
+  sketch_plane_support: PASS
+  sketch_attachment_offset: PASS
+  sketch_placement_base: PASS
+  hole_marker_global_position: PASS
+  hole_diameter_depth_reversed: PASS
+  document_errors: PASS
+  final_body_bbox: PASS
+  final_body_volume: PASS
+  OVERALL: PASS
+
+## HOLE
+original: /Users/hassenhicheri/Desktop/hole.FCStd
+rebuilt:  /Users/hassenhicheri/Desktop/CAD/output/hole_rebuilt.FCStd
+
+  json_attachment_offset_identity_or_absent: PASS
+  feature_order: PASS
+  pad_face_signatures: PASS
+  pad_bbox: PASS
+  sketch_plane_support: PASS
+  sketch_attachment_offset: PASS
+  sketch_placement_base: PASS
+  hole_marker_global_position: PASS
+  hole_diameter_depth_reversed: PASS
+  chamfer_fillet_edges: PASS
+  document_errors: PASS
+  final_body_bbox: PASS
+  final_body_volume: PASS
+  OVERALL: PASS
+
+==================================================
+TOTAL: PASS
