@@ -1,0 +1,97 @@
+{
+  "model_id": "model_0021",
+  "title": "Rectangular Plate with Recessed Pockets",
+  "description": "This part is a rectangular plate featuring recessed pockets, with varying heights of 20.0 mm and 12.0 mm. The design includes circular profiles integrated into the surface.",
+  "tags": [
+    "rectangular plate",
+    "pocket",
+    "recessed area",
+    "circular profile"
+  ],
+  "prompts": [
+    "Can you create a rectangular plate with a few recessed pockets?",
+    "I'd like a rectangular plate that has a depth of 20 mm with circular profiles and one recessed pocket that goes 2.5 mm deep.",
+    "Please generate a rectangular block that is 20 mm tall, featuring several circular profiles on the XY plane and a recessed pocket.",
+    "Make a rectangular plate that is 20 mm high with an additional section that's 12 mm high, including a recessed pocket that's 2.5 mm deep.",
+    "Design a rectangular plate with a height of 20 mm, incorporating recessed areas and circular profiles on its surface."
+  ],
+  "metadata": {
+    "version": "1.0",
+    "unit": "mm",
+    "source_format": "FCStd",
+    "parser_version": "0.1",
+    "source_path": "/Users/hassenhicheri/Desktop/CAD/examples/000512.FCStd",
+    "source_label": "tire"
+  },
+  "operations": [
+    {
+      "id": "op_001",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Circle",
+          "center": [
+            0.0,
+            0.0
+          ],
+          "radius": 16.5
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_002",
+      "type": "Pad",
+      "profile": "op_001",
+      "length": 20.0
+    },
+    {
+      "id": "op_003",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Circle",
+          "center": [
+            0.0,
+            0.0
+          ],
+          "radius": 10.0
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_004",
+      "type": "Pocket",
+      "profile": "op_003",
+      "depth": 2.5
+    },
+    {
+      "id": "op_005",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Circle",
+          "center": [
+            0.0,
+            0.0
+          ],
+          "radius": 2.5
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_006",
+      "type": "Pad",
+      "profile": "op_005",
+      "length": 12.0
+    }
+  ]
+}

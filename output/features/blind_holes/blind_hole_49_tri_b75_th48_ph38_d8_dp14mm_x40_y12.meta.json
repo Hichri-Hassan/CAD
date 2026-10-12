@@ -1,0 +1,25 @@
+{
+  "shape_id": "blind_hole_49_tri_b75_th48_ph38_d8_dp14mm_x40_y12",
+  "shape_type": "blind_hole",
+  "index": 49,
+  "dimensions": {
+    "base_type": "triangle",
+    "diameter_mm": 8.0,
+    "hole_depth_mm": 14.0,
+    "hole_cx": 40.0,
+    "hole_cy": 12.0,
+    "base_mm": 75.0,
+    "triangle_height_mm": 48.0,
+    "prism_height_mm": 38.0
+  },
+  "fcstd_path": "output/features/blind_holes/blind_hole_49_tri_b75_th48_ph38_d8_dp14mm_x40_y12.FCStd",
+  "json_path": "output/features/blind_holes/blind_hole_49_tri_b75_th48_ph38_d8_dp14mm_x40_y12.json",
+  "prompts": [
+    "Create a triangular prism with a 75 mm base, 48 mm triangle height, and 38 mm extrusion length, with a at position (40, 12) 8 mm diameter blind hole 14 mm deep.",
+    "Make a triangular prism (base 75 mm, triangle height 48 mm, length 38 mm) with a \u00d88 mm blind hole drilled 14 mm into the top face, with the hole center at (40, 12).",
+    "Generate a 75 \u00d7 48 \u00d7 38 mm triangular prism containing a 8 mm blind hole that stops after 14 mm, with the hole center at (40, 12).",
+    "I need a triangular prism with base 75 mm, triangle height 48 mm, and prism height 38 mm, with a at position (40, 12) 8 mm blind hole 14 mm deep.",
+    "Build a triangular prism (75 mm base, 48 mm height, 38 mm long) with a 8 mm blind hole drilled to 14 mm, with the hole center at (40, 12)."
+  ],
+  "passed_validation": true
+}

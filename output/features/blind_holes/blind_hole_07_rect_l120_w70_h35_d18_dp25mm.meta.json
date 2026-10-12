@@ -1,0 +1,25 @@
+{
+  "shape_id": "blind_hole_07_rect_l120_w70_h35_d18_dp25mm",
+  "shape_type": "blind_hole",
+  "index": 7,
+  "dimensions": {
+    "base_type": "rect",
+    "diameter_mm": 18.0,
+    "hole_depth_mm": 25.0,
+    "hole_cx": 60.0,
+    "hole_cy": 35.0,
+    "length_mm": 120.0,
+    "width_mm": 70.0,
+    "height_mm": 35.0
+  },
+  "fcstd_path": "output/features/blind_holes/blind_hole_07_rect_l120_w70_h35_d18_dp25mm.FCStd",
+  "json_path": "output/features/blind_holes/blind_hole_07_rect_l120_w70_h35_d18_dp25mm.json",
+  "prompts": [
+    "Create a 120 \u00d7 70 \u00d7 35 mm block with a centered 18 mm diameter blind hole 25 mm deep.",
+    "Make a 120 by 70 by 35 millimeter rectangular prism with a \u00d818 mm blind hole drilled 25 mm into the top face, in the center.",
+    "Generate a 120 \u00d7 70 \u00d7 35 mm block containing a 18 mm diameter hole that stops after 25 mm, in the center.",
+    "I need a 120 mm \u00d7 70 mm \u00d7 35 mm block with a centered 18 mm blind hole 25 mm deep from the top face.",
+    "Build a rectangular solid measuring 120 \u00d7 70 \u00d7 35 mm with a 18 mm blind hole drilled to a depth of 25 mm, in the center."
+  ],
+  "passed_validation": true
+}

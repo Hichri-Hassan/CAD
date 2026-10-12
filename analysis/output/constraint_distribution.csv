@@ -1,0 +1,17 @@
+constraint_type,count,percentage
+Coincident,14344,35.7768
+Horizontal,4661,11.6255
+Vertical,4544,11.3336
+DistanceY,3971,9.9045
+Symmetric,3723,9.2859
+Radius,2535,6.3228
+Equal,2211,5.5147
+Perpendicular,1896,4.729
+DistanceX,1078,2.6887
+Diameter,481,1.1997
+Tangent,211,0.5263
+Parallel,176,0.439
+Block,114,0.2843
+Distance,78,0.1945
+Angle,64,0.1596
+InternalAlignment,6,0.015

@@ -1,0 +1,28 @@
+{
+  "shape_id": "through_hole_34_l65_w35_h15_d8mm_x14_y10",
+  "shape_type": "through_hole",
+  "index": 34,
+  "dimensions": {
+    "length_mm": 65.0,
+    "width_mm": 35.0,
+    "height_mm": 15.0,
+    "diameter_mm": 8.0,
+    "hole_centers_xy": [
+      [
+        14.0,
+        10.0
+      ]
+    ],
+    "hole_count": 1
+  },
+  "fcstd_path": "output/features/through_holes/through_hole_34_l65_w35_h15_d8mm_x14_y10.FCStd",
+  "json_path": "output/features/through_holes/through_hole_34_l65_w35_h15_d8mm_x14_y10.json",
+  "prompts": [
+    "Create a 65 \u00d7 35 \u00d7 15 mm rectangular block with a 8 mm diameter through-hole located 14 mm from the left edge and 10 mm from the bottom edge.",
+    "Generate a 65 by 35 by 15 millimeter prism with a through-hole of 8 mm passing fully through, with the hole center at (14, 10).",
+    "Make a 65 mm long, 35 mm wide, and 15 mm high block with a 8 mm diameter hole through all. Position it 14 mm from the left edge and 10 mm from the bottom edge.",
+    "Build a rectangular solid measuring 65 \u00d7 35 \u00d7 15 mm with a 8 mm through hole at hole center (14, 10).",
+    "I need a 65 \u00d7 35 \u00d7 15 mm prism featuring a 8 mm hole through all. The hole center is at (14, 10)."
+  ],
+  "passed_validation": true
+}

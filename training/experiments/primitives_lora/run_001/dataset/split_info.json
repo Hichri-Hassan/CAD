@@ -1,0 +1,11 @@
+{
+  "dataset_path": "/Users/hassenhicheri/Desktop/CAD/dataset_v1/train/comparison/merged_training_data.jsonl",
+  "split_strategy": "geometry_aware",
+  "val_ratio": 0.1,
+  "seed": 42,
+  "split_manifest_path": "/Users/hassenhicheri/Desktop/CAD/dataset_v1/train/comparison/comparison_split_manifest.json",
+  "train_examples": 630,
+  "val_examples": 70,
+  "train_geometries": 126,
+  "val_geometries": 14
+}

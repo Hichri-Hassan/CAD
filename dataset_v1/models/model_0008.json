@@ -1,0 +1,677 @@
+{
+  "model_id": "model_0008",
+  "title": "Prismatic Solid With Milled Features",
+  "description": "A prismatic solid with milled features with 0 hole(s) and 2 pocket(s).",
+  "tags": [
+    "mechanical",
+    "partdesign",
+    "prismatic-solid-with-milled-features",
+    "pockets"
+  ],
+  "prompts": [
+    "Create a prismatic solid with milled features.",
+    "Design a prismatic solid with milled features suitable for mechanical assembly.",
+    "Build a functional prismatic solid with milled features for general engineering use.",
+    "Make a prismatic solid with milled features with overall height 5.8 mm.",
+    "I need a prismatic solid with milled features matching the described geometry."
+  ],
+  "metadata": {
+    "version": "1.0",
+    "unit": "mm",
+    "source_format": "FCStd",
+    "parser_version": "0.1",
+    "source_path": "/Users/hassenhicheri/Desktop/CAD/examples/000454.FCStd",
+    "source_label": "Microswitch_SPDT_Horizontal_L"
+  },
+  "operations": [
+    {
+      "id": "op_001",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Line",
+          "start": [
+            -6.4,
+            -1.15
+          ],
+          "end": [
+            -4.3,
+            -1.15
+          ]
+        },
+        {
+          "id": "e_002",
+          "type": "Line",
+          "start": [
+            -4.3,
+            -1.15
+          ],
+          "end": [
+            -3.95,
+            -1.5
+          ]
+        },
+        {
+          "id": "e_003",
+          "type": "Line",
+          "start": [
+            -3.95,
+            -1.5
+          ],
+          "end": [
+            -1.95,
+            -1.5
+          ]
+        },
+        {
+          "id": "e_004",
+          "type": "Line",
+          "start": [
+            -1.95,
+            -1.5
+          ],
+          "end": [
+            -1.6,
+            -1.15
+          ]
+        },
+        {
+          "id": "e_005",
+          "type": "Line",
+          "start": [
+            -1.6,
+            -1.15
+          ],
+          "end": [
+            1.6,
+            -1.15
+          ]
+        },
+        {
+          "id": "e_006",
+          "type": "Line",
+          "start": [
+            1.6,
+            -1.15
+          ],
+          "end": [
+            1.95,
+            -1.5
+          ]
+        },
+        {
+          "id": "e_007",
+          "type": "Line",
+          "start": [
+            1.95,
+            -1.5
+          ],
+          "end": [
+            3.95,
+            -1.5
+          ]
+        },
+        {
+          "id": "e_008",
+          "type": "Line",
+          "start": [
+            3.95,
+            -1.5
+          ],
+          "end": [
+            4.3,
+            -1.15
+          ]
+        },
+        {
+          "id": "e_009",
+          "type": "Line",
+          "start": [
+            4.3,
+            -1.15
+          ],
+          "end": [
+            6.4,
+            -1.15
+          ]
+        },
+        {
+          "id": "e_010",
+          "type": "Line",
+          "start": [
+            6.4,
+            -1.15
+          ],
+          "end": [
+            6.4,
+            1.35
+          ]
+        },
+        {
+          "id": "e_011",
+          "type": "Line",
+          "start": [
+            6.4,
+            1.35
+          ],
+          "end": [
+            5.8,
+            1.35
+          ]
+        },
+        {
+          "id": "e_012",
+          "type": "Line",
+          "start": [
+            5.8,
+            1.35
+          ],
+          "end": [
+            5.8,
+            2.2
+          ]
+        },
+        {
+          "id": "e_013",
+          "type": "Line",
+          "start": [
+            5.8,
+            2.2
+          ],
+          "end": [
+            4.65,
+            2.2
+          ]
+        },
+        {
+          "id": "e_014",
+          "type": "Line",
+          "start": [
+            4.65,
+            2.2
+          ],
+          "end": [
+            4.65,
+            1.7
+          ]
+        },
+        {
+          "id": "e_015",
+          "type": "Line",
+          "start": [
+            4.65,
+            1.7
+          ],
+          "end": [
+            1.6,
+            1.7
+          ]
+        },
+        {
+          "id": "e_016",
+          "type": "Line",
+          "start": [
+            1.6,
+            1.7
+          ],
+          "end": [
+            1.25,
+            1.35
+          ]
+        },
+        {
+          "id": "e_017",
+          "type": "Line",
+          "start": [
+            1.25,
+            1.35
+          ],
+          "end": [
+            -1.25,
+            1.35
+          ]
+        },
+        {
+          "id": "e_018",
+          "type": "Line",
+          "start": [
+            -1.25,
+            1.35
+          ],
+          "end": [
+            -1.6,
+            1.7
+          ]
+        },
+        {
+          "id": "e_019",
+          "type": "Line",
+          "start": [
+            -1.6,
+            1.7
+          ],
+          "end": [
+            -5.8,
+            1.7
+          ]
+        },
+        {
+          "id": "e_020",
+          "type": "Line",
+          "start": [
+            -5.8,
+            1.7
+          ],
+          "end": [
+            -5.8,
+            1.35
+          ]
+        },
+        {
+          "id": "e_021",
+          "type": "Line",
+          "start": [
+            -5.8,
+            1.35
+          ],
+          "end": [
+            -6.4,
+            1.35
+          ]
+        },
+        {
+          "id": "e_022",
+          "type": "Line",
+          "start": [
+            -6.4,
+            1.35
+          ],
+          "end": [
+            -6.4,
+            -1.15
+          ]
+        },
+        {
+          "id": "e_023",
+          "type": "Circle",
+          "center": [
+            -3.25,
+            0.0
+          ],
+          "radius": 1.0
+        },
+        {
+          "id": "e_024",
+          "type": "Circle",
+          "center": [
+            3.25,
+            0.0
+          ],
+          "radius": 1.0
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_002",
+      "type": "Pad",
+      "profile": "op_001",
+      "length": 5.8,
+      "symmetric": true
+    },
+    {
+      "id": "op_003",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Line",
+          "start": [
+            1.75,
+            1.35
+          ],
+          "end": [
+            1.75,
+            -0.75
+          ]
+        },
+        {
+          "id": "e_002",
+          "type": "Line",
+          "start": [
+            1.75,
+            -0.75
+          ],
+          "end": [
+            -1.75,
+            -0.75
+          ]
+        },
+        {
+          "id": "e_003",
+          "type": "Line",
+          "start": [
+            -1.75,
+            -0.75
+          ],
+          "end": [
+            -1.75,
+            1.35
+          ]
+        },
+        {
+          "id": "e_004",
+          "type": "Line",
+          "start": [
+            -0.65,
+            0.65
+          ],
+          "end": [
+            0.65,
+            0.65
+          ]
+        },
+        {
+          "id": "e_005",
+          "type": "Line",
+          "start": [
+            0.65,
+            0.65
+          ],
+          "end": [
+            0.65,
+            0.15
+          ]
+        },
+        {
+          "id": "e_006",
+          "type": "Line",
+          "start": [
+            0.65,
+            0.15
+          ],
+          "end": [
+            -0.65,
+            0.15
+          ]
+        },
+        {
+          "id": "e_007",
+          "type": "Line",
+          "start": [
+            -0.65,
+            0.15
+          ],
+          "end": [
+            -0.65,
+            0.65
+          ]
+        },
+        {
+          "id": "e_008",
+          "type": "Circle",
+          "center": [
+            -5.3,
+            -0.0
+          ],
+          "radius": 0.7
+        },
+        {
+          "id": "e_009",
+          "type": "Circle",
+          "center": [
+            5.1,
+            -0.0
+          ],
+          "radius": 0.5
+        },
+        {
+          "id": "e_010",
+          "type": "Line",
+          "start": [
+            1.75,
+            1.35
+          ],
+          "end": [
+            6.4,
+            1.35
+          ]
+        },
+        {
+          "id": "e_011",
+          "type": "Line",
+          "start": [
+            6.4,
+            1.35
+          ],
+          "end": [
+            6.4,
+            2.2
+          ]
+        },
+        {
+          "id": "e_012",
+          "type": "Line",
+          "start": [
+            6.4,
+            2.2
+          ],
+          "end": [
+            -6.4,
+            2.2
+          ]
+        },
+        {
+          "id": "e_013",
+          "type": "Line",
+          "start": [
+            -6.4,
+            2.2
+          ],
+          "end": [
+            -6.4,
+            1.35
+          ]
+        },
+        {
+          "id": "e_014",
+          "type": "Line",
+          "start": [
+            -6.4,
+            1.35
+          ],
+          "end": [
+            -1.75,
+            1.35
+          ]
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_004",
+      "type": "Pocket",
+      "profile": "op_003",
+      "depth": 0.6
+    },
+    {
+      "id": "op_005",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Line",
+          "start": [
+            -0.65,
+            -0.15
+          ],
+          "end": [
+            0.65,
+            -0.15
+          ]
+        },
+        {
+          "id": "e_002",
+          "type": "Line",
+          "start": [
+            0.65,
+            -0.15
+          ],
+          "end": [
+            0.65,
+            -0.65
+          ]
+        },
+        {
+          "id": "e_003",
+          "type": "Line",
+          "start": [
+            0.65,
+            -0.65
+          ],
+          "end": [
+            -0.65,
+            -0.65
+          ]
+        },
+        {
+          "id": "e_004",
+          "type": "Line",
+          "start": [
+            -0.65,
+            -0.65
+          ],
+          "end": [
+            -0.65,
+            -0.15
+          ]
+        },
+        {
+          "id": "e_005",
+          "type": "Circle",
+          "center": [
+            5.3,
+            0.0
+          ],
+          "radius": 0.7
+        },
+        {
+          "id": "e_006",
+          "type": "Circle",
+          "center": [
+            -5.3,
+            0.0
+          ],
+          "radius": 0.7
+        },
+        {
+          "id": "e_007",
+          "type": "Line",
+          "start": [
+            1.75,
+            0.75
+          ],
+          "end": [
+            -1.75,
+            0.75
+          ]
+        },
+        {
+          "id": "e_008",
+          "type": "Line",
+          "start": [
+            -1.75,
+            0.75
+          ],
+          "end": [
+            -1.75,
+            -1.35
+          ]
+        },
+        {
+          "id": "e_009",
+          "type": "Line",
+          "start": [
+            -1.75,
+            -1.35
+          ],
+          "end": [
+            -6.4,
+            -1.35
+          ]
+        },
+        {
+          "id": "e_010",
+          "type": "Line",
+          "start": [
+            -6.4,
+            -1.35
+          ],
+          "end": [
+            -6.4,
+            -2.2
+          ]
+        },
+        {
+          "id": "e_011",
+          "type": "Line",
+          "start": [
+            -6.4,
+            -2.2
+          ],
+          "end": [
+            6.4,
+            -2.2
+          ]
+        },
+        {
+          "id": "e_012",
+          "type": "Line",
+          "start": [
+            6.4,
+            -2.2
+          ],
+          "end": [
+            6.4,
+            -1.35
+          ]
+        },
+        {
+          "id": "e_013",
+          "type": "Line",
+          "start": [
+            6.4,
+            -1.35
+          ],
+          "end": [
+            1.75,
+            -1.35
+          ]
+        },
+        {
+          "id": "e_014",
+          "type": "Line",
+          "start": [
+            1.75,
+            -1.35
+          ],
+          "end": [
+            1.75,
+            0.75
+          ]
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_006",
+      "type": "Pocket",
+      "profile": "op_005",
+      "depth": 0.6
+    }
+  ]
+}

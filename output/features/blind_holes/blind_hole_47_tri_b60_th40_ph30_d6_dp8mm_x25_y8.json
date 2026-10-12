@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "unit": "mm",
+    "source_format": "authored",
+    "feature_family": "blind_hole",
+    "source_label": "blind_hole_47_tri_b60_th40_ph30_d6_dp8mm_x25_y8"
+  },
+  "operations": [
+    {
+      "id": "op_001",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Line",
+          "start": [
+            0.0,
+            0.0
+          ],
+          "end": [
+            60.0,
+            0.0
+          ]
+        },
+        {
+          "id": "e_002",
+          "type": "Line",
+          "start": [
+            60.0,
+            0.0
+          ],
+          "end": [
+            30.0,
+            40.0
+          ]
+        },
+        {
+          "id": "e_003",
+          "type": "Line",
+          "start": [
+            30.0,
+            40.0
+          ],
+          "end": [
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_002",
+      "type": "Pad",
+      "profile": "op_001",
+      "length": 30.0
+    },
+    {
+      "id": "op_003",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Circle",
+          "center": [
+            25.0,
+            8.0
+          ],
+          "radius": 3.0
+        }
+      ],
+      "constraints": [],
+      "support": {
+        "type": "face",
+        "reference": "op_002",
+        "selector": "Face5"
+      }
+    },
+    {
+      "id": "op_004",
+      "type": "Hole",
+      "profile": "op_003",
+      "diameter": 6.0,
+      "depth": 8.0
+    }
+  ]
+}

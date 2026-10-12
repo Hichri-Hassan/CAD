@@ -1,0 +1,25 @@
+{
+  "shape_id": "blind_hole_10_rect_l55_w38_h16_d6_dp7mm",
+  "shape_type": "blind_hole",
+  "index": 10,
+  "dimensions": {
+    "base_type": "rect",
+    "diameter_mm": 6.0,
+    "hole_depth_mm": 7.0,
+    "hole_cx": 27.5,
+    "hole_cy": 19.0,
+    "length_mm": 55.0,
+    "width_mm": 38.0,
+    "height_mm": 16.0
+  },
+  "fcstd_path": "output/features/blind_holes/blind_hole_10_rect_l55_w38_h16_d6_dp7mm.FCStd",
+  "json_path": "output/features/blind_holes/blind_hole_10_rect_l55_w38_h16_d6_dp7mm.json",
+  "prompts": [
+    "Create a 55 \u00d7 38 \u00d7 16 mm block with a centered 6 mm diameter blind hole 7 mm deep.",
+    "Make a 55 by 38 by 16 millimeter rectangular prism with a \u00d86 mm blind hole drilled 7 mm into the top face, in the center.",
+    "Generate a 55 \u00d7 38 \u00d7 16 mm block containing a 6 mm diameter hole that stops after 7 mm, in the center.",
+    "I need a 55 mm \u00d7 38 mm \u00d7 16 mm block with a centered 6 mm blind hole 7 mm deep from the top face.",
+    "Build a rectangular solid measuring 55 \u00d7 38 \u00d7 16 mm with a 6 mm blind hole drilled to a depth of 7 mm, in the center."
+  ],
+  "passed_validation": true
+}

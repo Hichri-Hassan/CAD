@@ -1,0 +1,100 @@
+{
+  "summary": {
+    "evaluated_at": "2026-07-31T14:07:55.064186+00:00",
+    "adapter_path": "/Users/hassenhicheri/Desktop/CAD/training/experiments/final/run_001/checkpoints/adapter",
+    "test_models": 7,
+    "examples": 7,
+    "json_validity_rate": 1.0,
+    "schema_validity_rate": 1.0,
+    "mean_operation_type_accuracy": 0.5238095238095238,
+    "exact_operations_match_rate": 0.0,
+    "compilation_success_rate": 1.0,
+    "freecad_available": true
+  },
+  "examples": [
+    {
+      "model_id": "model_0009",
+      "prompt": "Create a prismatic solid with milled features.",
+      "json_valid": true,
+      "schema_valid": true,
+      "operation_type_accuracy": 0.6666666666666666,
+      "exact_operations_match": false,
+      "compilation_success": true,
+      "generated_operations_count": 4,
+      "reference_operations_count": 6,
+      "error": null
+    },
+    {
+      "model_id": "model_0015",
+      "prompt": "Create a prismatic solid with milled features.",
+      "json_valid": true,
+      "schema_valid": true,
+      "operation_type_accuracy": 0.3333333333333333,
+      "exact_operations_match": false,
+      "compilation_success": true,
+      "generated_operations_count": 6,
+      "reference_operations_count": 6,
+      "error": null
+    },
+    {
+      "model_id": "model_0016",
+      "prompt": "Create a prismatic solid with milled features.",
+      "json_valid": true,
+      "schema_valid": true,
+      "operation_type_accuracy": 0.5,
+      "exact_operations_match": false,
+      "compilation_success": true,
+      "generated_operations_count": 7,
+      "reference_operations_count": 8,
+      "error": null
+    },
+    {
+      "model_id": "model_0018",
+      "prompt": "Create a prismatic solid with milled features.",
+      "json_valid": true,
+      "schema_valid": true,
+      "operation_type_accuracy": 0.5,
+      "exact_operations_match": false,
+      "compilation_success": true,
+      "generated_operations_count": 6,
+      "reference_operations_count": 8,
+      "error": null
+    },
+    {
+      "model_id": "model_0002",
+      "prompt": "Create a extruded prismatic solid.",
+      "json_valid": true,
+      "schema_valid": true,
+      "operation_type_accuracy": 0.6666666666666666,
+      "exact_operations_match": false,
+      "compilation_success": true,
+      "generated_operations_count": 2,
+      "reference_operations_count": 3,
+      "error": null
+    },
+    {
+      "model_id": "model_0008",
+      "prompt": "Create a prismatic solid with milled features.",
+      "json_valid": true,
+      "schema_valid": true,
+      "operation_type_accuracy": 0.3333333333333333,
+      "exact_operations_match": false,
+      "compilation_success": true,
+      "generated_operations_count": 6,
+      "reference_operations_count": 6,
+      "error": null
+    },
+    {
+      "model_id": "model_0041",
+      "prompt": "Create a extruded prismatic solid.",
+      "json_valid": true,
+      "schema_valid": true,
+      "operation_type_accuracy": 0.6666666666666666,
+      "exact_operations_match": false,
+      "compilation_success": true,
+      "generated_operations_count": 2,
+      "reference_operations_count": 3,
+      "error": null
+    }
+  ]
+}

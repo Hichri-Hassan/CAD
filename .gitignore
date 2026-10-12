@@ -1,0 +1,36 @@
+# Environment variables (API keys)
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env.local
+
+# OS
+.DS_Store
+
+# Training artifacts
+training/checkpoints/*
+!training/checkpoints/.gitkeep
+training/outputs/*
+!training/outputs/.gitkeep
+training/experiments/**/logs/*
+training/experiments/**/checkpoints/*
+training/experiments/**/curves/*
+*.safetensors
+*.pt
+!training/experiments/.gitkeep
+!training/experiments/**/config.yaml
+!training/experiments/**/manifest.json
+!training/experiments/**/metrics.json
+!training/experiments/**/status.json
+!training/experiments/**/stage_manifest.json
+!training/experiments/hpo_master_manifest.json
+
+# Large local CAD examples and generated binaries
+examples/*.FCStd
+output/**/*.FCStd
+output/**/*.FCBak

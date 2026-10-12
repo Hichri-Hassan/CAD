@@ -1,0 +1,29 @@
+operation,count,percentage
+Sketch,2289,38.8229
+Pad,1306,22.1506
+Pocket,771,13.0767
+Groove,467,7.9206
+Part::Part2DObjectPython,353,5.9871
+Fillet,230,3.9009
+Polar Pattern,145,2.4593
+Mirror,81,1.3738
+Chamfer,66,1.1194
+Revolution,47,0.7972
+Linear Pattern,34,0.5767
+Datum Plane,23,0.3901
+Hole,21,0.3562
+MultiTransform,21,0.3562
+Datum Axis,9,0.1526
+Sweep,6,0.1018
+Shape Binder,4,0.0678
+AdditiveCylinder,3,0.0509
+Boolean,3,0.0509
+FeatureBase,3,0.0509
+SubtractiveHelix,3,0.0509
+Thickness,3,0.0509
+Loft,2,0.0339
+Part::SubShapeBinder,2,0.0339
+AdditiveBox,1,0.017
+App::VarSet,1,0.017
+Draft,1,0.017
+Point,1,0.017

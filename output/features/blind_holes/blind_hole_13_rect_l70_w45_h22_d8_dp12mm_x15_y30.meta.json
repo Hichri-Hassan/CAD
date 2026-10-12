@@ -1,0 +1,25 @@
+{
+  "shape_id": "blind_hole_13_rect_l70_w45_h22_d8_dp12mm_x15_y30",
+  "shape_type": "blind_hole",
+  "index": 13,
+  "dimensions": {
+    "base_type": "rect",
+    "diameter_mm": 8.0,
+    "hole_depth_mm": 12.0,
+    "hole_cx": 15.0,
+    "hole_cy": 30.0,
+    "length_mm": 70.0,
+    "width_mm": 45.0,
+    "height_mm": 22.0
+  },
+  "fcstd_path": "output/features/blind_holes/blind_hole_13_rect_l70_w45_h22_d8_dp12mm_x15_y30.FCStd",
+  "json_path": "output/features/blind_holes/blind_hole_13_rect_l70_w45_h22_d8_dp12mm_x15_y30.json",
+  "prompts": [
+    "Create a 70 \u00d7 45 \u00d7 22 mm block with a at position (15, 30) 8 mm diameter blind hole 12 mm deep.",
+    "Make a 70 by 45 by 22 millimeter rectangular prism with a \u00d88 mm blind hole drilled 12 mm into the top face, with the hole center at (15, 30).",
+    "Generate a 70 \u00d7 45 \u00d7 22 mm block containing a 8 mm diameter hole that stops after 12 mm, with the hole center at (15, 30).",
+    "I need a 70 mm \u00d7 45 mm \u00d7 22 mm block with a at position (15, 30) 8 mm blind hole 12 mm deep from the top face.",
+    "Build a rectangular solid measuring 70 \u00d7 45 \u00d7 22 mm with a 8 mm blind hole drilled to a depth of 12 mm, with the hole center at (15, 30)."
+  ],
+  "passed_validation": true
+}

@@ -1,0 +1,892 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "json_schema",
+      "passed": true,
+      "details": {
+        "error": null
+      }
+    },
+    {
+      "name": "operation_sequence",
+      "passed": true,
+      "details": {
+        "types": [
+          "Sketch",
+          "Pad",
+          "Sketch",
+          "Hole"
+        ]
+      }
+    },
+    {
+      "name": "pad_height",
+      "passed": true,
+      "details": {
+        "length": 5.0
+      }
+    },
+    {
+      "name": "hole_diameter",
+      "passed": true,
+      "details": {
+        "diameter": 6.0
+      }
+    },
+    {
+      "name": "hole_depth_through_all",
+      "passed": true,
+      "details": {
+        "depth": "through_all"
+      }
+    },
+    {
+      "name": "hole_sketch_support_face",
+      "passed": true,
+      "details": {
+        "support": {
+          "type": "face",
+          "reference": "op_002",
+          "selector": "Face6"
+        }
+      }
+    },
+    {
+      "name": "hole_circle_count",
+      "passed": true,
+      "details": {
+        "expected": 4,
+        "found": 4
+      }
+    },
+    {
+      "name": "circle_match",
+      "passed": true,
+      "details": {
+        "expected_center": [
+          6.0,
+          6.0
+        ],
+        "expected_radius": 3.0,
+        "found_centers": [
+          [
+            6.0,
+            6.0
+          ],
+          [
+            114.0,
+            6.0
+          ],
+          [
+            6.0,
+            74.0
+          ],
+          [
+            114.0,
+            74.0
+          ]
+        ]
+      }
+    },
+    {
+      "name": "circle_match",
+      "passed": true,
+      "details": {
+        "expected_center": [
+          6.0,
+          74.0
+        ],
+        "expected_radius": 3.0,
+        "found_centers": [
+          [
+            6.0,
+            6.0
+          ],
+          [
+            114.0,
+            6.0
+          ],
+          [
+            6.0,
+            74.0
+          ],
+          [
+            114.0,
+            74.0
+          ]
+        ]
+      }
+    },
+    {
+      "name": "circle_match",
+      "passed": true,
+      "details": {
+        "expected_center": [
+          114.0,
+          6.0
+        ],
+        "expected_radius": 3.0,
+        "found_centers": [
+          [
+            6.0,
+            6.0
+          ],
+          [
+            114.0,
+            6.0
+          ],
+          [
+            6.0,
+            74.0
+          ],
+          [
+            114.0,
+            74.0
+          ]
+        ]
+      }
+    },
+    {
+      "name": "circle_match",
+      "passed": true,
+      "details": {
+        "expected_center": [
+          114.0,
+          74.0
+        ],
+        "expected_radius": 3.0,
+        "found_centers": [
+          [
+            6.0,
+            6.0
+          ],
+          [
+            114.0,
+            6.0
+          ],
+          [
+            6.0,
+            74.0
+          ],
+          [
+            114.0,
+            74.0
+          ]
+        ]
+      }
+    },
+    {
+      "name": "parser_status_valid",
+      "passed": true,
+      "details": {
+        "status": "valid",
+        "warnings": [],
+        "unsupported_features": []
+      }
+    },
+    {
+      "name": "parser_operation_count",
+      "passed": true,
+      "details": {
+        "canonical": 4,
+        "parsed": 4
+      }
+    },
+    {
+      "name": "parser_op_001_type",
+      "passed": true,
+      "details": {
+        "canonical": "Sketch",
+        "parsed": "Sketch"
+      }
+    },
+    {
+      "name": "parser_op_002_type",
+      "passed": true,
+      "details": {
+        "canonical": "Pad",
+        "parsed": "Pad"
+      }
+    },
+    {
+      "name": "parser_op_002_length",
+      "passed": true,
+      "details": {
+        "canonical": 5.0,
+        "parsed": 5.0
+      }
+    },
+    {
+      "name": "parser_op_003_type",
+      "passed": true,
+      "details": {
+        "canonical": "Sketch",
+        "parsed": "Sketch"
+      }
+    },
+    {
+      "name": "parser_op_003_circle_count",
+      "passed": true,
+      "details": {
+        "canonical": 4,
+        "parsed": 4
+      }
+    },
+    {
+      "name": "parser_circle_match",
+      "passed": true,
+      "details": {
+        "expected_center": [
+          6.0,
+          6.0
+        ],
+        "expected_radius": 3.0,
+        "found": [
+          [
+            6.0,
+            6.0
+          ],
+          [
+            114.0,
+            6.0
+          ],
+          [
+            6.0,
+            74.0
+          ],
+          [
+            114.0,
+            74.0
+          ]
+        ]
+      }
+    },
+    {
+      "name": "parser_circle_match",
+      "passed": true,
+      "details": {
+        "expected_center": [
+          114.0,
+          6.0
+        ],
+        "expected_radius": 3.0,
+        "found": [
+          [
+            6.0,
+            6.0
+          ],
+          [
+            114.0,
+            6.0
+          ],
+          [
+            6.0,
+            74.0
+          ],
+          [
+            114.0,
+            74.0
+          ]
+        ]
+      }
+    },
+    {
+      "name": "parser_circle_match",
+      "passed": true,
+      "details": {
+        "expected_center": [
+          6.0,
+          74.0
+        ],
+        "expected_radius": 3.0,
+        "found": [
+          [
+            6.0,
+            6.0
+          ],
+          [
+            114.0,
+            6.0
+          ],
+          [
+            6.0,
+            74.0
+          ],
+          [
+            114.0,
+            74.0
+          ]
+        ]
+      }
+    },
+    {
+      "name": "parser_circle_match",
+      "passed": true,
+      "details": {
+        "expected_center": [
+          114.0,
+          74.0
+        ],
+        "expected_radius": 3.0,
+        "found": [
+          [
+            6.0,
+            6.0
+          ],
+          [
+            114.0,
+            6.0
+          ],
+          [
+            6.0,
+            74.0
+          ],
+          [
+            114.0,
+            74.0
+          ]
+        ]
+      }
+    },
+    {
+      "name": "parser_op_004_type",
+      "passed": true,
+      "details": {
+        "canonical": "Hole",
+        "parsed": "Hole"
+      }
+    },
+    {
+      "name": "parser_op_004_diameter",
+      "passed": true,
+      "details": {
+        "canonical": 6.0,
+        "parsed": 6.0
+      }
+    },
+    {
+      "name": "parser_op_004_depth",
+      "passed": true,
+      "details": {
+        "canonical": "through_all",
+        "parsed": "through_all"
+      }
+    },
+    {
+      "name": "compiler_geometry",
+      "passed": true,
+      "details": {
+        "error": null,
+        "details": [
+          {
+            "name": "valid_solid",
+            "passed": true,
+            "details": {
+              "solids": 1
+            }
+          },
+          {
+            "name": "no_document_errors",
+            "passed": true,
+            "details": {
+              "errors": []
+            }
+          },
+          {
+            "name": "bbox_xmin",
+            "passed": true,
+            "details": {
+              "value": 0.0
+            }
+          },
+          {
+            "name": "bbox_ymin",
+            "passed": true,
+            "details": {
+              "value": 0.0
+            }
+          },
+          {
+            "name": "bbox_zmin",
+            "passed": true,
+            "details": {
+              "value": 0.0
+            }
+          },
+          {
+            "name": "bbox_xmax",
+            "passed": true,
+            "details": {
+              "value": 120.0
+            }
+          },
+          {
+            "name": "bbox_ymax",
+            "passed": true,
+            "details": {
+              "value": 80.0
+            }
+          },
+          {
+            "name": "bbox_zmax",
+            "passed": true,
+            "details": {
+              "value": 5.0
+            }
+          },
+          {
+            "name": "volume",
+            "passed": true,
+            "details": {
+              "value": 47434.51332235384,
+              "expected": 47434.513322353836
+            }
+          },
+          {
+            "name": "hole_object_present",
+            "passed": true,
+            "details": {}
+          },
+          {
+            "name": "hole_diameter_property",
+            "passed": true,
+            "details": {
+              "value": 6.0
+            }
+          },
+          {
+            "name": "hole_depth_type_through_all",
+            "passed": true,
+            "details": {
+              "value": "ThroughAll"
+            }
+          },
+          {
+            "name": "cylindrical_face_radius",
+            "passed": true,
+            "details": {
+              "radii": [
+                3.0,
+                3.0,
+                3.0,
+                3.0
+              ],
+              "expected_radius": 3.0
+            }
+          },
+          {
+            "name": "hole_axis_empty_1",
+            "passed": true,
+            "details": {
+              "center": [
+                6.0,
+                6.0,
+                2.5
+              ]
+            }
+          },
+          {
+            "name": "hole_axis_empty_2",
+            "passed": true,
+            "details": {
+              "center": [
+                114.0,
+                6.0,
+                2.5
+              ]
+            }
+          },
+          {
+            "name": "hole_axis_empty_3",
+            "passed": true,
+            "details": {
+              "center": [
+                6.0,
+                74.0,
+                2.5
+              ]
+            }
+          },
+          {
+            "name": "hole_axis_empty_4",
+            "passed": true,
+            "details": {
+              "center": [
+                114.0,
+                74.0,
+                2.5
+              ]
+            }
+          },
+          {
+            "name": "through_below_empty_1",
+            "passed": true,
+            "details": {
+              "center": [
+                6.0,
+                6.0,
+                -1.0
+              ]
+            }
+          },
+          {
+            "name": "through_above_empty_1",
+            "passed": true,
+            "details": {
+              "center": [
+                6.0,
+                6.0,
+                6.0
+              ]
+            }
+          },
+          {
+            "name": "through_below_empty_2",
+            "passed": true,
+            "details": {
+              "center": [
+                114.0,
+                6.0,
+                -1.0
+              ]
+            }
+          },
+          {
+            "name": "through_above_empty_2",
+            "passed": true,
+            "details": {
+              "center": [
+                114.0,
+                6.0,
+                6.0
+              ]
+            }
+          },
+          {
+            "name": "through_below_empty_3",
+            "passed": true,
+            "details": {
+              "center": [
+                6.0,
+                74.0,
+                -1.0
+              ]
+            }
+          },
+          {
+            "name": "through_above_empty_3",
+            "passed": true,
+            "details": {
+              "center": [
+                6.0,
+                74.0,
+                6.0
+              ]
+            }
+          },
+          {
+            "name": "through_below_empty_4",
+            "passed": true,
+            "details": {
+              "center": [
+                114.0,
+                74.0,
+                -1.0
+              ]
+            }
+          },
+          {
+            "name": "through_above_empty_4",
+            "passed": true,
+            "details": {
+              "center": [
+                114.0,
+                74.0,
+                6.0
+              ]
+            }
+          },
+          {
+            "name": "material_point_inside_prism",
+            "passed": true,
+            "details": {
+              "point": [
+                2.0,
+                2.0,
+                2.5
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "parser": {
+    "status": "valid",
+    "warnings": [],
+    "unsupported_features": []
+  },
+  "geometry": {
+    "stdout": "Importing project files......\n\t\t\t\t\t\t(5 %)\t\n\t\t\t\t\t\t(10 %)\t\n\t\t\t\t\t\t(15 %)\t\n\t\t\t\t\t\t(21 %)\t\n\t\t\t\t\t\t(26 %)\t\n\t\t\t\t\t\t(31 %)\t\n\t\t\t\t\t\t(36 %)\t\n\t\t\t\t\t\t(42 %)\t\n\t\t\t\t\t\t(47 %)\t\n\t\t\t\t\t\t(52 %)\t\n\t\t\t\t\t\t(57 %)\t\n\t\t\t\t\t\t(63 %)\t\n\t\t\t\t\t\t(68 %)\t\n\t\t\t\t\t\t(73 %)\t\n\t\t\t\t\t\t(78 %)\t\n\t\t\t\t\t\t(84 %)\t\n\t\t\t\t\t\t(89 %)\t\n\t\t\t\t\t\t(94 %)\t\n\t\t\t\t\t\t(100 %)\t\n\t\t\t\t\t\t\t\t\nPostprocessing......\n\t\t\t\t\t\t(100 %)\t\n\t\t\t\t\t\t\t\t\n",
+    "stderr": "Looking for thread definitions in: /Applications/FreeCAD.app/Contents/Resources/share/Mod/PartDesign/Resources/Hole /Users/hassenhicheri/Library/Application Support/FreeCAD/v1-1/PartDesign/Hole \n",
+    "returncode": 0,
+    "passed": true,
+    "checks": [
+      {
+        "name": "valid_solid",
+        "passed": true,
+        "details": {
+          "solids": 1
+        }
+      },
+      {
+        "name": "no_document_errors",
+        "passed": true,
+        "details": {
+          "errors": []
+        }
+      },
+      {
+        "name": "bbox_xmin",
+        "passed": true,
+        "details": {
+          "value": 0.0
+        }
+      },
+      {
+        "name": "bbox_ymin",
+        "passed": true,
+        "details": {
+          "value": 0.0
+        }
+      },
+      {
+        "name": "bbox_zmin",
+        "passed": true,
+        "details": {
+          "value": 0.0
+        }
+      },
+      {
+        "name": "bbox_xmax",
+        "passed": true,
+        "details": {
+          "value": 120.0
+        }
+      },
+      {
+        "name": "bbox_ymax",
+        "passed": true,
+        "details": {
+          "value": 80.0
+        }
+      },
+      {
+        "name": "bbox_zmax",
+        "passed": true,
+        "details": {
+          "value": 5.0
+        }
+      },
+      {
+        "name": "volume",
+        "passed": true,
+        "details": {
+          "value": 47434.51332235384,
+          "expected": 47434.513322353836
+        }
+      },
+      {
+        "name": "hole_object_present",
+        "passed": true,
+        "details": {}
+      },
+      {
+        "name": "hole_diameter_property",
+        "passed": true,
+        "details": {
+          "value": 6.0
+        }
+      },
+      {
+        "name": "hole_depth_type_through_all",
+        "passed": true,
+        "details": {
+          "value": "ThroughAll"
+        }
+      },
+      {
+        "name": "cylindrical_face_radius",
+        "passed": true,
+        "details": {
+          "radii": [
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "expected_radius": 3.0
+        }
+      },
+      {
+        "name": "hole_axis_empty_1",
+        "passed": true,
+        "details": {
+          "center": [
+            6.0,
+            6.0,
+            2.5
+          ]
+        }
+      },
+      {
+        "name": "hole_axis_empty_2",
+        "passed": true,
+        "details": {
+          "center": [
+            114.0,
+            6.0,
+            2.5
+          ]
+        }
+      },
+      {
+        "name": "hole_axis_empty_3",
+        "passed": true,
+        "details": {
+          "center": [
+            6.0,
+            74.0,
+            2.5
+          ]
+        }
+      },
+      {
+        "name": "hole_axis_empty_4",
+        "passed": true,
+        "details": {
+          "center": [
+            114.0,
+            74.0,
+            2.5
+          ]
+        }
+      },
+      {
+        "name": "through_below_empty_1",
+        "passed": true,
+        "details": {
+          "center": [
+            6.0,
+            6.0,
+            -1.0
+          ]
+        }
+      },
+      {
+        "name": "through_above_empty_1",
+        "passed": true,
+        "details": {
+          "center": [
+            6.0,
+            6.0,
+            6.0
+          ]
+        }
+      },
+      {
+        "name": "through_below_empty_2",
+        "passed": true,
+        "details": {
+          "center": [
+            114.0,
+            6.0,
+            -1.0
+          ]
+        }
+      },
+      {
+        "name": "through_above_empty_2",
+        "passed": true,
+        "details": {
+          "center": [
+            114.0,
+            6.0,
+            6.0
+          ]
+        }
+      },
+      {
+        "name": "through_below_empty_3",
+        "passed": true,
+        "details": {
+          "center": [
+            6.0,
+            74.0,
+            -1.0
+          ]
+        }
+      },
+      {
+        "name": "through_above_empty_3",
+        "passed": true,
+        "details": {
+          "center": [
+            6.0,
+            74.0,
+            6.0
+          ]
+        }
+      },
+      {
+        "name": "through_below_empty_4",
+        "passed": true,
+        "details": {
+          "center": [
+            114.0,
+            74.0,
+            -1.0
+          ]
+        }
+      },
+      {
+        "name": "through_above_empty_4",
+        "passed": true,
+        "details": {
+          "center": [
+            114.0,
+            74.0,
+            6.0
+          ]
+        }
+      },
+      {
+        "name": "material_point_inside_prism",
+        "passed": true,
+        "details": {
+          "point": [
+            2.0,
+            2.0,
+            2.5
+          ]
+        }
+      }
+    ],
+    "bbox": {
+      "xmin": 0.0,
+      "ymin": 0.0,
+      "zmin": 0.0,
+      "xmax": 120.0,
+      "ymax": 80.0,
+      "zmax": 5.0
+    },
+    "volume": 47434.51332235384,
+    "cylinder_radii": [
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ]
+  }
+}

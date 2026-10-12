@@ -1,0 +1,9 @@
+{
+  "stage": "stage1",
+  "total_runs": 9,
+  "completed": 9,
+  "failed": 0,
+  "report": "/Users/hassenhicheri/Desktop/CAD/training/experiments/stage1/stage1_report.md",
+  "best_config": "/Users/hassenhicheri/Desktop/CAD/training/best_configs/stage1_best.yaml",
+  "best_experiment": "stage1/run_003"
+}

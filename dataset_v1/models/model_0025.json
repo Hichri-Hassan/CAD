@@ -1,0 +1,106 @@
+{
+  "model_id": "model_0025",
+  "title": "Extruded Prismatic Solid",
+  "description": "A extruded prismatic solid with 0 hole(s) and 0 pocket(s).",
+  "tags": [
+    "mechanical",
+    "partdesign",
+    "extruded-prismatic-solid"
+  ],
+  "prompts": [
+    "Create a extruded prismatic solid.",
+    "Design a extruded prismatic solid suitable for mechanical assembly.",
+    "Build a functional extruded prismatic solid for general engineering use.",
+    "Make a extruded prismatic solid with overall height 15.0 mm.",
+    "I need a extruded prismatic solid matching the described geometry."
+  ],
+  "metadata": {
+    "version": "1.0",
+    "unit": "mm",
+    "source_format": "FCStd",
+    "parser_version": "0.1",
+    "source_path": "/Users/hassenhicheri/Desktop/CAD/examples/000605.FCStd",
+    "source_label": "ComputerDesk (100 x 50 x 75 cm WDH)"
+  },
+  "operations": [
+    {
+      "id": "op_001",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Line",
+          "start": [
+            -500.0,
+            250.0
+          ],
+          "end": [
+            -500.0,
+            -250.0
+          ]
+        },
+        {
+          "id": "e_002",
+          "type": "Line",
+          "start": [
+            -500.0,
+            -250.0
+          ],
+          "end": [
+            500.0,
+            -250.0
+          ]
+        },
+        {
+          "id": "e_003",
+          "type": "Line",
+          "start": [
+            500.0,
+            -250.0
+          ],
+          "end": [
+            500.0,
+            250.0
+          ]
+        },
+        {
+          "id": "e_004",
+          "type": "Line",
+          "start": [
+            500.0,
+            250.0
+          ],
+          "end": [
+            -500.0,
+            250.0
+          ]
+        },
+        {
+          "id": "e_005",
+          "type": "Point",
+          "position": [
+            -0.0,
+            -0.0
+          ]
+        },
+        {
+          "id": "e_006",
+          "type": "Circle",
+          "center": [
+            420.0,
+            170.0
+          ],
+          "radius": 30.0
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_002",
+      "type": "Pad",
+      "profile": "op_001",
+      "length": 15.0
+    }
+  ]
+}

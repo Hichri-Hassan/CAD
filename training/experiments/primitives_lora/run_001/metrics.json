@@ -1,0 +1,16 @@
+{
+  "core": {
+    "train_loss": 0.023883797717483307,
+    "val_loss": 0.09310957044363022,
+    "training_time_seconds": 250464.5512933731,
+    "trainable_parameters": 14966784,
+    "checkpoint_path": "/Users/hassenhicheri/Desktop/CAD/training/experiments/primitives_lora/run_001/checkpoints/adapter"
+  },
+  "cad": {
+    "json_validity": null,
+    "compilation_success": null,
+    "operation_accuracy": null,
+    "geometry_similarity": null
+  },
+  "custom": {}
+}

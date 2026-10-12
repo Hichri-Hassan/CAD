@@ -1,0 +1,349 @@
+{
+  "model_id": "model_0026",
+  "title": "Rectangular Block with Rounded Corner",
+  "description": "This part features a series of rectangular blocks stacked vertically, with a total height of 50 mm for the bottom block and 900 mm for the remaining blocks, and one rounded corner with a radius of 45 mm.",
+  "tags": [
+    "rectangular block",
+    "rounded corner",
+    "geometry",
+    "CAD model"
+  ],
+  "prompts": [
+    "Can you make a rectangular block that is 50 mm tall at the bottom and has several blocks stacked on top, each 900 mm high, with one corner rounded?",
+    "I need a part that consists of multiple rectangular blocks with a rounded corner. The bottom block should measure 50 mm in height, and there should be four additional blocks, each 900 mm tall.",
+    "Please create a rectangular block assembly featuring a total height of 50 mm for the first section and 900 mm for the others, including a single rounded corner with a radius of 45 mm.",
+    "I'd like a CAD model of a rectangular block with an overall height of 50 mm for the base and four sections above it, each 900 mm tall, plus a rounded corner at the bottom.",
+    "Generate a part that has a stack of rectangular sections: the bottom is 50 mm tall, followed by four blocks that are 900 mm each, with one corner having a 45 mm radius."
+  ],
+  "metadata": {
+    "version": "1.0",
+    "unit": "mm",
+    "source_format": "FCStd",
+    "parser_version": "0.1",
+    "source_path": "/Users/hassenhicheri/Desktop/CAD/examples/000606.FCStd",
+    "source_label": "GenericTable_1x2m"
+  },
+  "operations": [
+    {
+      "id": "op_001",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Line",
+          "start": [
+            0.0,
+            0.0
+          ],
+          "end": [
+            2000.0,
+            0.0
+          ]
+        },
+        {
+          "id": "e_002",
+          "type": "Line",
+          "start": [
+            2000.0,
+            0.0
+          ],
+          "end": [
+            2000.0,
+            1000.0
+          ]
+        },
+        {
+          "id": "e_003",
+          "type": "Line",
+          "start": [
+            2000.0,
+            1000.0
+          ],
+          "end": [
+            0.0,
+            1000.0
+          ]
+        },
+        {
+          "id": "e_004",
+          "type": "Line",
+          "start": [
+            0.0,
+            1000.0
+          ],
+          "end": [
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_002",
+      "type": "Pad",
+      "profile": "op_001",
+      "length": 50.0
+    },
+    {
+      "id": "op_003",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Line",
+          "start": [
+            150.0,
+            -150.0
+          ],
+          "end": [
+            250.0,
+            -150.0
+          ]
+        },
+        {
+          "id": "e_002",
+          "type": "Line",
+          "start": [
+            250.0,
+            -150.0
+          ],
+          "end": [
+            250.0,
+            -250.0
+          ]
+        },
+        {
+          "id": "e_003",
+          "type": "Line",
+          "start": [
+            250.0,
+            -250.0
+          ],
+          "end": [
+            150.0,
+            -250.0
+          ]
+        },
+        {
+          "id": "e_004",
+          "type": "Line",
+          "start": [
+            150.0,
+            -250.0
+          ],
+          "end": [
+            150.0,
+            -150.0
+          ]
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_004",
+      "type": "Pad",
+      "profile": "op_003",
+      "length": 900.0
+    },
+    {
+      "id": "op_005",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Line",
+          "start": [
+            1750.0,
+            -150.0
+          ],
+          "end": [
+            1850.0,
+            -150.0
+          ]
+        },
+        {
+          "id": "e_002",
+          "type": "Line",
+          "start": [
+            1850.0,
+            -150.0
+          ],
+          "end": [
+            1850.0,
+            -250.0
+          ]
+        },
+        {
+          "id": "e_003",
+          "type": "Line",
+          "start": [
+            1850.0,
+            -250.0
+          ],
+          "end": [
+            1750.0,
+            -250.0
+          ]
+        },
+        {
+          "id": "e_004",
+          "type": "Line",
+          "start": [
+            1750.0,
+            -250.0
+          ],
+          "end": [
+            1750.0,
+            -150.0
+          ]
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_006",
+      "type": "Pad",
+      "profile": "op_005",
+      "length": 900.0
+    },
+    {
+      "id": "op_007",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Line",
+          "start": [
+            150.0,
+            -750.0
+          ],
+          "end": [
+            250.0,
+            -750.0
+          ]
+        },
+        {
+          "id": "e_002",
+          "type": "Line",
+          "start": [
+            250.0,
+            -750.0
+          ],
+          "end": [
+            250.0,
+            -850.0
+          ]
+        },
+        {
+          "id": "e_003",
+          "type": "Line",
+          "start": [
+            250.0,
+            -850.0
+          ],
+          "end": [
+            150.0,
+            -850.0
+          ]
+        },
+        {
+          "id": "e_004",
+          "type": "Line",
+          "start": [
+            150.0,
+            -850.0
+          ],
+          "end": [
+            150.0,
+            -750.0
+          ]
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_008",
+      "type": "Pad",
+      "profile": "op_007",
+      "length": 900.0
+    },
+    {
+      "id": "op_009",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Line",
+          "start": [
+            1750.0,
+            -750.0
+          ],
+          "end": [
+            1850.0,
+            -750.0
+          ]
+        },
+        {
+          "id": "e_002",
+          "type": "Line",
+          "start": [
+            1850.0,
+            -750.0
+          ],
+          "end": [
+            1850.0,
+            -850.0
+          ]
+        },
+        {
+          "id": "e_003",
+          "type": "Line",
+          "start": [
+            1850.0,
+            -850.0
+          ],
+          "end": [
+            1750.0,
+            -850.0
+          ]
+        },
+        {
+          "id": "e_004",
+          "type": "Line",
+          "start": [
+            1750.0,
+            -850.0
+          ],
+          "end": [
+            1750.0,
+            -750.0
+          ]
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_010",
+      "type": "Pad",
+      "profile": "op_009",
+      "length": 900.0
+    },
+    {
+      "id": "op_011",
+      "type": "Fillet",
+      "radius": 45.0,
+      "edges": [
+        {
+          "reference": "op_010",
+          "selector": "Face5"
+        }
+      ]
+    }
+  ]
+}

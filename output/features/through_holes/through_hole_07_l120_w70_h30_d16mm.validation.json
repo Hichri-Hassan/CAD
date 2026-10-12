@@ -1,0 +1,484 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "json_schema",
+      "passed": true,
+      "details": {
+        "error": null
+      }
+    },
+    {
+      "name": "operation_sequence",
+      "passed": true,
+      "details": {
+        "types": [
+          "Sketch",
+          "Pad",
+          "Sketch",
+          "Hole"
+        ]
+      }
+    },
+    {
+      "name": "pad_height",
+      "passed": true,
+      "details": {
+        "length": 30.0
+      }
+    },
+    {
+      "name": "hole_diameter",
+      "passed": true,
+      "details": {
+        "diameter": 16.0
+      }
+    },
+    {
+      "name": "hole_depth_through_all",
+      "passed": true,
+      "details": {
+        "depth": "through_all"
+      }
+    },
+    {
+      "name": "circle_radius_matches_diameter",
+      "passed": true,
+      "details": {
+        "circle_radius": 8.0,
+        "expected_radius": 8.0
+      }
+    },
+    {
+      "name": "hole_sketch_on_pad_face",
+      "passed": true,
+      "details": {
+        "support": {
+          "type": "face",
+          "reference": "op_002",
+          "selector": "Face6"
+        }
+      }
+    },
+    {
+      "name": "parser_status_valid",
+      "passed": true,
+      "details": {
+        "status": "valid",
+        "warnings": [],
+        "unsupported_features": []
+      }
+    },
+    {
+      "name": "parser_operation_count",
+      "passed": true,
+      "details": {
+        "canonical": 4,
+        "parsed": 4
+      }
+    },
+    {
+      "name": "parser_op_001_type",
+      "passed": true,
+      "details": {
+        "canonical": "Sketch",
+        "parsed": "Sketch"
+      }
+    },
+    {
+      "name": "parser_op_002_type",
+      "passed": true,
+      "details": {
+        "canonical": "Pad",
+        "parsed": "Pad"
+      }
+    },
+    {
+      "name": "parser_op_002_length",
+      "passed": true,
+      "details": {
+        "canonical": 30.0,
+        "parsed": 30.0
+      }
+    },
+    {
+      "name": "parser_op_003_type",
+      "passed": true,
+      "details": {
+        "canonical": "Sketch",
+        "parsed": "Sketch"
+      }
+    },
+    {
+      "name": "parser_hole_sketch_has_circle",
+      "passed": true,
+      "details": {
+        "entities": [
+          {
+            "id": "e_001",
+            "type": "Circle",
+            "center": [
+              60.0,
+              35.0
+            ],
+            "radius": 8.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "parser_circle_radius",
+      "passed": true,
+      "details": {
+        "canonical": 8.0,
+        "parsed": 8.0
+      }
+    },
+    {
+      "name": "parser_circle_center",
+      "passed": true,
+      "details": {
+        "canonical": [
+          60.0,
+          35.0
+        ],
+        "parsed": [
+          60.0,
+          35.0
+        ]
+      }
+    },
+    {
+      "name": "parser_op_004_type",
+      "passed": true,
+      "details": {
+        "canonical": "Hole",
+        "parsed": "Hole"
+      }
+    },
+    {
+      "name": "parser_op_004_diameter",
+      "passed": true,
+      "details": {
+        "canonical": 16.0,
+        "parsed": 16.0
+      }
+    },
+    {
+      "name": "parser_op_004_depth",
+      "passed": true,
+      "details": {
+        "canonical": "through_all",
+        "parsed": "through_all"
+      }
+    },
+    {
+      "name": "compiler_geometry",
+      "passed": true,
+      "details": {
+        "error": null,
+        "details": [
+          {
+            "name": "valid_solid",
+            "passed": true,
+            "details": {
+              "solids": 1
+            }
+          },
+          {
+            "name": "no_document_errors",
+            "passed": true,
+            "details": {
+              "errors": []
+            }
+          },
+          {
+            "name": "bbox_xmin",
+            "passed": true,
+            "details": {
+              "value": 0.0
+            }
+          },
+          {
+            "name": "bbox_ymin",
+            "passed": true,
+            "details": {
+              "value": 0.0
+            }
+          },
+          {
+            "name": "bbox_zmin",
+            "passed": true,
+            "details": {
+              "value": 0.0
+            }
+          },
+          {
+            "name": "bbox_xmax",
+            "passed": true,
+            "details": {
+              "value": 120.0
+            }
+          },
+          {
+            "name": "bbox_ymax",
+            "passed": true,
+            "details": {
+              "value": 70.0
+            }
+          },
+          {
+            "name": "bbox_zmax",
+            "passed": true,
+            "details": {
+              "value": 30.0
+            }
+          },
+          {
+            "name": "volume",
+            "passed": true,
+            "details": {
+              "value": 245968.14210510763,
+              "expected": 245968.1421051076
+            }
+          },
+          {
+            "name": "hole_object_present",
+            "passed": true,
+            "details": {}
+          },
+          {
+            "name": "hole_diameter_property",
+            "passed": true,
+            "details": {
+              "value": 16.0
+            }
+          },
+          {
+            "name": "hole_depth_type_through_all",
+            "passed": true,
+            "details": {
+              "value": "ThroughAll"
+            }
+          },
+          {
+            "name": "cylindrical_face_radius",
+            "passed": true,
+            "details": {
+              "radii": [
+                8.0
+              ],
+              "expected_radius": 8.0
+            }
+          },
+          {
+            "name": "material_point_inside_prism",
+            "passed": true,
+            "details": {
+              "point": [
+                2.0,
+                2.0,
+                15.0
+              ]
+            }
+          },
+          {
+            "name": "hole_axis_empty",
+            "passed": true,
+            "details": {
+              "point": [
+                60.0,
+                35.0,
+                15.0
+              ]
+            }
+          },
+          {
+            "name": "through_below_empty",
+            "passed": true,
+            "details": {
+              "point": [
+                60.0,
+                35.0,
+                -1.0
+              ]
+            }
+          },
+          {
+            "name": "through_above_empty",
+            "passed": true,
+            "details": {
+              "point": [
+                60.0,
+                35.0,
+                31.0
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "parser": {
+    "status": "valid",
+    "warnings": [],
+    "unsupported_features": []
+  },
+  "geometry": {
+    "stdout": "Importing project files......\n\t\t\t\t\t\t(5 %)\t\n\t\t\t\t\t\t(10 %)\t\n\t\t\t\t\t\t(15 %)\t\n\t\t\t\t\t\t(21 %)\t\n\t\t\t\t\t\t(26 %)\t\n\t\t\t\t\t\t(31 %)\t\n\t\t\t\t\t\t(36 %)\t\n\t\t\t\t\t\t(42 %)\t\n\t\t\t\t\t\t(47 %)\t\n\t\t\t\t\t\t(52 %)\t\n\t\t\t\t\t\t(57 %)\t\n\t\t\t\t\t\t(63 %)\t\n\t\t\t\t\t\t(68 %)\t\n\t\t\t\t\t\t(73 %)\t\n\t\t\t\t\t\t(78 %)\t\n\t\t\t\t\t\t(84 %)\t\n\t\t\t\t\t\t(89 %)\t\n\t\t\t\t\t\t(94 %)\t\n\t\t\t\t\t\t(100 %)\t\n\t\t\t\t\t\t\t\t\nPostprocessing......\n\t\t\t\t\t\t(100 %)\t\n\t\t\t\t\t\t\t\t\n",
+    "stderr": "Looking for thread definitions in: /Applications/FreeCAD.app/Contents/Resources/share/Mod/PartDesign/Resources/Hole /Users/hassenhicheri/Library/Application Support/FreeCAD/v1-1/PartDesign/Hole \n",
+    "returncode": 0,
+    "passed": true,
+    "checks": [
+      {
+        "name": "valid_solid",
+        "passed": true,
+        "details": {
+          "solids": 1
+        }
+      },
+      {
+        "name": "no_document_errors",
+        "passed": true,
+        "details": {
+          "errors": []
+        }
+      },
+      {
+        "name": "bbox_xmin",
+        "passed": true,
+        "details": {
+          "value": 0.0
+        }
+      },
+      {
+        "name": "bbox_ymin",
+        "passed": true,
+        "details": {
+          "value": 0.0
+        }
+      },
+      {
+        "name": "bbox_zmin",
+        "passed": true,
+        "details": {
+          "value": 0.0
+        }
+      },
+      {
+        "name": "bbox_xmax",
+        "passed": true,
+        "details": {
+          "value": 120.0
+        }
+      },
+      {
+        "name": "bbox_ymax",
+        "passed": true,
+        "details": {
+          "value": 70.0
+        }
+      },
+      {
+        "name": "bbox_zmax",
+        "passed": true,
+        "details": {
+          "value": 30.0
+        }
+      },
+      {
+        "name": "volume",
+        "passed": true,
+        "details": {
+          "value": 245968.14210510763,
+          "expected": 245968.1421051076
+        }
+      },
+      {
+        "name": "hole_object_present",
+        "passed": true,
+        "details": {}
+      },
+      {
+        "name": "hole_diameter_property",
+        "passed": true,
+        "details": {
+          "value": 16.0
+        }
+      },
+      {
+        "name": "hole_depth_type_through_all",
+        "passed": true,
+        "details": {
+          "value": "ThroughAll"
+        }
+      },
+      {
+        "name": "cylindrical_face_radius",
+        "passed": true,
+        "details": {
+          "radii": [
+            8.0
+          ],
+          "expected_radius": 8.0
+        }
+      },
+      {
+        "name": "material_point_inside_prism",
+        "passed": true,
+        "details": {
+          "point": [
+            2.0,
+            2.0,
+            15.0
+          ]
+        }
+      },
+      {
+        "name": "hole_axis_empty",
+        "passed": true,
+        "details": {
+          "point": [
+            60.0,
+            35.0,
+            15.0
+          ]
+        }
+      },
+      {
+        "name": "through_below_empty",
+        "passed": true,
+        "details": {
+          "point": [
+            60.0,
+            35.0,
+            -1.0
+          ]
+        }
+      },
+      {
+        "name": "through_above_empty",
+        "passed": true,
+        "details": {
+          "point": [
+            60.0,
+            35.0,
+            31.0
+          ]
+        }
+      }
+    ],
+    "bbox": {
+      "xmin": 0.0,
+      "ymin": 0.0,
+      "zmin": 0.0,
+      "xmax": 120.0,
+      "ymax": 70.0,
+      "zmax": 30.0
+    },
+    "volume": 245968.14210510763,
+    "cylinder_radii": [
+      8.0
+    ]
+  }
+}

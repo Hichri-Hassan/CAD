@@ -1,0 +1,186 @@
+{
+  "model_id": "model_0028",
+  "title": "Rectangular Block",
+  "description": "This part is a solid rectangular block with a height of 25.4 mm and a closed rectangular outline on the XY plane.",
+  "tags": [
+    "rectangular block",
+    "solid part",
+    "base part"
+  ],
+  "prompts": [
+    "Please create a rectangular block with a height of 25.4 mm.",
+    "I need a solid rectangular block with a closed outline on the XY plane, standing 25.4 mm tall.",
+    "Can you make a single solid base part shaped like a rectangular block, 25.4 mm high?",
+    "Generate a rectangular solid with dimensions that give it a height of 25.4 mm, based on a closed rectangular outline.",
+    "Design a rectangular block that is 25.4 mm in height, featuring a simple flat closed shape on the XY plane."
+  ],
+  "metadata": {
+    "version": "1.0",
+    "unit": "mm",
+    "source_format": "FCStd",
+    "parser_version": "0.1",
+    "source_path": "/Users/hassenhicheri/Desktop/CAD/examples/000608.FCStd",
+    "source_label": "WoodArt Ejercicio 002"
+  },
+  "operations": [
+    {
+      "id": "op_001",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Line",
+          "start": [
+            -74.0,
+            100.0
+          ],
+          "end": [
+            74.0,
+            100.0
+          ]
+        },
+        {
+          "id": "e_002",
+          "type": "Line",
+          "start": [
+            100.0,
+            74.0
+          ],
+          "end": [
+            100.0,
+            -74.0
+          ]
+        },
+        {
+          "id": "e_003",
+          "type": "Line",
+          "start": [
+            74.0,
+            -100.0
+          ],
+          "end": [
+            -74.0,
+            -100.0
+          ]
+        },
+        {
+          "id": "e_004",
+          "type": "Line",
+          "start": [
+            -100.0,
+            -74.0
+          ],
+          "end": [
+            -100.0,
+            74.0
+          ]
+        },
+        {
+          "id": "e_005",
+          "type": "Line",
+          "start": [
+            74.0,
+            100.0
+          ],
+          "end": [
+            74.0,
+            74.0
+          ]
+        },
+        {
+          "id": "e_006",
+          "type": "Line",
+          "start": [
+            74.0,
+            74.0
+          ],
+          "end": [
+            100.0,
+            74.0
+          ]
+        },
+        {
+          "id": "e_007",
+          "type": "Line",
+          "start": [
+            100.0,
+            -74.0
+          ],
+          "end": [
+            74.0,
+            -74.0
+          ]
+        },
+        {
+          "id": "e_008",
+          "type": "Line",
+          "start": [
+            74.0,
+            -74.0
+          ],
+          "end": [
+            74.0,
+            -100.0
+          ]
+        },
+        {
+          "id": "e_009",
+          "type": "Line",
+          "start": [
+            -100.0,
+            -74.0
+          ],
+          "end": [
+            -74.0,
+            -74.0
+          ]
+        },
+        {
+          "id": "e_010",
+          "type": "Line",
+          "start": [
+            -74.0,
+            -74.0
+          ],
+          "end": [
+            -74.0,
+            -100.0
+          ]
+        },
+        {
+          "id": "e_011",
+          "type": "Line",
+          "start": [
+            -74.0,
+            100.0
+          ],
+          "end": [
+            -74.0,
+            74.0
+          ]
+        },
+        {
+          "id": "e_012",
+          "type": "Line",
+          "start": [
+            -74.0,
+            74.0
+          ],
+          "end": [
+            -100.0,
+            74.0
+          ]
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_002",
+      "type": "Pad",
+      "profile": "op_001",
+      "length": 25.4,
+      "reversed": true
+    }
+  ]
+}

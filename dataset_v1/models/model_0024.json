@@ -1,0 +1,163 @@
+{
+  "model_id": "model_0024",
+  "title": "Prismatic Solid With Milled Features",
+  "description": "A prismatic solid with milled features with 0 hole(s) and 1 pocket(s).",
+  "tags": [
+    "mechanical",
+    "partdesign",
+    "prismatic-solid-with-milled-features",
+    "pockets"
+  ],
+  "prompts": [
+    "Create a prismatic solid with milled features.",
+    "Design a prismatic solid with milled features suitable for mechanical assembly.",
+    "Build a functional prismatic solid with milled features for general engineering use.",
+    "Make a prismatic solid with milled features with overall height 50.0 mm.",
+    "I need a prismatic solid with milled features matching the described geometry."
+  ],
+  "metadata": {
+    "version": "1.0",
+    "unit": "mm",
+    "source_format": "FCStd",
+    "parser_version": "0.1",
+    "source_path": "/Users/hassenhicheri/Desktop/CAD/examples/000575.FCStd",
+    "source_label": "TV_50inches"
+  },
+  "operations": [
+    {
+      "id": "op_001",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Line",
+          "start": [
+            0.0,
+            0.0
+          ],
+          "end": [
+            1120.0,
+            0.0
+          ]
+        },
+        {
+          "id": "e_002",
+          "type": "Line",
+          "start": [
+            1120.0,
+            0.0
+          ],
+          "end": [
+            1120.0,
+            650.0
+          ]
+        },
+        {
+          "id": "e_003",
+          "type": "Line",
+          "start": [
+            1120.0,
+            650.0
+          ],
+          "end": [
+            0.0,
+            650.0
+          ]
+        },
+        {
+          "id": "e_004",
+          "type": "Line",
+          "start": [
+            0.0,
+            650.0
+          ],
+          "end": [
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_002",
+      "type": "Pad",
+      "profile": "op_001",
+      "length": 50.0
+    },
+    {
+      "id": "op_003",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Line",
+          "start": [
+            25.0,
+            625.0
+          ],
+          "end": [
+            1095.0,
+            625.0
+          ]
+        },
+        {
+          "id": "e_002",
+          "type": "Line",
+          "start": [
+            1095.0,
+            625.0
+          ],
+          "end": [
+            1095.0,
+            25.0
+          ]
+        },
+        {
+          "id": "e_003",
+          "type": "Line",
+          "start": [
+            1095.0,
+            25.0
+          ],
+          "end": [
+            25.0,
+            25.0
+          ]
+        },
+        {
+          "id": "e_004",
+          "type": "Line",
+          "start": [
+            25.0,
+            25.0
+          ],
+          "end": [
+            25.0,
+            625.0
+          ]
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_004",
+      "type": "Pocket",
+      "profile": "op_003",
+      "depth": 20.0
+    },
+    {
+      "id": "op_005",
+      "type": "Fillet",
+      "radius": 5.0,
+      "edges": [
+        {
+          "reference": "op_004",
+          "selector": "Face5"
+        }
+      ]
+    }
+  ]
+}

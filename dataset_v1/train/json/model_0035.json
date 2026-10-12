@@ -1,0 +1,137 @@
+{
+  "model_id": "model_0035",
+  "title": "Rectangular Block with Rounded Corners",
+  "description": "This part is a rectangular block with an overall height of 2302 mm and features two rounded corners with radii of 3 mm and 6 mm.",
+  "tags": [
+    "rectangular block",
+    "rounded corners",
+    "fillets",
+    "solid part"
+  ],
+  "prompts": [
+    "Can you create a rectangular block with a height of 2302 mm and two rounded corners?",
+    "I'm looking for a solid rectangular block that stands 2302 mm tall, with one corner rounded at 3 mm and another at 6 mm.",
+    "Please design a rectangular solid with rounded edges, one corner having a fillet of 3 mm and the other a fillet of 6 mm.",
+    "Make a rectangular block 2302 mm high, featuring rounded corners\u2014one with a 3 mm radius and the other with a 6 mm radius.",
+    "I'd like a solid base part shaped like a rectangular block, measuring 2302 mm in height, with two rounded corners, one at 3 mm and the other at 6 mm."
+  ],
+  "metadata": {
+    "version": "1.0",
+    "unit": "mm",
+    "source_format": "FCStd",
+    "parser_version": "0.1",
+    "source_path": "/Users/hassenhicheri/Desktop/CAD/examples/000647.FCStd",
+    "source_label": "front-member_vertical"
+  },
+  "operations": [
+    {
+      "id": "op_001",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Line",
+          "start": [
+            0.0,
+            0.0
+          ],
+          "end": [
+            45.0,
+            0.0
+          ]
+        },
+        {
+          "id": "e_002",
+          "type": "Line",
+          "start": [
+            45.0,
+            0.0
+          ],
+          "end": [
+            45.0,
+            3.0
+          ]
+        },
+        {
+          "id": "e_003",
+          "type": "Line",
+          "start": [
+            3.0,
+            97.5
+          ],
+          "end": [
+            0.0,
+            97.5
+          ]
+        },
+        {
+          "id": "e_004",
+          "type": "Line",
+          "start": [
+            0.0,
+            97.5
+          ],
+          "end": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "id": "e_005",
+          "type": "Line",
+          "start": [
+            45.0,
+            3.0
+          ],
+          "end": [
+            3.0,
+            3.0
+          ]
+        },
+        {
+          "id": "e_006",
+          "type": "Line",
+          "start": [
+            3.0,
+            3.0
+          ],
+          "end": [
+            3.0,
+            97.5
+          ]
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_002",
+      "type": "Pad",
+      "profile": "op_001",
+      "length": 2302.0,
+      "symmetric": true
+    },
+    {
+      "id": "op_003",
+      "type": "Fillet",
+      "radius": 3.0,
+      "edges": [
+        {
+          "reference": "op_002",
+          "selector": "Edge8"
+        }
+      ]
+    },
+    {
+      "id": "op_004",
+      "type": "Fillet",
+      "radius": 6.0,
+      "edges": [
+        {
+          "reference": "op_003",
+          "selector": "Edge20"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+# CAD Copilot evaluation dashboard dependencies.
+#
+# Install with:
+#   pip install -r requirements-eval.txt
+#
+# Also requires training deps for model generation:
+#   pip install -r requirements-training.txt
+-r requirements-training.txt
+
+streamlit>=1.32
+plotly>=5.18
+pandas>=2.0
+pygments>=2.17
+numpy-stl>=3.1

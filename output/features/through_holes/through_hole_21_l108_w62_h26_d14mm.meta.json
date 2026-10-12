@@ -1,0 +1,21 @@
+{
+  "shape_id": "through_hole_21_l108_w62_h26_d14mm",
+  "shape_type": "through_hole",
+  "index": 21,
+  "dimensions": {
+    "length_mm": 108.0,
+    "width_mm": 62.0,
+    "height_mm": 26.0,
+    "diameter_mm": 14.0
+  },
+  "fcstd_path": "output/features/through_holes/through_hole_21_l108_w62_h26_d14mm.FCStd",
+  "json_path": "output/features/through_holes/through_hole_21_l108_w62_h26_d14mm.json",
+  "prompts": [
+    "Create a rectangular prism 108 mm long, 62 mm wide, and 26 mm high, with a centered through-hole of 14 mm diameter going through the entire height of the prism.",
+    "Generate a 108 \u00d7 62 \u00d7 26 mm block with a centered 14 mm diameter through-hole.",
+    "Make a 108 by 62 by 26 millimeter rectangular prism with a 14 mm hole through the full height.",
+    "Build a rectangular block measuring 108 \u00d7 62 \u00d7 26 mm with a centered circular through-hole of diameter 14 mm.",
+    "I need a 108 mm \u00d7 62 mm \u00d7 26 mm prism with a 14 mm diameter hole through all."
+  ],
+  "passed_validation": true
+}

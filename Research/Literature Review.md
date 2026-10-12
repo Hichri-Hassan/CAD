@@ -49,3 +49,34 @@ The experimental evaluation is limited to three models (Vitruvion, GPT-3.5 and T
 Scope of the work
 
 The proposed approach focuses on 2D sketch autocompletion rather than complete parametric CAD generation. The model predicts sketch entities such as lines, circles and arcs, but does not generate higher-level CAD operations including feature trees, extrusions, revolutions, fillets or chamfers. Consequently, the paper addresses only a subset of the overall Text-to-CAD problem.
+
+
+
+
+SketchGraphs: A Large-Scale Dataset for Modeling Relational Geometry in Computer-Aided Design
+
+Authors: Ari Seff, Yaniv Ovadia, Wenda Zhou, Ryan P. Adams
+
+Publication: arXiv 2020
+
+Paper: https://arxiv.org/abs/2007.08506
+
+⸻
+
+Notes / Critical Analysis
+
+Scope of the work
+
+The proposed approach is restricted to 2D sketch modeling and geometric constraint prediction. Although sketches are a fundamental component of parametric CAD, they represent only the first stage of the design process. The paper does not model higher-level CAD operations such as extrusions, pockets, revolutions, fillets or chamfers. Consequently, the work addresses only a subset of the complete Text-to-CAD problem.
+
+⸻
+
+Limited practical applicability
+
+The generated outputs remain 2D sketches rather than complete executable CAD models. While the proposed tasks are useful for sketch assistance, they cannot directly produce editable parametric parts that can be modified or manufactured using standard CAD workflows.
+
+⸻
+
+Experimental contribution
+
+Although the paper introduces a large-scale dataset containing 15 million sketches, the experimental evaluation is limited to sketch generation and constraint prediction. Several additional applications discussed throughout the paper are presented as future work but are not experimentally validated, making the overall contribution feel narrower than initially suggested.

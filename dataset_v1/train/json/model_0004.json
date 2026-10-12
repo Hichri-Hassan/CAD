@@ -1,0 +1,90 @@
+{
+  "model_id": "model_0004",
+  "title": "Rectangular Block",
+  "description": "This part is a closed rectangular block with a uniform height of 0.75 mm. It has a simple, solid form suitable for various applications.",
+  "tags": [
+    "rectangular block",
+    "solid part",
+    "base part"
+  ],
+  "prompts": [
+    "Please create a rectangular block that is 0.75 mm tall.",
+    "I need a simple rectangular block with a height of 0.75 mm.",
+    "Can you generate a solid rectangular shape with a closed outline on the XY plane, measuring 0.75 mm in height?",
+    "Make a rectangular base part that is 100 mm by 50 mm and has a height of 0.75 mm.",
+    "Design a flat rectangular block with a uniform thickness of 0.75 mm."
+  ],
+  "metadata": {
+    "version": "1.0",
+    "unit": "mm",
+    "source_format": "FCStd",
+    "parser_version": "0.1",
+    "source_path": "/Users/hassenhicheri/Desktop/CAD/examples/000257.FCStd",
+    "source_label": "603 cap on pad"
+  },
+  "operations": [
+    {
+      "id": "op_001",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Line",
+          "start": [
+            -0.4,
+            0.38
+          ],
+          "end": [
+            0.4,
+            0.38
+          ]
+        },
+        {
+          "id": "e_002",
+          "type": "Line",
+          "start": [
+            0.4,
+            0.38
+          ],
+          "end": [
+            0.4,
+            -0.38
+          ]
+        },
+        {
+          "id": "e_003",
+          "type": "Line",
+          "start": [
+            0.4,
+            -0.38
+          ],
+          "end": [
+            -0.4,
+            -0.38
+          ]
+        },
+        {
+          "id": "e_004",
+          "type": "Line",
+          "start": [
+            -0.4,
+            -0.38
+          ],
+          "end": [
+            -0.4,
+            0.38
+          ]
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_002",
+      "type": "Pad",
+      "profile": "op_001",
+      "length": 0.75,
+      "symmetric": true
+    }
+  ]
+}

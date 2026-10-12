@@ -1,0 +1,136 @@
+{
+  "model_id": "model_0035",
+  "title": "Extruded Prismatic Solid",
+  "description": "A extruded prismatic solid with 0 hole(s) and 0 pocket(s).",
+  "tags": [
+    "mechanical",
+    "partdesign",
+    "extruded-prismatic-solid"
+  ],
+  "prompts": [
+    "Create a extruded prismatic solid.",
+    "Design a extruded prismatic solid suitable for mechanical assembly.",
+    "Build a functional extruded prismatic solid for general engineering use.",
+    "Make a extruded prismatic solid with overall height 2302.0 mm.",
+    "I need a extruded prismatic solid matching the described geometry."
+  ],
+  "metadata": {
+    "version": "1.0",
+    "unit": "mm",
+    "source_format": "FCStd",
+    "parser_version": "0.1",
+    "source_path": "/Users/hassenhicheri/Desktop/CAD/examples/000647.FCStd",
+    "source_label": "front-member_vertical"
+  },
+  "operations": [
+    {
+      "id": "op_001",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Line",
+          "start": [
+            0.0,
+            0.0
+          ],
+          "end": [
+            45.0,
+            0.0
+          ]
+        },
+        {
+          "id": "e_002",
+          "type": "Line",
+          "start": [
+            45.0,
+            0.0
+          ],
+          "end": [
+            45.0,
+            3.0
+          ]
+        },
+        {
+          "id": "e_003",
+          "type": "Line",
+          "start": [
+            3.0,
+            97.5
+          ],
+          "end": [
+            0.0,
+            97.5
+          ]
+        },
+        {
+          "id": "e_004",
+          "type": "Line",
+          "start": [
+            0.0,
+            97.5
+          ],
+          "end": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "id": "e_005",
+          "type": "Line",
+          "start": [
+            45.0,
+            3.0
+          ],
+          "end": [
+            3.0,
+            3.0
+          ]
+        },
+        {
+          "id": "e_006",
+          "type": "Line",
+          "start": [
+            3.0,
+            3.0
+          ],
+          "end": [
+            3.0,
+            97.5
+          ]
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_002",
+      "type": "Pad",
+      "profile": "op_001",
+      "length": 2302.0,
+      "symmetric": true
+    },
+    {
+      "id": "op_003",
+      "type": "Fillet",
+      "radius": 3.0,
+      "edges": [
+        {
+          "reference": "op_002",
+          "selector": "Edge8"
+        }
+      ]
+    },
+    {
+      "id": "op_004",
+      "type": "Fillet",
+      "radius": 6.0,
+      "edges": [
+        {
+          "reference": "op_003",
+          "selector": "Edge20"
+        }
+      ]
+    }
+  ]
+}

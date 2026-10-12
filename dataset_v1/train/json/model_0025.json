@@ -1,0 +1,106 @@
+{
+  "model_id": "model_0025",
+  "title": "Rectangular Block with Circular Profile",
+  "description": "This part is a rectangular block with a height of 15.0 mm and features a circular profile on the XY plane.",
+  "tags": [
+    "rectangular block",
+    "circular profile",
+    "base part"
+  ],
+  "prompts": [
+    "Can you create a rectangular block that's 15 mm tall with a circular cutout on the top face?",
+    "I'm looking for a simple rectangular block with a height of 15 mm and a circular profile on its surface.",
+    "Please generate a solid rectangular block that is 15 mm high and has a circular feature on the top face.",
+    "Make a rectangular block with an overall height of 15 mm and a circular profile on the XY plane.",
+    "Design a single solid base part in the shape of a rectangular block with a circular shape on the top."
+  ],
+  "metadata": {
+    "version": "1.0",
+    "unit": "mm",
+    "source_format": "FCStd",
+    "parser_version": "0.1",
+    "source_path": "/Users/hassenhicheri/Desktop/CAD/examples/000605.FCStd",
+    "source_label": "ComputerDesk (100 x 50 x 75 cm WDH)"
+  },
+  "operations": [
+    {
+      "id": "op_001",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Line",
+          "start": [
+            -500.0,
+            250.0
+          ],
+          "end": [
+            -500.0,
+            -250.0
+          ]
+        },
+        {
+          "id": "e_002",
+          "type": "Line",
+          "start": [
+            -500.0,
+            -250.0
+          ],
+          "end": [
+            500.0,
+            -250.0
+          ]
+        },
+        {
+          "id": "e_003",
+          "type": "Line",
+          "start": [
+            500.0,
+            -250.0
+          ],
+          "end": [
+            500.0,
+            250.0
+          ]
+        },
+        {
+          "id": "e_004",
+          "type": "Line",
+          "start": [
+            500.0,
+            250.0
+          ],
+          "end": [
+            -500.0,
+            250.0
+          ]
+        },
+        {
+          "id": "e_005",
+          "type": "Point",
+          "position": [
+            -0.0,
+            -0.0
+          ]
+        },
+        {
+          "id": "e_006",
+          "type": "Circle",
+          "center": [
+            420.0,
+            170.0
+          ],
+          "radius": 30.0
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_002",
+      "type": "Pad",
+      "profile": "op_001",
+      "length": 15.0
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "shape_id": "blind_hole_18_rect_l85_w50_h24_d12_dp15mm_x55_y35",
+  "shape_type": "blind_hole",
+  "index": 18,
+  "dimensions": {
+    "base_type": "rect",
+    "diameter_mm": 12.0,
+    "hole_depth_mm": 15.0,
+    "hole_cx": 55.0,
+    "hole_cy": 35.0,
+    "length_mm": 85.0,
+    "width_mm": 50.0,
+    "height_mm": 24.0
+  },
+  "fcstd_path": "output/features/blind_holes/blind_hole_18_rect_l85_w50_h24_d12_dp15mm_x55_y35.FCStd",
+  "json_path": "output/features/blind_holes/blind_hole_18_rect_l85_w50_h24_d12_dp15mm_x55_y35.json",
+  "prompts": [
+    "Create a 85 \u00d7 50 \u00d7 24 mm block with a at position (55, 35) 12 mm diameter blind hole 15 mm deep.",
+    "Make a 85 by 50 by 24 millimeter rectangular prism with a \u00d812 mm blind hole drilled 15 mm into the top face, with the hole center at (55, 35).",
+    "Generate a 85 \u00d7 50 \u00d7 24 mm block containing a 12 mm diameter hole that stops after 15 mm, with the hole center at (55, 35).",
+    "I need a 85 mm \u00d7 50 mm \u00d7 24 mm block with a at position (55, 35) 12 mm blind hole 15 mm deep from the top face.",
+    "Build a rectangular solid measuring 85 \u00d7 50 \u00d7 24 mm with a 12 mm blind hole drilled to a depth of 15 mm, with the hole center at (55, 35)."
+  ],
+  "passed_validation": true
+}

@@ -1,0 +1,186 @@
+{
+  "model_id": "model_0028",
+  "title": "Extruded Prismatic Solid",
+  "description": "A extruded prismatic solid with 0 hole(s) and 0 pocket(s).",
+  "tags": [
+    "mechanical",
+    "partdesign",
+    "extruded-prismatic-solid"
+  ],
+  "prompts": [
+    "Create a extruded prismatic solid.",
+    "Design a extruded prismatic solid suitable for mechanical assembly.",
+    "Build a functional extruded prismatic solid for general engineering use.",
+    "Make a extruded prismatic solid with overall height 25.4 mm.",
+    "I need a extruded prismatic solid matching the described geometry."
+  ],
+  "metadata": {
+    "version": "1.0",
+    "unit": "mm",
+    "source_format": "FCStd",
+    "parser_version": "0.1",
+    "source_path": "/Users/hassenhicheri/Desktop/CAD/examples/000608.FCStd",
+    "source_label": "WoodArt Ejercicio 002"
+  },
+  "operations": [
+    {
+      "id": "op_001",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Line",
+          "start": [
+            -74.0,
+            100.0
+          ],
+          "end": [
+            74.0,
+            100.0
+          ]
+        },
+        {
+          "id": "e_002",
+          "type": "Line",
+          "start": [
+            100.0,
+            74.0
+          ],
+          "end": [
+            100.0,
+            -74.0
+          ]
+        },
+        {
+          "id": "e_003",
+          "type": "Line",
+          "start": [
+            74.0,
+            -100.0
+          ],
+          "end": [
+            -74.0,
+            -100.0
+          ]
+        },
+        {
+          "id": "e_004",
+          "type": "Line",
+          "start": [
+            -100.0,
+            -74.0
+          ],
+          "end": [
+            -100.0,
+            74.0
+          ]
+        },
+        {
+          "id": "e_005",
+          "type": "Line",
+          "start": [
+            74.0,
+            100.0
+          ],
+          "end": [
+            74.0,
+            74.0
+          ]
+        },
+        {
+          "id": "e_006",
+          "type": "Line",
+          "start": [
+            74.0,
+            74.0
+          ],
+          "end": [
+            100.0,
+            74.0
+          ]
+        },
+        {
+          "id": "e_007",
+          "type": "Line",
+          "start": [
+            100.0,
+            -74.0
+          ],
+          "end": [
+            74.0,
+            -74.0
+          ]
+        },
+        {
+          "id": "e_008",
+          "type": "Line",
+          "start": [
+            74.0,
+            -74.0
+          ],
+          "end": [
+            74.0,
+            -100.0
+          ]
+        },
+        {
+          "id": "e_009",
+          "type": "Line",
+          "start": [
+            -100.0,
+            -74.0
+          ],
+          "end": [
+            -74.0,
+            -74.0
+          ]
+        },
+        {
+          "id": "e_010",
+          "type": "Line",
+          "start": [
+            -74.0,
+            -74.0
+          ],
+          "end": [
+            -74.0,
+            -100.0
+          ]
+        },
+        {
+          "id": "e_011",
+          "type": "Line",
+          "start": [
+            -74.0,
+            100.0
+          ],
+          "end": [
+            -74.0,
+            74.0
+          ]
+        },
+        {
+          "id": "e_012",
+          "type": "Line",
+          "start": [
+            -74.0,
+            74.0
+          ],
+          "end": [
+            -100.0,
+            74.0
+          ]
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_002",
+      "type": "Pad",
+      "profile": "op_001",
+      "length": 25.4,
+      "reversed": true
+    }
+  ]
+}

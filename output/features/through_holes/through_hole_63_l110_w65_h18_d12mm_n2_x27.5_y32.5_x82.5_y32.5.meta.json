@@ -1,0 +1,32 @@
+{
+  "shape_id": "through_hole_63_l110_w65_h18_d12mm_n2_x27.5_y32.5_x82.5_y32.5",
+  "shape_type": "through_hole",
+  "index": 63,
+  "dimensions": {
+    "length_mm": 110.0,
+    "width_mm": 65.0,
+    "height_mm": 18.0,
+    "diameter_mm": 12.0,
+    "hole_centers_xy": [
+      [
+        27.5,
+        32.5
+      ],
+      [
+        82.5,
+        32.5
+      ]
+    ],
+    "hole_count": 2
+  },
+  "fcstd_path": "output/features/through_holes/through_hole_63_l110_w65_h18_d12mm_n2_x27.5_y32.5_x82.5_y32.5.FCStd",
+  "json_path": "output/features/through_holes/through_hole_63_l110_w65_h18_d12mm_n2_x27.5_y32.5_x82.5_y32.5.json",
+  "prompts": [
+    "Create a 110 \u00d7 65 \u00d7 18 mm plate with two 12 mm diameter through-holes at positions (27.5, 32.5) and (82.5, 32.5).",
+    "Generate a 110 by 65 by 18 millimeter block with two through-holes ((27.5, 32.5)) and ((82.5, 32.5)), each passing through the full height.",
+    "Make a 110 mm long, 65 mm wide, and 18 mm high rectangular prism with two 12 mm holes through all, hole centers at (27.5, 32.5) and (82.5, 32.5).",
+    "Build a rectangular solid measuring 110 \u00d7 65 \u00d7 18 mm with two 12 mm through-holes placed at (27.5, 32.5) and (82.5, 32.5).",
+    "I need a 110 \u00d7 65 \u00d7 18 mm prism containing two 12 mm through holes. Place their centers at (27.5, 32.5) and (82.5, 32.5)."
+  ],
+  "passed_validation": true
+}

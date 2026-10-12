@@ -1,0 +1,90 @@
+{
+  "strategy": "hierarchical_hpo",
+  "dataset_version": "dataset_v1_train_200",
+  "model_version": "Qwen/Qwen2.5-3B-Instruct",
+  "seed": 42,
+  "fixed_parameters": {
+    "weight_decay": 0.01,
+    "max_seq_length": 4096,
+    "optimizer": "adamw_torch",
+    "scheduler": "cosine",
+    "warmup_ratio": 0.1,
+    "per_device_train_batch_size": 2,
+    "per_device_eval_batch_size": 2,
+    "gradient_accumulation_steps": 4,
+    "logging_steps": 10,
+    "eval_steps": 50,
+    "save_steps": 100,
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj",
+      "gate_proj",
+      "up_proj",
+      "down_proj"
+    ]
+  },
+  "stage_defaults": {
+    "lora_r": 16,
+    "learning_rate": 0.0002,
+    "num_epochs": 3,
+    "lora_dropout": 0.05,
+    "lora_alpha": 32
+  },
+  "stages": {
+    "stage1": {
+      "name": "Primary hyperparameters",
+      "combinations": 9,
+      "depends_on": null,
+      "search": {
+        "lora_r": [
+          8,
+          16,
+          32
+        ],
+        "learning_rate": [
+          0.0001,
+          0.0002,
+          0.0003
+        ]
+      }
+    },
+    "stage2": {
+      "name": "Secondary hyperparameters",
+      "combinations": 12,
+      "depends_on": "stage1",
+      "search": {
+        "num_epochs": [
+          2,
+          3,
+          5,
+          8
+        ],
+        "lora_dropout": [
+          0.0,
+          0.05,
+          0.1
+        ]
+      }
+    },
+    "stage3": {
+      "name": "Fine adjustment",
+      "combinations": 3,
+      "depends_on": "stage2",
+      "search": {
+        "lora_alpha": [
+          16,
+          32,
+          64
+        ]
+      }
+    }
+  },
+  "total_runs": 24,
+  "runs_by_stage": {
+    "stage1": 9,
+    "stage2": 12,
+    "stage3": 3
+  }
+}

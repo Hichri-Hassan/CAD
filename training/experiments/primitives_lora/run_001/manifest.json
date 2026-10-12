@@ -1,0 +1,59 @@
+{
+  "stage": "primitives_lora",
+  "run_id": "run_001",
+  "run_index": 1,
+  "run_dir": "/Users/hassenhicheri/Desktop/CAD/training/experiments/primitives_lora/run_001",
+  "search_overrides": {
+    "comparison_experiment": true,
+    "description": "Fresh LoRA trained on original CAD dataset plus primitive dataset.",
+    "train_from_base_model": true
+  },
+  "frozen_from": {
+    "final_best": "/Users/hassenhicheri/Desktop/CAD/training/best_configs/final_best.yaml",
+    "split_manifest": "/Users/hassenhicheri/Desktop/CAD/dataset_v1/train/comparison/comparison_split_manifest.json"
+  },
+  "config": {
+    "stage": "primitives_lora",
+    "run_id": "run_001",
+    "searchable": {
+      "lora_r": 8,
+      "learning_rate": 0.0003,
+      "num_epochs": 8,
+      "lora_dropout": 0.05,
+      "lora_alpha": 64
+    },
+    "fixed": {
+      "weight_decay": 0.01,
+      "max_seq_length": 4096,
+      "optimizer": "adamw_torch",
+      "scheduler": "cosine",
+      "warmup_ratio": 0.1,
+      "per_device_train_batch_size": 2,
+      "per_device_eval_batch_size": 2,
+      "gradient_accumulation_steps": 4,
+      "logging_steps": 10,
+      "eval_steps": 50,
+      "save_steps": 100,
+      "target_modules": [
+        "q_proj",
+        "k_proj",
+        "v_proj",
+        "o_proj",
+        "gate_proj",
+        "up_proj",
+        "down_proj"
+      ]
+    },
+    "reproducibility": {
+      "seed": 42,
+      "dataset_version": "cad_v1_plus_primitives_700",
+      "dataset_path": "dataset_v1/train/comparison/merged_training_data.jsonl",
+      "model_version": "Qwen/Qwen2.5-3B-Instruct",
+      "base_config": "training/configs/qwen_3b.yaml",
+      "split_manifest_path": "dataset_v1/train/comparison/comparison_split_manifest.json",
+      "split_strategy": "geometry_aware",
+      "val_ratio": 0.1
+    },
+    "created_at": "2026-08-03T08:56:58.809669+00:00"
+  }
+}

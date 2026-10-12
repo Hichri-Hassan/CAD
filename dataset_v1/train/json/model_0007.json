@@ -1,0 +1,159 @@
+{
+  "model_id": "model_0007",
+  "title": "Rectangular Plate with Recessed Pocket",
+  "description": "This part features a rectangular plate with a closed outline and a shallow overall height, including a single recessed pocket with a circular profile.",
+  "tags": [
+    "rectangular plate",
+    "pocket",
+    "recessed",
+    "circular profile"
+  ],
+  "prompts": [
+    "Can you create a rectangular plate with a recessed circular pocket?",
+    "I need a flat rectangular part that is 0.3 mm tall, with one circular pocket that is 1.0 mm deep.",
+    "Please design a rectangular plate with an overall height of 0.3 mm and a single recessed area that features a circular profile.",
+    "Make a rectangular plate measuring 100 mm by 50 mm with a circular pocket 1.0 mm deep in the center.",
+    "Generate a flat rectangular block with a recessed circular pocket, ensuring the pocket is 1.0 mm deep."
+  ],
+  "metadata": {
+    "version": "1.0",
+    "unit": "mm",
+    "source_format": "FCStd",
+    "parser_version": "0.1",
+    "source_path": "/Users/hassenhicheri/Desktop/CAD/examples/000428.FCStd",
+    "source_label": "Array chip resistor 103"
+  },
+  "operations": [
+    {
+      "id": "op_001",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Line",
+          "start": [
+            -1.6,
+            0.65
+          ],
+          "end": [
+            1.6,
+            0.65
+          ]
+        },
+        {
+          "id": "e_002",
+          "type": "Line",
+          "start": [
+            1.6,
+            0.65
+          ],
+          "end": [
+            1.6,
+            -0.65
+          ]
+        },
+        {
+          "id": "e_003",
+          "type": "Line",
+          "start": [
+            1.6,
+            -0.65
+          ],
+          "end": [
+            -1.6,
+            -0.65
+          ]
+        },
+        {
+          "id": "e_004",
+          "type": "Line",
+          "start": [
+            -1.6,
+            -0.65
+          ],
+          "end": [
+            -1.6,
+            0.65
+          ]
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_002",
+      "type": "Pad",
+      "profile": "op_001",
+      "length": 0.3
+    },
+    {
+      "id": "op_003",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Circle",
+          "center": [
+            0.0,
+            0.65
+          ],
+          "radius": 0.2
+        },
+        {
+          "id": "e_002",
+          "type": "Circle",
+          "center": [
+            0.8,
+            0.65
+          ],
+          "radius": 0.2
+        },
+        {
+          "id": "e_003",
+          "type": "Circle",
+          "center": [
+            -0.8,
+            0.65
+          ],
+          "radius": 0.2
+        },
+        {
+          "id": "e_004",
+          "type": "Circle",
+          "center": [
+            -0.8,
+            -0.65
+          ],
+          "radius": 0.2
+        },
+        {
+          "id": "e_005",
+          "type": "Circle",
+          "center": [
+            -0.0,
+            -0.65
+          ],
+          "radius": 0.2
+        },
+        {
+          "id": "e_006",
+          "type": "Circle",
+          "center": [
+            0.8,
+            -0.65
+          ],
+          "radius": 0.2
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_004",
+      "type": "Pocket",
+      "profile": "op_003",
+      "depth": 1.0,
+      "reversed": true
+    }
+  ]
+}

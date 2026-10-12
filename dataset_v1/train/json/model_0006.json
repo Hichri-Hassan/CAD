@@ -1,0 +1,97 @@
+{
+  "model_id": "model_0006",
+  "title": "Rectangular Base Block",
+  "description": "This part is a simple rectangular block with a uniform height of 1.6 mm, serving as a solid base.",
+  "tags": [
+    "rectangular block",
+    "base part",
+    "mechanical component"
+  ],
+  "prompts": [
+    "Can you create a rectangular block that is 1.6 mm tall?",
+    "I'd like a solid rectangular base with a height of 1.6 mm.",
+    "Please model a rectangular block with an overall thickness of 1.6 mm.",
+    "Make a rectangular block that is 1.6 mm high and has a flat surface.",
+    "Generate a single solid rectangular base part with a height of 1.6 mm."
+  ],
+  "metadata": {
+    "version": "1.0",
+    "unit": "mm",
+    "source_format": "FCStd",
+    "parser_version": "0.1",
+    "source_path": "/Users/hassenhicheri/Desktop/CAD/examples/000295.FCStd",
+    "source_label": "3.5_RPi_tft_display_spi_480x320"
+  },
+  "operations": [
+    {
+      "id": "op_001",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Line",
+          "start": [
+            -42.71,
+            27.8
+          ],
+          "end": [
+            -42.71,
+            -27.8
+          ]
+        },
+        {
+          "id": "e_002",
+          "type": "Line",
+          "start": [
+            -42.71,
+            -27.8
+          ],
+          "end": [
+            42.71,
+            -27.8
+          ]
+        },
+        {
+          "id": "e_003",
+          "type": "Line",
+          "start": [
+            42.71,
+            -27.8
+          ],
+          "end": [
+            42.71,
+            27.8
+          ]
+        },
+        {
+          "id": "e_004",
+          "type": "Line",
+          "start": [
+            42.71,
+            27.8
+          ],
+          "end": [
+            -42.71,
+            27.8
+          ]
+        },
+        {
+          "id": "e_005",
+          "type": "Point",
+          "position": [
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_002",
+      "type": "Pad",
+      "profile": "op_001",
+      "length": 1.6
+    }
+  ]
+}

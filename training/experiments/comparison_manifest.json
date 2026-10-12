@@ -1,0 +1,9 @@
+{
+  "planned_at": "2026-08-03T08:56:58.813165+00:00",
+  "source_best_config": "/Users/hassenhicheri/Desktop/CAD/training/best_configs/final_best.yaml",
+  "split_manifest": "/Users/hassenhicheri/Desktop/CAD/dataset_v1/train/comparison/comparison_split_manifest.json",
+  "experiments": {
+    "baseline_lora": "/Users/hassenhicheri/Desktop/CAD/training/experiments/baseline_lora/run_001",
+    "primitives_lora": "/Users/hassenhicheri/Desktop/CAD/training/experiments/primitives_lora/run_001"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "shape_id": "blind_hole_28_plate_l120_w80_h10_d10_dp5mm_x30_y20",
+  "shape_type": "blind_hole",
+  "index": 28,
+  "dimensions": {
+    "base_type": "plate",
+    "diameter_mm": 10.0,
+    "hole_depth_mm": 5.0,
+    "hole_cx": 30.0,
+    "hole_cy": 20.0,
+    "length_mm": 120.0,
+    "width_mm": 80.0,
+    "height_mm": 10.0
+  },
+  "fcstd_path": "output/features/blind_holes/blind_hole_28_plate_l120_w80_h10_d10_dp5mm_x30_y20.FCStd",
+  "json_path": "output/features/blind_holes/blind_hole_28_plate_l120_w80_h10_d10_dp5mm_x30_y20.json",
+  "prompts": [
+    "Create a 120 \u00d7 80 \u00d7 10 mm plate with a at position (30, 20) 10 mm diameter blind hole 5 mm deep.",
+    "Make a 120 by 80 by 10 millimeter rectangular prism with a \u00d810 mm blind hole drilled 5 mm into the top face, with the hole center at (30, 20).",
+    "Generate a 120 \u00d7 80 \u00d7 10 mm plate containing a 10 mm diameter hole that stops after 5 mm, with the hole center at (30, 20).",
+    "I need a 120 mm \u00d7 80 mm \u00d7 10 mm plate with a at position (30, 20) 10 mm blind hole 5 mm deep from the top face.",
+    "Build a rectangular solid measuring 120 \u00d7 80 \u00d7 10 mm with a 10 mm blind hole drilled to a depth of 5 mm, with the hole center at (30, 20)."
+  ],
+  "passed_validation": true
+}

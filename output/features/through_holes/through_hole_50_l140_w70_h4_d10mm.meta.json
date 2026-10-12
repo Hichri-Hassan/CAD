@@ -1,0 +1,28 @@
+{
+  "shape_id": "through_hole_50_l140_w70_h4_d10mm",
+  "shape_type": "through_hole",
+  "index": 50,
+  "dimensions": {
+    "length_mm": 140.0,
+    "width_mm": 70.0,
+    "height_mm": 4.0,
+    "diameter_mm": 10.0,
+    "hole_centers_xy": [
+      [
+        70.0,
+        35.0
+      ]
+    ],
+    "hole_count": 1
+  },
+  "fcstd_path": "output/features/through_holes/through_hole_50_l140_w70_h4_d10mm.FCStd",
+  "json_path": "output/features/through_holes/through_hole_50_l140_w70_h4_d10mm.json",
+  "prompts": [
+    "Create a rectangular prism 140 mm long, 70 mm wide, and 4 mm high, with a centered through-hole of 10 mm diameter going through the entire height of the prism.",
+    "Generate a 140 \u00d7 70 \u00d7 4 mm block with a centered 10 mm diameter through-hole.",
+    "Make a 140 by 70 by 4 millimeter rectangular prism with a 10 mm hole through the full height.",
+    "Build a rectangular block measuring 140 \u00d7 70 \u00d7 4 mm with a centered circular through-hole of diameter 10 mm.",
+    "I need a 140 mm \u00d7 70 mm \u00d7 4 mm prism with a 10 mm diameter hole through all."
+  ],
+  "passed_validation": true
+}

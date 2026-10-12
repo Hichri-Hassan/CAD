@@ -1,0 +1,41 @@
+model_id,original_filename,json_filename,title,prompt_source
+model_0030,000610.FCStd,model_0030.json,Rectangular Plate with Recessed Pockets,openai
+model_0024,000575.FCStd,model_0024.json,Rectangular Plate with Recessed Pocket,openai
+model_0025,000605.FCStd,model_0025.json,Rectangular Block with Circular Profile,openai
+model_0011,000458.FCStd,model_0011.json,Rectangular Plate with Recessed Pockets,openai
+model_0022,000514.FCStd,model_0022.json,Rectangular Block with Circular Profiles,openai
+model_0010,000456.FCStd,model_0010.json,Rectangular Plate with Recessed Pockets,openai
+model_0031,000613.FCStd,model_0031.json,Rectangular Block with Rounded Corners,openai
+model_0039,002235.FCStd,model_0039.json,Rectangular Plate with Recessed Pockets,openai
+model_0013,000501.FCStd,model_0013.json,Rectangular Plate with Recessed Pockets,openai
+model_0004,000257.FCStd,model_0004.json,Rectangular Block,openai
+model_0036,000649.FCStd,model_0036.json,Rectangular Block,openai
+model_0005,000274.FCStd,model_0005.json,Rectangular Plate with Recessed Pockets,openai
+model_0043,003142.FCStd,model_0043.json,Rectangular Block with Rounded Corner,openai
+model_0027,000607.FCStd,model_0027.json,Rectangular Block,openai
+model_0012,000500.FCStd,model_0012.json,Rectangular Plate with Recessed Pockets,openai
+model_0034,000636.FCStd,model_0034.json,Tall Rectangular Block with Circular Profile,openai
+model_0029,000609.FCStd,model_0029.json,Rectangular Block,openai
+model_0047,003174.FCStd,model_0047.json,Rectangular Block,openai
+model_0019,000510.FCStd,model_0019.json,Rectangular Plate with Recessed Pockets,openai
+model_0032,000620.FCStd,model_0032.json,Rectangular Block with Rounded Corners,openai
+model_0046,003145.FCStd,model_0046.json,Rectangular Plate with Recessed Pocket,openai
+model_0033,000635.FCStd,model_0033.json,Chamfered Rectangular Block,openai
+model_0037,002229.FCStd,model_0037.json,Rectangular Block with Circular Profile,openai
+model_0026,000606.FCStd,model_0026.json,Rectangular Block with Rounded Corner,openai
+model_0021,000512.FCStd,model_0021.json,Rectangular Plate with Recessed Pockets,openai
+model_0023,000568.FCStd,model_0023.json,Rectangular Block with Filleted Corners,openai
+model_0040,002236.FCStd,model_0040.json,Rectangular Block with Holes,openai
+model_0044,003143.FCStd,model_0044.json,Rectangular Block with Rounded Corner,openai
+model_0001,000129.FCStd,model_0001.json,Rectangular Plate with Recessed Pockets,openai
+model_0020,000511.FCStd,model_0020.json,Rectangular Plate with Recessed Pocket,openai
+model_0017,000508.FCStd,model_0017.json,Rectangular Plate with Recessed Pockets,openai
+model_0042,003140.FCStd,model_0042.json,Rectangular Block with Rounded Corner,openai
+model_0014,000503.FCStd,model_0014.json,Rectangular Plate with Recessed Pocket,openai
+model_0038,002231.FCStd,model_0038.json,Rectangular Block with Circular Profile,openai
+model_0045,003144.FCStd,model_0045.json,Rectangular Plate with Recessed Pockets,openai
+model_0003,000256.FCStd,model_0003.json,Rectangular Block with Holes,openai
+model_0028,000608.FCStd,model_0028.json,Rectangular Block,openai
+model_0006,000295.FCStd,model_0006.json,Rectangular Base Block,openai
+model_0035,000647.FCStd,model_0035.json,Rectangular Block with Rounded Corners,openai
+model_0007,000428.FCStd,model_0007.json,Rectangular Plate with Recessed Pocket,openai

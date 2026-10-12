@@ -1,0 +1,90 @@
+{
+  "model_id": "model_0004",
+  "title": "Extruded Prismatic Solid",
+  "description": "A extruded prismatic solid with 0 hole(s) and 0 pocket(s).",
+  "tags": [
+    "mechanical",
+    "partdesign",
+    "extruded-prismatic-solid"
+  ],
+  "prompts": [
+    "Create a extruded prismatic solid.",
+    "Design a extruded prismatic solid suitable for mechanical assembly.",
+    "Build a functional extruded prismatic solid for general engineering use.",
+    "Make a extruded prismatic solid with overall height 0.75 mm.",
+    "I need a extruded prismatic solid matching the described geometry."
+  ],
+  "metadata": {
+    "version": "1.0",
+    "unit": "mm",
+    "source_format": "FCStd",
+    "parser_version": "0.1",
+    "source_path": "/Users/hassenhicheri/Desktop/CAD/examples/000257.FCStd",
+    "source_label": "603 cap on pad"
+  },
+  "operations": [
+    {
+      "id": "op_001",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Line",
+          "start": [
+            -0.4,
+            0.38
+          ],
+          "end": [
+            0.4,
+            0.38
+          ]
+        },
+        {
+          "id": "e_002",
+          "type": "Line",
+          "start": [
+            0.4,
+            0.38
+          ],
+          "end": [
+            0.4,
+            -0.38
+          ]
+        },
+        {
+          "id": "e_003",
+          "type": "Line",
+          "start": [
+            0.4,
+            -0.38
+          ],
+          "end": [
+            -0.4,
+            -0.38
+          ]
+        },
+        {
+          "id": "e_004",
+          "type": "Line",
+          "start": [
+            -0.4,
+            -0.38
+          ],
+          "end": [
+            -0.4,
+            0.38
+          ]
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_002",
+      "type": "Pad",
+      "profile": "op_001",
+      "length": 0.75,
+      "symmetric": true
+    }
+  ]
+}

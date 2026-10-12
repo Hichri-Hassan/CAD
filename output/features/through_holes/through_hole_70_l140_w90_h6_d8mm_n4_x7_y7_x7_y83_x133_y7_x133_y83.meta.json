@@ -1,0 +1,40 @@
+{
+  "shape_id": "through_hole_70_l140_w90_h6_d8mm_n4_x7_y7_x7_y83_x133_y7_x133_y83",
+  "shape_type": "through_hole",
+  "index": 70,
+  "dimensions": {
+    "length_mm": 140.0,
+    "width_mm": 90.0,
+    "height_mm": 6.0,
+    "diameter_mm": 8.0,
+    "hole_centers_xy": [
+      [
+        7.0,
+        7.0
+      ],
+      [
+        133.0,
+        7.0
+      ],
+      [
+        7.0,
+        83.0
+      ],
+      [
+        133.0,
+        83.0
+      ]
+    ],
+    "hole_count": 4
+  },
+  "fcstd_path": "output/features/through_holes/through_hole_70_l140_w90_h6_d8mm_n4_x7_y7_x7_y83_x133_y7_x133_y83.FCStd",
+  "json_path": "output/features/through_holes/through_hole_70_l140_w90_h6_d8mm_n4_x7_y7_x7_y83_x133_y7_x133_y83.json",
+  "prompts": [
+    "Create a 140 \u00d7 90 \u00d7 6 mm plate with four 8 mm diameter through-holes at positions (7, 7), (7, 83), (133, 7), and (133, 83).",
+    "Generate a 140 by 90 by 6 millimeter block with four through holes ((7, 7)), ((7, 83)), ((133, 7)), and ((133, 83)), each going through the full thickness.",
+    "Make a 140 mm long, 90 mm wide, and 6 mm high rectangular prism with four 8 mm holes through all, hole centers at (7, 7), (7, 83), (133, 7), (133, 83).",
+    "Build a rectangular solid measuring 140 \u00d7 90 \u00d7 6 mm with four 8 mm through-holes at (7, 7), (7, 83), (133, 7), and (133, 83).",
+    "I need a 140 \u00d7 90 \u00d7 6 mm prism featuring four 8 mm through holes. Place their centers at (7, 7), (7, 83), (133, 7), and (133, 83)."
+  ],
+  "passed_validation": true
+}

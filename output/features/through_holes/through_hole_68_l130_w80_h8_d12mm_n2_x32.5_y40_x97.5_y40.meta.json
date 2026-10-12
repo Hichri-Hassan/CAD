@@ -1,0 +1,32 @@
+{
+  "shape_id": "through_hole_68_l130_w80_h8_d12mm_n2_x32.5_y40_x97.5_y40",
+  "shape_type": "through_hole",
+  "index": 68,
+  "dimensions": {
+    "length_mm": 130.0,
+    "width_mm": 80.0,
+    "height_mm": 8.0,
+    "diameter_mm": 12.0,
+    "hole_centers_xy": [
+      [
+        32.5,
+        40.0
+      ],
+      [
+        97.5,
+        40.0
+      ]
+    ],
+    "hole_count": 2
+  },
+  "fcstd_path": "output/features/through_holes/through_hole_68_l130_w80_h8_d12mm_n2_x32.5_y40_x97.5_y40.FCStd",
+  "json_path": "output/features/through_holes/through_hole_68_l130_w80_h8_d12mm_n2_x32.5_y40_x97.5_y40.json",
+  "prompts": [
+    "Create a 130 \u00d7 80 \u00d7 8 mm plate with two 12 mm diameter through-holes at positions (32.5, 40) and (97.5, 40).",
+    "Generate a 130 by 80 by 8 millimeter block with two through-holes ((32.5, 40)) and ((97.5, 40)), each passing through the full height.",
+    "Make a 130 mm long, 80 mm wide, and 8 mm high rectangular prism with two 12 mm holes through all, hole centers at (32.5, 40) and (97.5, 40).",
+    "Build a rectangular solid measuring 130 \u00d7 80 \u00d7 8 mm with two 12 mm through-holes placed at (32.5, 40) and (97.5, 40).",
+    "I need a 130 \u00d7 80 \u00d7 8 mm prism containing two 12 mm through holes. Place their centers at (32.5, 40) and (97.5, 40)."
+  ],
+  "passed_validation": true
+}

@@ -1,0 +1,186 @@
+{
+  "model_id": "model_0030",
+  "title": "Rectangular Plate with Recessed Pockets",
+  "description": "This part is a rectangular plate with an overall height of 23.0 mm, featuring two recessed pockets and one rounded corner with a radius of 21.49 mm.",
+  "tags": [
+    "rectangular plate",
+    "recessed pocket",
+    "rounded corner",
+    "mechanical part"
+  ],
+  "prompts": [
+    "Can you make a rectangular plate with two recessed pockets and one rounded corner?",
+    "I'm looking for a rectangular plate that is 23 mm tall, has two circular recessed pockets, and a rounded corner with a 21.49 mm radius.",
+    "Please create a rectangular block that is 23 mm high, with two through holes in the shape of recessed pockets and one corner rounded.",
+    "I need a flat rectangular plate with a depth of 23 mm and two circular pockets recessed all the way through, along with a rounded corner.",
+    "Generate a rectangular plate featuring two deep recessed areas and a single rounded corner, ensuring the height is 23 mm."
+  ],
+  "metadata": {
+    "version": "1.0",
+    "unit": "mm",
+    "source_format": "FCStd",
+    "parser_version": "0.1",
+    "source_path": "/Users/hassenhicheri/Desktop/CAD/examples/000610.FCStd",
+    "source_label": "montagem_mesa"
+  },
+  "operations": [
+    {
+      "id": "op_001",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Line",
+          "start": [
+            490.0,
+            -21.5
+          ],
+          "end": [
+            490.0,
+            21.5
+          ]
+        },
+        {
+          "id": "e_002",
+          "type": "Line",
+          "start": [
+            490.0,
+            21.5
+          ],
+          "end": [
+            -490.0,
+            21.5
+          ]
+        },
+        {
+          "id": "e_003",
+          "type": "Line",
+          "start": [
+            -490.0,
+            21.5
+          ],
+          "end": [
+            -490.0,
+            -21.5
+          ]
+        },
+        {
+          "id": "e_004",
+          "type": "Line",
+          "start": [
+            -490.0,
+            -21.5
+          ],
+          "end": [
+            490.0,
+            -21.5
+          ]
+        },
+        {
+          "id": "e_005",
+          "type": "Point",
+          "position": [
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_002",
+      "type": "Pad",
+      "profile": "op_001",
+      "length": 23.0
+    },
+    {
+      "id": "op_003",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Circle",
+          "center": [
+            0.0,
+            0.0
+          ],
+          "radius": 3.5
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_004",
+      "type": "Pocket",
+      "profile": "op_003",
+      "depth": "through_all"
+    },
+    {
+      "id": "op_005",
+      "type": "Fillet",
+      "radius": 21.49,
+      "edges": [
+        {
+          "reference": "op_004",
+          "selector": "Edge5"
+        },
+        {
+          "reference": "op_004",
+          "selector": "Edge8"
+        }
+      ]
+    },
+    {
+      "id": "op_006",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Line",
+          "start": [
+            490.0,
+            21.5
+          ],
+          "end": [
+            455.575,
+            -21.5
+          ]
+        },
+        {
+          "id": "e_002",
+          "type": "Line",
+          "start": [
+            455.575,
+            -21.5
+          ],
+          "end": [
+            490.0,
+            -21.5
+          ]
+        },
+        {
+          "id": "e_003",
+          "type": "Line",
+          "start": [
+            490.0,
+            -21.5
+          ],
+          "end": [
+            490.0,
+            21.5
+          ]
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_007",
+      "type": "Pocket",
+      "profile": "op_006",
+      "depth": "through_all"
+    }
+  ]
+}

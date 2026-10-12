@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "unit": "mm",
+    "source_format": "authored",
+    "feature_family": "through_hole",
+    "source_label": "through_hole_62_l80_w50_h8_d8mm_n2_x20_y20_x60_y30"
+  },
+  "operations": [
+    {
+      "id": "op_001",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Line",
+          "start": [
+            0.0,
+            0.0
+          ],
+          "end": [
+            80.0,
+            0.0
+          ]
+        },
+        {
+          "id": "e_002",
+          "type": "Line",
+          "start": [
+            80.0,
+            0.0
+          ],
+          "end": [
+            80.0,
+            50.0
+          ]
+        },
+        {
+          "id": "e_003",
+          "type": "Line",
+          "start": [
+            80.0,
+            50.0
+          ],
+          "end": [
+            0.0,
+            50.0
+          ]
+        },
+        {
+          "id": "e_004",
+          "type": "Line",
+          "start": [
+            0.0,
+            50.0
+          ],
+          "end": [
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_002",
+      "type": "Pad",
+      "profile": "op_001",
+      "length": 8.0
+    },
+    {
+      "id": "op_003",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Circle",
+          "center": [
+            20.0,
+            20.0
+          ],
+          "radius": 4.0
+        },
+        {
+          "id": "e_002",
+          "type": "Circle",
+          "center": [
+            60.0,
+            30.0
+          ],
+          "radius": 4.0
+        }
+      ],
+      "constraints": [],
+      "support": {
+        "type": "face",
+        "reference": "op_002",
+        "selector": "Face6"
+      }
+    },
+    {
+      "id": "op_004",
+      "type": "Hole",
+      "profile": "op_003",
+      "diameter": 8.0,
+      "depth": "through_all"
+    }
+  ]
+}

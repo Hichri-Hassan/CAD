@@ -1,0 +1,25 @@
+{
+  "shape_id": "blind_hole_30_plate_l140_w90_h12_d12_dp9mm_x100_y30",
+  "shape_type": "blind_hole",
+  "index": 30,
+  "dimensions": {
+    "base_type": "plate",
+    "diameter_mm": 12.0,
+    "hole_depth_mm": 9.0,
+    "hole_cx": 100.0,
+    "hole_cy": 30.0,
+    "length_mm": 140.0,
+    "width_mm": 90.0,
+    "height_mm": 12.0
+  },
+  "fcstd_path": "output/features/blind_holes/blind_hole_30_plate_l140_w90_h12_d12_dp9mm_x100_y30.FCStd",
+  "json_path": "output/features/blind_holes/blind_hole_30_plate_l140_w90_h12_d12_dp9mm_x100_y30.json",
+  "prompts": [
+    "Create a 140 \u00d7 90 \u00d7 12 mm plate with a at position (100, 30) 12 mm diameter blind hole 9 mm deep.",
+    "Make a 140 by 90 by 12 millimeter rectangular prism with a \u00d812 mm blind hole drilled 9 mm into the top face, with the hole center at (100, 30).",
+    "Generate a 140 \u00d7 90 \u00d7 12 mm plate containing a 12 mm diameter hole that stops after 9 mm, with the hole center at (100, 30).",
+    "I need a 140 mm \u00d7 90 mm \u00d7 12 mm plate with a at position (100, 30) 12 mm blind hole 9 mm deep from the top face.",
+    "Build a rectangular solid measuring 140 \u00d7 90 \u00d7 12 mm with a 12 mm blind hole drilled to a depth of 9 mm, with the hole center at (100, 30)."
+  ],
+  "passed_validation": true
+}

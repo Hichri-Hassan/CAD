@@ -1,0 +1,16 @@
+{
+  "core": {
+    "train_loss": 0.05623910814627177,
+    "val_loss": 0.007437343709170818,
+    "training_time_seconds": 165582.1277501583,
+    "trainable_parameters": 14966784,
+    "checkpoint_path": "/Users/hassenhicheri/Desktop/CAD/training/experiments/stage3/run_001/checkpoints/adapter"
+  },
+  "cad": {
+    "json_validity": null,
+    "compilation_success": null,
+    "operation_accuracy": null,
+    "geometry_similarity": null
+  },
+  "custom": {}
+}

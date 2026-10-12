@@ -1,0 +1,323 @@
+{
+  "model_id": "model_0045",
+  "title": "Rectangular Plate with Recessed Pockets",
+  "description": "This part is a rectangular plate with an overall height of 10 mm featuring six recessed pockets at varying depths and one rounded corner with a radius of 0.3 mm.",
+  "tags": [
+    "rectangular plate",
+    "recessed pockets",
+    "rounded corner",
+    "mechanical part"
+  ],
+  "prompts": [
+    "Please create a rectangular plate with multiple recessed pockets.",
+    "Can you make a 10 mm high rectangular plate that has several pockets recessed into its surface?",
+    "I need a rectangular block with a height of 10 mm, six recessed pockets of various depths, and one rounded corner with a radius of 0.3 mm.",
+    "Design a rectangular plate, 10 mm in height, featuring six pockets\u2014one at 5 mm deep and the others at 10 mm deep\u2014with a rounded corner.",
+    "Generate a rectangular plate with a flat surface, six recessed circular pockets of different depths, and a small rounded corner."
+  ],
+  "metadata": {
+    "version": "1.0",
+    "unit": "mm",
+    "source_format": "FCStd",
+    "parser_version": "0.1",
+    "source_path": "/Users/hassenhicheri/Desktop/CAD/examples/003144.FCStd",
+    "source_label": "makerbeam_cornercube"
+  },
+  "operations": [
+    {
+      "id": "op_001",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Line",
+          "start": [
+            -5.0,
+            -5.0
+          ],
+          "end": [
+            5.0,
+            -5.0
+          ]
+        },
+        {
+          "id": "e_002",
+          "type": "Line",
+          "start": [
+            5.0,
+            -5.0
+          ],
+          "end": [
+            5.0,
+            5.0
+          ]
+        },
+        {
+          "id": "e_003",
+          "type": "Line",
+          "start": [
+            5.0,
+            5.0
+          ],
+          "end": [
+            -5.0,
+            5.0
+          ]
+        },
+        {
+          "id": "e_004",
+          "type": "Line",
+          "start": [
+            -5.0,
+            5.0
+          ],
+          "end": [
+            -5.0,
+            -5.0
+          ]
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_002",
+      "type": "Pad",
+      "profile": "op_001",
+      "length": 10.0,
+      "symmetric": true
+    },
+    {
+      "id": "op_003",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Circle",
+          "center": [
+            0.0,
+            0.0
+          ],
+          "radius": 3.0
+        }
+      ],
+      "constraints": [],
+      "plane": "XY",
+      "attachment_offset": {
+        "position": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "op_004",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Circle",
+          "center": [
+            0.0,
+            0.0
+          ],
+          "radius": 1.5
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_005",
+      "type": "Pocket",
+      "profile": "op_004",
+      "depth": 5.0
+    },
+    {
+      "id": "op_006",
+      "type": "Pocket",
+      "profile": "op_003",
+      "depth": 10.0
+    },
+    {
+      "id": "op_007",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Circle",
+          "center": [
+            0.0,
+            0.0
+          ],
+          "radius": 1.5
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_008",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Circle",
+          "center": [
+            0.0,
+            0.0
+          ],
+          "radius": 3.0
+        }
+      ],
+      "constraints": [],
+      "plane": "XY",
+      "attachment_offset": {
+        "position": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "op_009",
+      "type": "Pocket",
+      "profile": "op_007",
+      "depth": 10.0
+    },
+    {
+      "id": "op_010",
+      "type": "Pocket",
+      "profile": "op_008",
+      "depth": 10.0
+    },
+    {
+      "id": "op_011",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Circle",
+          "center": [
+            0.0,
+            0.0
+          ],
+          "radius": 1.5
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_012",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Circle",
+          "center": [
+            0.0,
+            0.0
+          ],
+          "radius": 3.0
+        }
+      ],
+      "constraints": [],
+      "plane": "XY",
+      "attachment_offset": {
+        "position": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "op_013",
+      "type": "Pocket",
+      "profile": "op_011",
+      "depth": 10.0
+    },
+    {
+      "id": "op_014",
+      "type": "Pocket",
+      "profile": "op_012",
+      "depth": 10.0
+    },
+    {
+      "id": "op_015",
+      "type": "Fillet",
+      "radius": 0.3,
+      "edges": [
+        {
+          "reference": "op_014",
+          "selector": "Edge4"
+        },
+        {
+          "reference": "op_014",
+          "selector": "Edge2"
+        },
+        {
+          "reference": "op_014",
+          "selector": "Edge1"
+        },
+        {
+          "reference": "op_014",
+          "selector": "Edge3"
+        },
+        {
+          "reference": "op_014",
+          "selector": "Edge6"
+        },
+        {
+          "reference": "op_014",
+          "selector": "Edge14"
+        },
+        {
+          "reference": "op_014",
+          "selector": "Edge16"
+        },
+        {
+          "reference": "op_014",
+          "selector": "Edge11"
+        },
+        {
+          "reference": "op_014",
+          "selector": "Edge10"
+        },
+        {
+          "reference": "op_014",
+          "selector": "Edge13"
+        },
+        {
+          "reference": "op_014",
+          "selector": "Edge8"
+        },
+        {
+          "reference": "op_014",
+          "selector": "Edge7"
+        }
+      ]
+    }
+  ]
+}

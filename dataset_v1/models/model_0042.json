@@ -1,0 +1,248 @@
+{
+  "model_id": "model_0042",
+  "title": "Extruded Prismatic Solid",
+  "description": "A extruded prismatic solid with 0 hole(s) and 0 pocket(s).",
+  "tags": [
+    "mechanical",
+    "partdesign",
+    "extruded-prismatic-solid"
+  ],
+  "prompts": [
+    "Create a extruded prismatic solid.",
+    "Design a extruded prismatic solid suitable for mechanical assembly.",
+    "Build a functional extruded prismatic solid for general engineering use.",
+    "Make a extruded prismatic solid with overall height 1.5 mm.",
+    "I need a extruded prismatic solid matching the described geometry."
+  ],
+  "metadata": {
+    "version": "1.0",
+    "unit": "mm",
+    "source_format": "FCStd",
+    "parser_version": "0.1",
+    "source_path": "/Users/hassenhicheri/Desktop/CAD/examples/003140.FCStd",
+    "source_label": "makerbeam_bracket_T"
+  },
+  "operations": [
+    {
+      "id": "op_001",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Circle",
+          "center": [
+            -20.0,
+            0.0
+          ],
+          "radius": 1.5
+        },
+        {
+          "id": "e_002",
+          "type": "Circle",
+          "center": [
+            -10.0,
+            0.0
+          ],
+          "radius": 1.5
+        },
+        {
+          "id": "e_003",
+          "type": "Circle",
+          "center": [
+            0.0,
+            0.0
+          ],
+          "radius": 1.5
+        },
+        {
+          "id": "e_004",
+          "type": "Circle",
+          "center": [
+            10.0,
+            0.0
+          ],
+          "radius": 1.5
+        },
+        {
+          "id": "e_005",
+          "type": "Circle",
+          "center": [
+            20.0,
+            0.0
+          ],
+          "radius": 1.5
+        },
+        {
+          "id": "e_006",
+          "type": "Line",
+          "start": [
+            -25.0,
+            5.0
+          ],
+          "end": [
+            -5.0,
+            5.0
+          ]
+        },
+        {
+          "id": "e_007",
+          "type": "Line",
+          "start": [
+            25.0,
+            5.0
+          ],
+          "end": [
+            25.0,
+            -5.0
+          ]
+        },
+        {
+          "id": "e_008",
+          "type": "Line",
+          "start": [
+            25.0,
+            -5.0
+          ],
+          "end": [
+            -25.0,
+            -5.0
+          ]
+        },
+        {
+          "id": "e_009",
+          "type": "Line",
+          "start": [
+            -25.0,
+            -5.0
+          ],
+          "end": [
+            -25.0,
+            5.0
+          ]
+        },
+        {
+          "id": "e_010",
+          "type": "Circle",
+          "center": [
+            0.0,
+            10.0
+          ],
+          "radius": 1.5
+        },
+        {
+          "id": "e_011",
+          "type": "Circle",
+          "center": [
+            0.0,
+            20.0
+          ],
+          "radius": 1.5
+        },
+        {
+          "id": "e_012",
+          "type": "Line",
+          "start": [
+            -5.0,
+            35.0
+          ],
+          "end": [
+            5.0,
+            35.0
+          ]
+        },
+        {
+          "id": "e_013",
+          "type": "Line",
+          "start": [
+            5.0,
+            35.0
+          ],
+          "end": [
+            5.0,
+            5.0
+          ]
+        },
+        {
+          "id": "e_014",
+          "type": "Line",
+          "start": [
+            -5.0,
+            5.0
+          ],
+          "end": [
+            -5.0,
+            35.0
+          ]
+        },
+        {
+          "id": "e_015",
+          "type": "Line",
+          "start": [
+            5.0,
+            5.0
+          ],
+          "end": [
+            25.0,
+            5.0
+          ]
+        },
+        {
+          "id": "e_016",
+          "type": "Circle",
+          "center": [
+            0.0,
+            30.0
+          ],
+          "radius": 1.5
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_002",
+      "type": "Pad",
+      "profile": "op_001",
+      "length": 1.5
+    },
+    {
+      "id": "op_003",
+      "type": "Fillet",
+      "radius": 0.5,
+      "edges": [
+        {
+          "reference": "op_002",
+          "selector": "Edge2"
+        },
+        {
+          "reference": "op_002",
+          "selector": "Edge5"
+        },
+        {
+          "reference": "op_002",
+          "selector": "Edge8"
+        },
+        {
+          "reference": "op_002",
+          "selector": "Edge1"
+        },
+        {
+          "reference": "op_002",
+          "selector": "Edge11"
+        },
+        {
+          "reference": "op_002",
+          "selector": "Edge14"
+        },
+        {
+          "reference": "op_002",
+          "selector": "Edge20"
+        },
+        {
+          "reference": "op_002",
+          "selector": "Edge17"
+        }
+      ]
+    }
+  ]
+}

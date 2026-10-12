@@ -1,0 +1,25 @@
+{
+  "shape_id": "blind_hole_25_plate_l90_w60_h10_d8_dp5mm",
+  "shape_type": "blind_hole",
+  "index": 25,
+  "dimensions": {
+    "base_type": "plate",
+    "diameter_mm": 8.0,
+    "hole_depth_mm": 5.0,
+    "hole_cx": 45.0,
+    "hole_cy": 30.0,
+    "length_mm": 90.0,
+    "width_mm": 60.0,
+    "height_mm": 10.0
+  },
+  "fcstd_path": "output/features/blind_holes/blind_hole_25_plate_l90_w60_h10_d8_dp5mm.FCStd",
+  "json_path": "output/features/blind_holes/blind_hole_25_plate_l90_w60_h10_d8_dp5mm.json",
+  "prompts": [
+    "Create a 90 \u00d7 60 \u00d7 10 mm plate with a centered 8 mm diameter blind hole 5 mm deep.",
+    "Make a 90 by 60 by 10 millimeter rectangular prism with a \u00d88 mm blind hole drilled 5 mm into the top face, in the center.",
+    "Generate a 90 \u00d7 60 \u00d7 10 mm plate containing a 8 mm diameter hole that stops after 5 mm, in the center.",
+    "I need a 90 mm \u00d7 60 mm \u00d7 10 mm plate with a centered 8 mm blind hole 5 mm deep from the top face.",
+    "Build a rectangular solid measuring 90 \u00d7 60 \u00d7 10 mm with a 8 mm blind hole drilled to a depth of 5 mm, in the center."
+  ],
+  "passed_validation": true
+}

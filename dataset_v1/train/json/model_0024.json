@@ -1,0 +1,163 @@
+{
+  "model_id": "model_0024",
+  "title": "Rectangular Plate with Recessed Pocket",
+  "description": "This part is a rectangular plate featuring a recessed pocket and a rounded corner. The overall height is 50 mm with a pocket depth of 20 mm and a fillet radius of 5 mm.",
+  "tags": [
+    "rectangular plate",
+    "recessed pocket",
+    "rounded corner",
+    "mechanical part"
+  ],
+  "prompts": [
+    "Can you create a rectangular plate with a recessed pocket?",
+    "I'd like to have a rectangular plate that's 50 mm tall, with a 20 mm deep pocket and one rounded corner.",
+    "Please design a rectangular block that is 50 mm high, includes a recessed area for a pocket, and has a rounded corner with a radius of 5 mm.",
+    "Make a plate that is rectangular in shape, overall height of 50 mm, with a single pocket that is 20 mm deep and a rounded 5 mm corner.",
+    "Generate a rectangular plate with a recessed area, ensuring it has a depth of 20 mm and one corner rounded off."
+  ],
+  "metadata": {
+    "version": "1.0",
+    "unit": "mm",
+    "source_format": "FCStd",
+    "parser_version": "0.1",
+    "source_path": "/Users/hassenhicheri/Desktop/CAD/examples/000575.FCStd",
+    "source_label": "TV_50inches"
+  },
+  "operations": [
+    {
+      "id": "op_001",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Line",
+          "start": [
+            0.0,
+            0.0
+          ],
+          "end": [
+            1120.0,
+            0.0
+          ]
+        },
+        {
+          "id": "e_002",
+          "type": "Line",
+          "start": [
+            1120.0,
+            0.0
+          ],
+          "end": [
+            1120.0,
+            650.0
+          ]
+        },
+        {
+          "id": "e_003",
+          "type": "Line",
+          "start": [
+            1120.0,
+            650.0
+          ],
+          "end": [
+            0.0,
+            650.0
+          ]
+        },
+        {
+          "id": "e_004",
+          "type": "Line",
+          "start": [
+            0.0,
+            650.0
+          ],
+          "end": [
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_002",
+      "type": "Pad",
+      "profile": "op_001",
+      "length": 50.0
+    },
+    {
+      "id": "op_003",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Line",
+          "start": [
+            25.0,
+            625.0
+          ],
+          "end": [
+            1095.0,
+            625.0
+          ]
+        },
+        {
+          "id": "e_002",
+          "type": "Line",
+          "start": [
+            1095.0,
+            625.0
+          ],
+          "end": [
+            1095.0,
+            25.0
+          ]
+        },
+        {
+          "id": "e_003",
+          "type": "Line",
+          "start": [
+            1095.0,
+            25.0
+          ],
+          "end": [
+            25.0,
+            25.0
+          ]
+        },
+        {
+          "id": "e_004",
+          "type": "Line",
+          "start": [
+            25.0,
+            25.0
+          ],
+          "end": [
+            25.0,
+            625.0
+          ]
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_004",
+      "type": "Pocket",
+      "profile": "op_003",
+      "depth": 20.0
+    },
+    {
+      "id": "op_005",
+      "type": "Fillet",
+      "radius": 5.0,
+      "edges": [
+        {
+          "reference": "op_004",
+          "selector": "Face5"
+        }
+      ]
+    }
+  ]
+}

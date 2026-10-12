@@ -1,0 +1,32 @@
+{
+  "shape_id": "through_hole_62_l80_w50_h8_d8mm_n2_x20_y20_x60_y30",
+  "shape_type": "through_hole",
+  "index": 62,
+  "dimensions": {
+    "length_mm": 80.0,
+    "width_mm": 50.0,
+    "height_mm": 8.0,
+    "diameter_mm": 8.0,
+    "hole_centers_xy": [
+      [
+        20.0,
+        20.0
+      ],
+      [
+        60.0,
+        30.0
+      ]
+    ],
+    "hole_count": 2
+  },
+  "fcstd_path": "output/features/through_holes/through_hole_62_l80_w50_h8_d8mm_n2_x20_y20_x60_y30.FCStd",
+  "json_path": "output/features/through_holes/through_hole_62_l80_w50_h8_d8mm_n2_x20_y20_x60_y30.json",
+  "prompts": [
+    "Create a 80 \u00d7 50 \u00d7 8 mm plate with two 8 mm diameter through-holes at positions (20, 20) and (60, 30).",
+    "Generate a 80 by 50 by 8 millimeter block with two through-holes ((20, 20)) and ((60, 30)), each passing through the full height.",
+    "Make a 80 mm long, 50 mm wide, and 8 mm high rectangular prism with two 8 mm holes through all, hole centers at (20, 20) and (60, 30).",
+    "Build a rectangular solid measuring 80 \u00d7 50 \u00d7 8 mm with two 8 mm through-holes placed at (20, 20) and (60, 30).",
+    "I need a 80 \u00d7 50 \u00d7 8 mm prism containing two 8 mm through holes. Place their centers at (20, 20) and (60, 30)."
+  ],
+  "passed_validation": true
+}

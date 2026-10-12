@@ -1,0 +1,59 @@
+{
+  "model_id": "model_0034",
+  "title": "Tall Rectangular Block with Circular Profile",
+  "description": "A rectangular block with a height of 2351 mm featuring a circular profile on the XY plane.",
+  "tags": [
+    "rectangular block",
+    "circular profile",
+    "solid part"
+  ],
+  "prompts": [
+    "Can you create a tall rectangular block with a circular profile on the top surface?",
+    "I need a solid rectangular block that stands 2351 mm high and has a circular shape on the XY plane.",
+    "Please design a single rectangular block with a height of 2351 mm and a circular outline on the upper face.",
+    "Generate a rectangular block measuring 2351 mm in height with a circular cross-section on the top.",
+    "Make a solid piece shaped like a rectangular block, about 2.35 meters tall, with a circle on the top surface."
+  ],
+  "metadata": {
+    "version": "1.0",
+    "unit": "mm",
+    "source_format": "FCStd",
+    "parser_version": "0.1",
+    "source_path": "/Users/hassenhicheri/Desktop/CAD/examples/000636.FCStd",
+    "source_label": "door-rod"
+  },
+  "operations": [
+    {
+      "id": "op_001",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Circle",
+          "center": [
+            0.0,
+            0.0
+          ],
+          "radius": 13.95
+        },
+        {
+          "id": "e_002",
+          "type": "Circle",
+          "center": [
+            0.0,
+            0.0
+          ],
+          "radius": 16.85
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_002",
+      "type": "Pad",
+      "profile": "op_001",
+      "length": 2351.0
+    }
+  ]
+}

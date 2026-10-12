@@ -1,0 +1,1130 @@
+source_fcstd,parse_status,operation_count,roundtrip_passed,error
+000003.FCStd,valid,2,false,"op_002: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pad 'op_002'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pad 'op_002'."
+000004.FCStd,valid,2,false,"op_002: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pad 'op_002'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pad 'op_002'."
+000010.FCStd,valid,4,false,"op_004: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pocket 'op_004'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pocket 'op_004'."
+000012.FCStd,valid,4,false,"op_004: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pocket 'op_004'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pocket 'op_004'."
+000061.FCStd,valid,9,false,"<Exception> FeatureDressUp.cpp(217): Invalid edge link: Edge41
+op_008: Invalid edge link: Edge41
+Compilation failed: FreeCAD object invalid after Fillet 'op_008'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Fillet 'op_008'."
+000062.FCStd,valid,9,false,"<Exception> FeatureDressUp.cpp(217): Invalid edge link: Face19
+op_006: Invalid edge link: Face19
+Compilation failed: FreeCAD object invalid after Fillet 'op_006'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Fillet 'op_006'."
+000063.FCStd,valid,40,false,"op_006: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pocket 'op_006'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pocket 'op_006'."
+000064.FCStd,valid,8,false,"op_002: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pad 'op_002'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pad 'op_002'."
+000065.FCStd,valid,7,false,"op_002: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pad 'op_002'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pad 'op_002'."
+000129.FCStd,valid,10,true,
+000162.FCStd,valid,15,false,"op_007: BRep_API: command not done
+Compilation failed: FreeCAD object invalid after Chamfer 'op_007'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Chamfer 'op_007'."
+000211.FCStd,valid,3,true,
+000221.FCStd,valid,9,false,"The 'Midplane' property being set for the extrusion of op_001 is deprecated and has been replaced by the 'SideType' property in FeatureExtrude. Please update your script, this property will be removed in a future version.
+op_002: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pad 'op_002'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pad 'op_002'."
+000226.FCStd,valid,9,false,"The 'Midplane' property being set for the extrusion of op_001 is deprecated and has been replaced by the 'SideType' property in FeatureExtrude. Please update your script, this property will be removed in a future version.
+op_002: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pad 'op_002'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pad 'op_002'."
+000229.FCStd,valid,5,false,"The 'Midplane' property being set for the extrusion of op_001 is deprecated and has been replaced by the 'SideType' property in FeatureExtrude. Please update your script, this property will be removed in a future version.
+op_004: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pocket 'op_004'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pocket 'op_004'."
+000256.FCStd,valid,5,true,
+000257.FCStd,valid,2,true,
+000274.FCStd,valid,8,true,
+000295.FCStd,valid,2,true,
+000365.FCStd,valid,4,false,"op_002: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pad 'op_002'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pad 'op_002'."
+000366.FCStd,valid,22,false,"op_010: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pocket 'op_010'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pocket 'op_010'."
+000390.FCStd,valid,2,false,"The 'Midplane' property being set for the extrusion of op_001 is deprecated and has been replaced by the 'SideType' property in FeatureExtrude. Please update your script, this property will be removed in a future version.
+op_002: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pad 'op_002'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pad 'op_002'."
+000392.FCStd,valid,2,false,"The 'Midplane' property being set for the extrusion of op_001 is deprecated and has been replaced by the 'SideType' property in FeatureExtrude. Please update your script, this property will be removed in a future version.
+op_002: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pad 'op_002'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pad 'op_002'."
+000393.FCStd,valid,2,false,"The 'Midplane' property being set for the extrusion of op_001 is deprecated and has been replaced by the 'SideType' property in FeatureExtrude. Please update your script, this property will be removed in a future version.
+op_002: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pad 'op_002'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pad 'op_002'."
+000399.FCStd,valid,10,false,"op_002: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pad 'op_002'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pad 'op_002'."
+000400.FCStd,valid,10,false,"<Exception> FeatureDressUp.cpp(217): Invalid edge link: Edge33
+op_006: Invalid edge link: Edge33
+Compilation failed: FreeCAD object invalid after Fillet 'op_006'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Fillet 'op_006'."
+000401.FCStd,valid,10,false,"<Exception> FeatureDressUp.cpp(217): Invalid edge link: Edge33
+op_006: Invalid edge link: Edge33
+Compilation failed: FreeCAD object invalid after Fillet 'op_006'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Fillet 'op_006'."
+000408.FCStd,valid,25,false,"op_002: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pad 'op_002'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pad 'op_002'."
+000428.FCStd,valid,4,true,
+000454.FCStd,valid,6,true,
+000455.FCStd,valid,6,true,
+000456.FCStd,valid,6,true,
+000457.FCStd,valid,4,false,"The 'Midplane' property being set for the extrusion of op_001 is deprecated and has been replaced by the 'SideType' property in FeatureExtrude. Please update your script, this property will be removed in a future version.
+op_004: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pocket 'op_004'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pocket 'op_004'."
+000458.FCStd,valid,7,true,
+000475.FCStd,valid,3,false,"op_002: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pad 'op_002'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pad 'op_002'."
+000500.FCStd,valid,11,true,
+000501.FCStd,valid,6,true,
+000502.FCStd,valid,6,false,"op_002: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pad 'op_002'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pad 'op_002'."
+000503.FCStd,valid,4,true,
+000504.FCStd,valid,6,true,
+000505.FCStd,valid,8,true,
+000506.FCStd,valid,18,false,"op_012: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pocket 'op_012'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pocket 'op_012'."
+000508.FCStd,valid,6,true,
+000509.FCStd,valid,8,true,
+000510.FCStd,valid,6,true,
+000511.FCStd,valid,4,true,
+000512.FCStd,valid,6,true,
+000513.FCStd,valid,4,false,"op_002: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pad 'op_002'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pad 'op_002'."
+000514.FCStd,valid,4,true,
+000524.FCStd,valid,19,false,"The 'Midplane' property being set for the extrusion of op_001 is deprecated and has been replaced by the 'SideType' property in FeatureExtrude. Please update your script, this property will be removed in a future version.
+op_002: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pad 'op_002'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pad 'op_002'."
+000565.FCStd,valid,11,false,"op_010: There are no suitable edges for chamfer or fillet
+Compilation failed: FreeCAD object invalid after Fillet 'op_010'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Fillet 'op_010'."
+000566.FCStd,valid,15,false,"op_012: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pad 'op_012'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pad 'op_012'."
+000567.FCStd,valid,8,false,"<PartDesign> FeatureDressUp.cpp(206): CompiledPart#op_008: skip edge ;#7d:4;:H905,E.Edge34 that is not C0 continuous
+op_008: Fillet not possible on selected shapes
+Compilation failed: FreeCAD object invalid after Fillet 'op_008'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Fillet 'op_008'."
+000568.FCStd,valid,7,true,
+000569.FCStd,valid,21,false,"<Exception> FeatureDressUp.cpp(217): Invalid edge link: Edge40
+op_014: Invalid edge link: Edge40
+Compilation failed: FreeCAD object invalid after Fillet 'op_014'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Fillet 'op_014'."
+000570.FCStd,valid,13,false,"<Exception> FeatureDressUp.cpp(217): Invalid edge link: Face22
+op_009: Invalid edge link: Face22
+Compilation failed: FreeCAD object invalid after Fillet 'op_009'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Fillet 'op_009'."
+000571.FCStd,valid,21,false,"<Exception> FeatureDressUp.cpp(217): Invalid edge link: Edge56
+op_013: Invalid edge link: Edge56
+Compilation failed: FreeCAD object invalid after Fillet 'op_013'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Fillet 'op_013'."
+000575.FCStd,valid,5,true,
+000578.FCStd,valid,4,false,"op_004: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pocket 'op_004'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pocket 'op_004'."
+000593.FCStd,valid,20,false,"op_009: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pocket 'op_009'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pocket 'op_009'."
+000604.FCStd,valid,24,false,"<Exception> FeatureDressUp.cpp(217): Invalid edge link: Face21
+op_007: Invalid edge link: Face21
+Compilation failed: FreeCAD object invalid after Fillet 'op_007'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Fillet 'op_007'."
+000605.FCStd,valid,2,true,
+000606.FCStd,valid,11,true,
+000607.FCStd,valid,2,true,
+000608.FCStd,valid,2,true,
+000609.FCStd,valid,2,true,
+000610.FCStd,valid,7,true,
+000612.FCStd,valid,4,false,"The 'Midplane' property being set for the extrusion of op_001 is deprecated and has been replaced by the 'SideType' property in FeatureExtrude. Please update your script, this property will be removed in a future version.
+<Exception> FeatureDressUp.cpp(217): Invalid edge link: Edge28
+op_004: Invalid edge link: Edge28
+Compilation failed: FreeCAD object invalid after Fillet 'op_004'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Fillet 'op_004'."
+000613.FCStd,valid,4,true,
+000614.FCStd,valid,6,false,"The 'Midplane' property being set for the extrusion of op_001 is deprecated and has been replaced by the 'SideType' property in FeatureExtrude. Please update your script, this property will be removed in a future version.
+<Exception> FeatureDressUp.cpp(217): Invalid edge link: Edge47
+op_004: Invalid edge link: Edge47
+Compilation failed: FreeCAD object invalid after Fillet 'op_004'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Fillet 'op_004'."
+000615.FCStd,valid,6,false,"The 'Midplane' property being set for the extrusion of op_001 is deprecated and has been replaced by the 'SideType' property in FeatureExtrude. Please update your script, this property will be removed in a future version.
+<Exception> FeatureDressUp.cpp(217): Invalid edge link: Edge47
+op_004: Invalid edge link: Edge47
+Compilation failed: FreeCAD object invalid after Fillet 'op_004'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Fillet 'op_004'."
+000620.FCStd,valid,4,true,
+000625.FCStd,valid,4,false,"<Exception> FeatureDressUp.cpp(217): Invalid edge link: Edge28
+op_004: Invalid edge link: Edge28
+Compilation failed: FreeCAD object invalid after Fillet 'op_004'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Fillet 'op_004'."
+000626.FCStd,valid,3,false,"op_002: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pad 'op_002'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pad 'op_002'."
+000631.FCStd,valid,12,false,"op_004: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pocket 'op_004'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pocket 'op_004'."
+000632.FCStd,valid,8,false,"<Exception> FeatureDressUp.cpp(217): Invalid edge link: Edge41
+op_006: Invalid edge link: Edge41
+Compilation failed: FreeCAD object invalid after Fillet 'op_006'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Fillet 'op_006'."
+000633.FCStd,valid,2,false,"op_002: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pad 'op_002'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pad 'op_002'."
+000634.FCStd,valid,2,false,"op_002: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pad 'op_002'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pad 'op_002'."
+000635.FCStd,valid,4,true,
+000636.FCStd,valid,2,true,
+000639.FCStd,valid,5,false,"<PartDesign> FeatureDressUp.cpp(206): CompiledPart#op_004: skip edge ;#2e:4;:U;FLT;:Ha94:7,E.Edge6 that is not C0 continuous
+op_004: Fillet not possible on selected shapes
+Compilation failed: FreeCAD object invalid after Fillet 'op_004'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Fillet 'op_004'."
+000640.FCStd,valid,4,false,"<Exception> FeatureDressUp.cpp(217): Invalid edge link: Edge33
+op_004: Invalid edge link: Edge33
+Compilation failed: FreeCAD object invalid after Fillet 'op_004'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Fillet 'op_004'."
+000642.FCStd,valid,4,false,"<Exception> FeatureDressUp.cpp(217): Invalid edge link: Edge29
+op_004: Invalid edge link: Edge29
+Compilation failed: FreeCAD object invalid after Fillet 'op_004'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Fillet 'op_004'."
+000647.FCStd,valid,4,true,
+000649.FCStd,valid,2,true,
+000652.FCStd,valid,4,false,"The 'Midplane' property being set for the extrusion of op_001 is deprecated and has been replaced by the 'SideType' property in FeatureExtrude. Please update your script, this property will be removed in a future version.
+<Exception> FeatureDressUp.cpp(217): Invalid edge link: Edge28
+op_004: Invalid edge link: Edge28
+Compilation failed: FreeCAD object invalid after Fillet 'op_004'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Fillet 'op_004'."
+000653.FCStd,valid,4,false,"The 'Midplane' property being set for the extrusion of op_001 is deprecated and has been replaced by the 'SideType' property in FeatureExtrude. Please update your script, this property will be removed in a future version.
+<Exception> FeatureDressUp.cpp(217): Invalid edge link: Edge34
+op_004: Invalid edge link: Edge34
+Compilation failed: FreeCAD object invalid after Fillet 'op_004'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Fillet 'op_004'."
+000676.FCStd,valid,8,false,"<Exception> FeatureDressUp.cpp(217): Invalid edge link: Edge49
+op_007: Invalid edge link: Edge49
+Compilation failed: FreeCAD object invalid after Chamfer 'op_007'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Chamfer 'op_007'."
+000677.FCStd,valid,5,false,"op_002: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pad 'op_002'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pad 'op_002'."
+000678.FCStd,valid,5,false,"op_002: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pad 'op_002'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pad 'op_002'."
+000679.FCStd,valid,8,false,"op_002: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pad 'op_002'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pad 'op_002'."
+000680.FCStd,valid,15,false,"op_002: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pad 'op_002'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pad 'op_002'."
+000681.FCStd,valid,8,false,"op_002: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pad 'op_002'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pad 'op_002'."
+000682.FCStd,valid,8,false,"<Exception> FeatureDressUp.cpp(217): Invalid edge link: Edge49
+op_007: Invalid edge link: Edge49
+Compilation failed: FreeCAD object invalid after Chamfer 'op_007'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Chamfer 'op_007'."
+000683.FCStd,valid,5,false,"op_002: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pad 'op_002'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pad 'op_002'."
+000684.FCStd,valid,5,false,"op_002: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pad 'op_002'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pad 'op_002'."
+000685.FCStd,valid,8,false,"<Exception> FeatureDressUp.cpp(217): Invalid edge link: Edge49
+op_007: Invalid edge link: Edge49
+Compilation failed: FreeCAD object invalid after Chamfer 'op_007'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Chamfer 'op_007'."
+000686.FCStd,valid,5,false,"op_002: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pad 'op_002'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pad 'op_002'."
+000687.FCStd,valid,5,false,"op_002: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pad 'op_002'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pad 'op_002'."
+000691.FCStd,valid,2,false,"op_002: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pad 'op_002'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pad 'op_002'."
+000692.FCStd,valid,2,false,"op_002: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pad 'op_002'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pad 'op_002'."
+000693.FCStd,valid,2,false,"op_002: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pad 'op_002'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pad 'op_002'."
+002057.FCStd,valid,4,false,"op_002: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pad 'op_002'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pad 'op_002'."
+002218.FCStd,valid,12,false,"op_006: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pocket 'op_006'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pocket 'op_006'."
+002220.FCStd,valid,2,false,"op_002: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pad 'op_002'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pad 'op_002'."
+002222.FCStd,valid,3,false,"op_002: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pad 'op_002'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pad 'op_002'."
+002225.FCStd,valid,3,false,"op_002: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pad 'op_002'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pad 'op_002'."
+002229.FCStd,valid,2,true,
+002231.FCStd,valid,2,true,
+002233.FCStd,valid,9,false,"op_002: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pad 'op_002'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pad 'op_002'."
+002234.FCStd,valid,12,false,"op_011: Cannot create a pocket with a total length of zero.
+Compilation failed: FreeCAD object invalid after Pocket 'op_011'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pocket 'op_011'."
+002235.FCStd,valid,13,true,
+002236.FCStd,valid,5,true,
+002242.FCStd,valid,2,false,"op_002: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pad 'op_002'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pad 'op_002'."
+002243.FCStd,valid,2,false,"op_002: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pad 'op_002'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pad 'op_002'."
+003128.FCStd,valid,2,false,"op_002: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pad 'op_002'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pad 'op_002'."
+003129.FCStd,valid,2,false,"op_002: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pad 'op_002'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pad 'op_002'."
+003136.FCStd,valid,2,false,"op_002: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pad 'op_002'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pad 'op_002'."
+003137.FCStd,valid,3,false,"op_002: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pad 'op_002'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pad 'op_002'."
+003138.FCStd,valid,3,false,"op_002: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pad 'op_002'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pad 'op_002'."
+003139.FCStd,valid,3,true,
+003140.FCStd,valid,3,true,
+003141.FCStd,valid,6,false,"The 'Midplane' property being set for the extrusion of op_001 is deprecated and has been replaced by the 'SideType' property in FeatureExtrude. Please update your script, this property will be removed in a future version.
+op_002: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pad 'op_002'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pad 'op_002'."
+003142.FCStd,valid,3,true,
+003143.FCStd,valid,3,true,
+003144.FCStd,valid,15,true,
+003145.FCStd,valid,5,true,
+003167.FCStd,valid,21,false,"op_002: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pad 'op_002'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pad 'op_002'."
+003169.FCStd,valid,7,false,"The 'Midplane' property being set for the extrusion of op_001 is deprecated and has been replaced by the 'SideType' property in FeatureExtrude. Please update your script, this property will be removed in a future version.
+op_002: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pad 'op_002'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pad 'op_002'."
+003170.FCStd,valid,8,false,"The 'Midplane' property being set for the extrusion of op_001 is deprecated and has been replaced by the 'SideType' property in FeatureExtrude. Please update your script, this property will be removed in a future version.
+op_002: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pad 'op_002'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pad 'op_002'."
+003171.FCStd,valid,3,false,"op_002: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pad 'op_002'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pad 'op_002'."
+003174.FCStd,valid,2,true,
+003175.FCStd,valid,3,false,"op_002: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pad 'op_002'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pad 'op_002'."
+003195.FCStd,valid,13,false,"op_004: Wire is not closed.
+Compilation failed: FreeCAD object invalid after Pocket 'op_004'.
+Traceback (most recent call last):
+  File ""<string>"", line 37, in main
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 78, in compile_file
+    context = compile_document(cad_json)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 48, in compile_document
+    _raise_if_invalid(obj, op_type, op_id)
+  File ""/Users/hassenhicheri/Desktop/CAD/compiler/runner.py"", line 57, in _raise_if_invalid
+    raise RuntimeError(f""FreeCAD object invalid after {op_type} '{op_id}'."")
+RuntimeError: FreeCAD object invalid after Pocket 'op_004'."

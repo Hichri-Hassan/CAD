@@ -1,0 +1,60 @@
+{
+  "model_id": "model_0037",
+  "title": "Rectangular Block with Circular Profile",
+  "description": "This part features a rectangular block shape with a circular profile cut out on the XY plane, and has an overall height of 22.4 mm.",
+  "tags": [
+    "rectangular block",
+    "circular profile",
+    "solid part"
+  ],
+  "prompts": [
+    "Please create a rectangular block that is 22.4 mm tall with a circular cutout on the top face.",
+    "I need a solid rectangular block with a height of 22.4 mm and a circular profile on the XY plane.",
+    "Can you design a rectangular block that stands 22.4 mm high and has a circular feature on the top surface?",
+    "Make a rectangular block with an overall height of 22.4 mm and include a circular profile on the XY face.",
+    "Generate a solid block that is rectangular in shape, has a height of 22.4 mm, and features a circular cutout on the top."
+  ],
+  "metadata": {
+    "version": "1.0",
+    "unit": "mm",
+    "source_format": "FCStd",
+    "parser_version": "0.1",
+    "source_path": "/Users/hassenhicheri/Desktop/CAD/examples/002229.FCStd",
+    "source_label": "LM8UU"
+  },
+  "operations": [
+    {
+      "id": "op_001",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Circle",
+          "center": [
+            0.0,
+            -0.0
+          ],
+          "radius": 4.0
+        },
+        {
+          "id": "e_002",
+          "type": "Circle",
+          "center": [
+            0.0,
+            -0.0
+          ],
+          "radius": 6.2
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_002",
+      "type": "Pad",
+      "profile": "op_001",
+      "length": 22.4,
+      "symmetric": true
+    }
+  ]
+}

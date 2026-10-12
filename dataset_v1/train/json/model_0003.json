@@ -1,0 +1,157 @@
+{
+  "model_id": "model_0003",
+  "title": "Rectangular Block with Holes",
+  "description": "This part is a rectangular block with a height of 1.0 mm featuring a blind hole with a diameter of 2.5 mm that extends 25.0 mm deep and a chamfered edge of 0.1 mm.",
+  "tags": [
+    "rectangular block",
+    "hole",
+    "chamfer",
+    "mechanical part"
+  ],
+  "prompts": [
+    "Can you make a rectangular block that is 1 mm thick with a 2.5 mm diameter blind hole?",
+    "I'd like a rectangular block with a chamfered edge and a hole in the center, please.",
+    "Create a rectangular block that is 1 mm tall and has a single 2.5 mm blind hole going 25 mm deep.",
+    "Please design a block with a 1 mm height, including a chamfer of 0.1 mm and a 2.5 mm diameter hole that is 25 mm deep.",
+    "Make a flat rectangular plate with a blind hole and a slight chamfer on one edge."
+  ],
+  "metadata": {
+    "version": "1.0",
+    "unit": "mm",
+    "source_format": "FCStd",
+    "parser_version": "0.1",
+    "source_path": "/Users/hassenhicheri/Desktop/CAD/examples/000256.FCStd",
+    "source_label": "Wide-170-Angle-Raspi-Camera"
+  },
+  "operations": [
+    {
+      "id": "op_001",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Line",
+          "start": [
+            -12.5,
+            12.0
+          ],
+          "end": [
+            12.5,
+            12.0
+          ]
+        },
+        {
+          "id": "e_002",
+          "type": "Line",
+          "start": [
+            12.5,
+            12.0
+          ],
+          "end": [
+            12.5,
+            -12.0
+          ]
+        },
+        {
+          "id": "e_003",
+          "type": "Line",
+          "start": [
+            12.5,
+            -12.0
+          ],
+          "end": [
+            -12.5,
+            -12.0
+          ]
+        },
+        {
+          "id": "e_004",
+          "type": "Line",
+          "start": [
+            -12.5,
+            -12.0
+          ],
+          "end": [
+            -12.5,
+            12.0
+          ]
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_002",
+      "type": "Pad",
+      "profile": "op_001",
+      "length": 1.0,
+      "reversed": true
+    },
+    {
+      "id": "op_003",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Circle",
+          "center": [
+            -10.5,
+            10.0
+          ],
+          "radius": 1.25
+        },
+        {
+          "id": "e_002",
+          "type": "Circle",
+          "center": [
+            10.5,
+            10.0
+          ],
+          "radius": 1.25
+        },
+        {
+          "id": "e_003",
+          "type": "Circle",
+          "center": [
+            10.5,
+            -3.5
+          ],
+          "radius": 1.25
+        },
+        {
+          "id": "e_004",
+          "type": "Circle",
+          "center": [
+            -10.5,
+            -3.5
+          ],
+          "radius": 1.25
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_004",
+      "type": "Chamfer",
+      "distance": 0.1,
+      "edges": [
+        {
+          "reference": "op_002",
+          "selector": "Face5"
+        },
+        {
+          "reference": "op_002",
+          "selector": "Face6"
+        }
+      ]
+    },
+    {
+      "id": "op_005",
+      "type": "Hole",
+      "profile": "op_003",
+      "diameter": 2.5,
+      "depth": 25.0
+    }
+  ]
+}

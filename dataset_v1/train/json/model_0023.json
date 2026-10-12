@@ -1,0 +1,185 @@
+{
+  "model_id": "model_0023",
+  "title": "Rectangular Block with Filleted Corners",
+  "description": "This part features two rectangular blocks stacked vertically, with the top block measuring 120 mm in height and the bottom block at 1000 mm. Each corner of the blocks has a fillet radius of 50 mm.",
+  "tags": [
+    "rectangular block",
+    "fillet",
+    "rounded corners",
+    "CAD model"
+  ],
+  "prompts": [
+    "Can you create a rectangular block with three rounded corners?",
+    "I'm looking for a model of a rectangular block that has a height of 120 mm on top of a 1000 mm block, both with 50 mm fillets on the corners.",
+    "Please design a rectangular block with an overall height of 1120 mm, featuring filleted corners with a radius of 50 mm.",
+    "Make a rectangular block that is 120 mm tall and 1000 mm tall, with all corners rounded to a radius of 50 mm.",
+    "I'd like a CAD model of a two-part rectangular block where the upper section is 120 mm high and the lower section is 1000 mm high, both having rounded corners."
+  ],
+  "metadata": {
+    "version": "1.0",
+    "unit": "mm",
+    "source_format": "FCStd",
+    "parser_version": "0.1",
+    "source_path": "/Users/hassenhicheri/Desktop/CAD/examples/000568.FCStd",
+    "source_label": "kitchenHood_900mm"
+  },
+  "operations": [
+    {
+      "id": "op_001",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Line",
+          "start": [
+            0.0,
+            0.0
+          ],
+          "end": [
+            900.0,
+            0.0
+          ]
+        },
+        {
+          "id": "e_002",
+          "type": "Line",
+          "start": [
+            900.0,
+            0.0
+          ],
+          "end": [
+            900.0,
+            550.0
+          ]
+        },
+        {
+          "id": "e_003",
+          "type": "Line",
+          "start": [
+            900.0,
+            550.0
+          ],
+          "end": [
+            0.0,
+            550.0
+          ]
+        },
+        {
+          "id": "e_004",
+          "type": "Line",
+          "start": [
+            0.0,
+            550.0
+          ],
+          "end": [
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_002",
+      "type": "Pad",
+      "profile": "op_001",
+      "length": 120.0
+    },
+    {
+      "id": "op_003",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Line",
+          "start": [
+            300.0,
+            550.0
+          ],
+          "end": [
+            600.0,
+            550.0
+          ]
+        },
+        {
+          "id": "e_002",
+          "type": "Line",
+          "start": [
+            600.0,
+            550.0
+          ],
+          "end": [
+            600.0,
+            150.0
+          ]
+        },
+        {
+          "id": "e_003",
+          "type": "Line",
+          "start": [
+            600.0,
+            150.0
+          ],
+          "end": [
+            300.0,
+            150.0
+          ]
+        },
+        {
+          "id": "e_004",
+          "type": "Line",
+          "start": [
+            300.0,
+            150.0
+          ],
+          "end": [
+            300.0,
+            550.0
+          ]
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_004",
+      "type": "Pad",
+      "profile": "op_003",
+      "length": 1000.0
+    },
+    {
+      "id": "op_005",
+      "type": "Fillet",
+      "radius": 50.0,
+      "edges": [
+        {
+          "reference": "op_004",
+          "selector": "Edge7"
+        }
+      ]
+    },
+    {
+      "id": "op_006",
+      "type": "Fillet",
+      "radius": 50.0,
+      "edges": [
+        {
+          "reference": "op_005",
+          "selector": "Edge4"
+        }
+      ]
+    },
+    {
+      "id": "op_007",
+      "type": "Fillet",
+      "radius": 50.0,
+      "edges": [
+        {
+          "reference": "op_006",
+          "selector": "Edge12"
+        }
+      ]
+    }
+  ]
+}

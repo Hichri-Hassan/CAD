@@ -1,0 +1,213 @@
+{
+  "operations": [
+    {
+      "id": "op_001",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Line",
+          "start": [
+            -5.25,
+            0.0
+          ],
+          "end": [
+            5.25,
+            0.0
+          ]
+        },
+        {
+          "id": "e_002",
+          "type": "Line",
+          "start": [
+            5.25,
+            0.0
+          ],
+          "end": [
+            5.25,
+            3.75
+          ]
+        },
+        {
+          "id": "e_003",
+          "type": "Line",
+          "start": [
+            5.25,
+            3.75
+          ],
+          "end": [
+            3.0,
+            3.75
+          ]
+        },
+        {
+          "id": "e_004",
+          "type": "Line",
+          "start": [
+            3.0,
+            3.75
+          ],
+          "end": [
+            3.0,
+            5.0
+          ]
+        },
+        {
+          "id": "e_005",
+          "type": "Line",
+          "start": [
+            3.0,
+            5.0
+          ],
+          "end": [
+            -3.0,
+            5.0
+          ]
+        },
+        {
+          "id": "e_006",
+          "type": "Line",
+          "start": [
+            -3.0,
+            5.0
+          ],
+          "end": [
+            -3.0,
+            3.75
+          ]
+        },
+        {
+          "id": "e_007",
+          "type": "Line",
+          "start": [
+            -3.0,
+            3.75
+          ],
+          "end": [
+            -5.25,
+            3.75
+          ]
+        },
+        {
+          "id": "e_008",
+          "type": "Line",
+          "start": [
+            -5.25,
+            3.75
+          ],
+          "end": [
+            -5.25,
+            0.0
+          ]
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_002",
+      "type": "Pad",
+      "profile": "op_001",
+      "length": 10.5,
+      "symmetric": true
+    },
+    {
+      "id": "op_003",
+      "type": "Fillet",
+      "radius": 0.3,
+      "edges": [
+        {
+          "reference": "op_002",
+          "selector": "Edge1"
+        },
+        {
+          "reference": "op_002",
+          "selector": "Edge2"
+        },
+        {
+          "reference": "op_002",
+          "selector": "Edge3"
+        },
+        {
+          "reference": "op_002",
+          "selector": "Edge4"
+        },
+        {
+          "reference": "op_002",
+          "selector": "Edge5"
+        },
+        {
+          "reference": "op_002",
+          "selector": "Edge6"
+        },
+        {
+          "reference": "op_002",
+          "selector": "Edge7"
+        },
+        {
+          "reference": "op_002",
+          "selector": "Edge8"
+        }
+      ]
+    },
+    {
+      "id": "op_004",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Circle",
+          "center": [
+            0.0,
+            0.0
+          ],
+          "radius": 1.0
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_005",
+      "type": "Pocket",
+      "profile": "op_004",
+      "depth": 10.5,
+      "reversed": true
+    },
+    {
+      "id": "op_006",
+      "type": "Fillet",
+      "radius": 0.3,
+      "edges": [
+        {
+          "reference": "op_005",
+          "selector": "Edge21"
+        },
+        {
+          "reference": "op_005",
+          "selector": "Edge22"
+        },
+        {
+          "reference": "op_005",
+          "selector": "Edge23"
+        },
+        {
+          "reference": "op_005",
+          "selector": "Edge25"
+        },
+        {
+          "reference": "op_005",
+          "selector": "Edge27"
+        },
+        {
+          "reference": "op_005",
+          "selector": "Edge29"
+        },
+        {
+          "reference": "op_005",
+          "selector": "Edge32"
+        }
+      ]
+    }
+  ]
+}

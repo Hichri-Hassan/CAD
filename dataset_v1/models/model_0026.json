@@ -1,0 +1,348 @@
+{
+  "model_id": "model_0026",
+  "title": "Extruded Prismatic Solid",
+  "description": "A extruded prismatic solid with 0 hole(s) and 0 pocket(s).",
+  "tags": [
+    "mechanical",
+    "partdesign",
+    "extruded-prismatic-solid"
+  ],
+  "prompts": [
+    "Create a extruded prismatic solid.",
+    "Design a extruded prismatic solid suitable for mechanical assembly.",
+    "Build a functional extruded prismatic solid for general engineering use.",
+    "Make a extruded prismatic solid with overall height 50.0 mm.",
+    "I need a extruded prismatic solid matching the described geometry."
+  ],
+  "metadata": {
+    "version": "1.0",
+    "unit": "mm",
+    "source_format": "FCStd",
+    "parser_version": "0.1",
+    "source_path": "/Users/hassenhicheri/Desktop/CAD/examples/000606.FCStd",
+    "source_label": "GenericTable_1x2m"
+  },
+  "operations": [
+    {
+      "id": "op_001",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Line",
+          "start": [
+            0.0,
+            0.0
+          ],
+          "end": [
+            2000.0,
+            0.0
+          ]
+        },
+        {
+          "id": "e_002",
+          "type": "Line",
+          "start": [
+            2000.0,
+            0.0
+          ],
+          "end": [
+            2000.0,
+            1000.0
+          ]
+        },
+        {
+          "id": "e_003",
+          "type": "Line",
+          "start": [
+            2000.0,
+            1000.0
+          ],
+          "end": [
+            0.0,
+            1000.0
+          ]
+        },
+        {
+          "id": "e_004",
+          "type": "Line",
+          "start": [
+            0.0,
+            1000.0
+          ],
+          "end": [
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_002",
+      "type": "Pad",
+      "profile": "op_001",
+      "length": 50.0
+    },
+    {
+      "id": "op_003",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Line",
+          "start": [
+            150.0,
+            -150.0
+          ],
+          "end": [
+            250.0,
+            -150.0
+          ]
+        },
+        {
+          "id": "e_002",
+          "type": "Line",
+          "start": [
+            250.0,
+            -150.0
+          ],
+          "end": [
+            250.0,
+            -250.0
+          ]
+        },
+        {
+          "id": "e_003",
+          "type": "Line",
+          "start": [
+            250.0,
+            -250.0
+          ],
+          "end": [
+            150.0,
+            -250.0
+          ]
+        },
+        {
+          "id": "e_004",
+          "type": "Line",
+          "start": [
+            150.0,
+            -250.0
+          ],
+          "end": [
+            150.0,
+            -150.0
+          ]
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_004",
+      "type": "Pad",
+      "profile": "op_003",
+      "length": 900.0
+    },
+    {
+      "id": "op_005",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Line",
+          "start": [
+            1750.0,
+            -150.0
+          ],
+          "end": [
+            1850.0,
+            -150.0
+          ]
+        },
+        {
+          "id": "e_002",
+          "type": "Line",
+          "start": [
+            1850.0,
+            -150.0
+          ],
+          "end": [
+            1850.0,
+            -250.0
+          ]
+        },
+        {
+          "id": "e_003",
+          "type": "Line",
+          "start": [
+            1850.0,
+            -250.0
+          ],
+          "end": [
+            1750.0,
+            -250.0
+          ]
+        },
+        {
+          "id": "e_004",
+          "type": "Line",
+          "start": [
+            1750.0,
+            -250.0
+          ],
+          "end": [
+            1750.0,
+            -150.0
+          ]
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_006",
+      "type": "Pad",
+      "profile": "op_005",
+      "length": 900.0
+    },
+    {
+      "id": "op_007",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Line",
+          "start": [
+            150.0,
+            -750.0
+          ],
+          "end": [
+            250.0,
+            -750.0
+          ]
+        },
+        {
+          "id": "e_002",
+          "type": "Line",
+          "start": [
+            250.0,
+            -750.0
+          ],
+          "end": [
+            250.0,
+            -850.0
+          ]
+        },
+        {
+          "id": "e_003",
+          "type": "Line",
+          "start": [
+            250.0,
+            -850.0
+          ],
+          "end": [
+            150.0,
+            -850.0
+          ]
+        },
+        {
+          "id": "e_004",
+          "type": "Line",
+          "start": [
+            150.0,
+            -850.0
+          ],
+          "end": [
+            150.0,
+            -750.0
+          ]
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_008",
+      "type": "Pad",
+      "profile": "op_007",
+      "length": 900.0
+    },
+    {
+      "id": "op_009",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Line",
+          "start": [
+            1750.0,
+            -750.0
+          ],
+          "end": [
+            1850.0,
+            -750.0
+          ]
+        },
+        {
+          "id": "e_002",
+          "type": "Line",
+          "start": [
+            1850.0,
+            -750.0
+          ],
+          "end": [
+            1850.0,
+            -850.0
+          ]
+        },
+        {
+          "id": "e_003",
+          "type": "Line",
+          "start": [
+            1850.0,
+            -850.0
+          ],
+          "end": [
+            1750.0,
+            -850.0
+          ]
+        },
+        {
+          "id": "e_004",
+          "type": "Line",
+          "start": [
+            1750.0,
+            -850.0
+          ],
+          "end": [
+            1750.0,
+            -750.0
+          ]
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_010",
+      "type": "Pad",
+      "profile": "op_009",
+      "length": 900.0
+    },
+    {
+      "id": "op_011",
+      "type": "Fillet",
+      "radius": 45.0,
+      "edges": [
+        {
+          "reference": "op_010",
+          "selector": "Face5"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "model_id": "model_0014",
+  "title": "Prismatic Solid With Milled Features",
+  "description": "A prismatic solid with milled features with 0 hole(s) and 1 pocket(s).",
+  "tags": [
+    "mechanical",
+    "partdesign",
+    "prismatic-solid-with-milled-features",
+    "pockets"
+  ],
+  "prompts": [
+    "Create a prismatic solid with milled features.",
+    "Design a prismatic solid with milled features suitable for mechanical assembly.",
+    "Build a functional prismatic solid with milled features for general engineering use.",
+    "Make a prismatic solid with milled features with overall height 10.0 mm.",
+    "I need a prismatic solid with milled features matching the described geometry."
+  ],
+  "metadata": {
+    "version": "1.0",
+    "unit": "mm",
+    "source_format": "FCStd",
+    "parser_version": "0.1",
+    "source_path": "/Users/hassenhicheri/Desktop/CAD/examples/000503.FCStd",
+    "source_label": "cabin_flashlight"
+  },
+  "operations": [
+    {
+      "id": "op_001",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Line",
+          "start": [
+            -0.0,
+            0.0
+          ],
+          "end": [
+            0.0,
+            10.0
+          ]
+        },
+        {
+          "id": "e_002",
+          "type": "Line",
+          "start": [
+            0.0,
+            10.0
+          ],
+          "end": [
+            25.0,
+            10.0
+          ]
+        },
+        {
+          "id": "e_003",
+          "type": "Line",
+          "start": [
+            25.0,
+            10.0
+          ],
+          "end": [
+            25.0,
+            5.0
+          ]
+        },
+        {
+          "id": "e_004",
+          "type": "Line",
+          "start": [
+            25.0,
+            5.0
+          ],
+          "end": [
+            30.0,
+            5.0
+          ]
+        },
+        {
+          "id": "e_005",
+          "type": "Line",
+          "start": [
+            30.0,
+            5.0
+          ],
+          "end": [
+            30.0,
+            10.0
+          ]
+        },
+        {
+          "id": "e_006",
+          "type": "Line",
+          "start": [
+            30.0,
+            10.0
+          ],
+          "end": [
+            55.0,
+            10.0
+          ]
+        },
+        {
+          "id": "e_007",
+          "type": "Line",
+          "start": [
+            55.0,
+            10.0
+          ],
+          "end": [
+            55.0,
+            0.0
+          ]
+        },
+        {
+          "id": "e_008",
+          "type": "Line",
+          "start": [
+            -0.0,
+            0.0
+          ],
+          "end": [
+            55.0,
+            0.0
+          ]
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_002",
+      "type": "Pad",
+      "profile": "op_001",
+      "length": 10.0
+    },
+    {
+      "id": "op_003",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Circle",
+          "center": [
+            -42.5,
+            5.0
+          ],
+          "radius": 1.25
+        },
+        {
+          "id": "e_002",
+          "type": "Circle",
+          "center": [
+            -12.5,
+            5.0
+          ],
+          "radius": 1.25
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_004",
+      "type": "Pocket",
+      "profile": "op_003",
+      "depth": 10.0
+    }
+  ]
+}

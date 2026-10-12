@@ -1,0 +1,74 @@
+{
+  "model_id": "model_0022",
+  "title": "Rectangular Block with Circular Profiles",
+  "description": "This part consists of a rectangular block with two different heights and features circular profiles on the XY plane.",
+  "tags": [
+    "rectangular block",
+    "circular profile",
+    "mechanical part",
+    "CAD model"
+  ],
+  "prompts": [
+    "I need a rectangular block with a height of 1 mm and another section that is 13 mm tall, both with circular profiles on the XY surface.",
+    "Can you create a rectangular block that has two different heights? The first part should be 1 mm tall and the second part should be 13 mm tall, both featuring circular profiles on the top.",
+    "Please make a rectangular block that is 1 mm high with a circular cutout on the top and a taller section of 13 mm, also with a circular feature on the XY plane.",
+    "Design a rectangular block with an overall height of 14 mm, where the bottom part measures 1 mm and the upper section is 13 mm, both showcasing circular profiles on the XY axis.",
+    "Could you generate a block that has a base height of 1 mm and a taller extension of 13 mm? Each section should have a circular geometry visible from the top view."
+  ],
+  "metadata": {
+    "version": "1.0",
+    "unit": "mm",
+    "source_format": "FCStd",
+    "parser_version": "0.1",
+    "source_path": "/Users/hassenhicheri/Desktop/CAD/examples/000514.FCStd",
+    "source_label": "wood_screw"
+  },
+  "operations": [
+    {
+      "id": "op_001",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Circle",
+          "center": [
+            0.0,
+            0.0
+          ],
+          "radius": 2.0
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_002",
+      "type": "Pad",
+      "profile": "op_001",
+      "length": 1.0
+    },
+    {
+      "id": "op_003",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Circle",
+          "center": [
+            0.0,
+            0.0
+          ],
+          "radius": 1.25
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_004",
+      "type": "Pad",
+      "profile": "op_003",
+      "length": 13.0
+    }
+  ]
+}

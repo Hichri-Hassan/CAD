@@ -1,0 +1,27 @@
+{
+  "seed": 42,
+  "val_ratio": 0.1,
+  "baseline_dataset": "/Users/hassenhicheri/Desktop/CAD/dataset_v1/train/comparison/baseline_training_data.jsonl",
+  "merged_dataset": "/Users/hassenhicheri/Desktop/CAD/dataset_v1/train/comparison/merged_training_data.jsonl",
+  "split_manifest": "/Users/hassenhicheri/Desktop/CAD/dataset_v1/train/comparison/comparison_split_manifest.json",
+  "baseline_examples": 200,
+  "merged_examples": 700,
+  "cad_examples": 200,
+  "primitive_examples": 500,
+  "cad_geometries": 40,
+  "primitive_geometries": 100,
+  "total_geometries": 140,
+  "duplicates_removed": 0,
+  "train_examples": 630,
+  "val_examples": 70,
+  "train_geometries": 126,
+  "val_geometries": 14,
+  "train_by_source": {
+    "cad_v1": 185,
+    "primitives_v1": 445
+  },
+  "val_by_source": {
+    "cad_v1": 15,
+    "primitives_v1": 55
+  }
+}

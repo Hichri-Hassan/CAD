@@ -1,0 +1,25 @@
+{
+  "shape_id": "blind_hole_20_rect_l95_w58_h26_d14_dp17mm_x70_y18",
+  "shape_type": "blind_hole",
+  "index": 20,
+  "dimensions": {
+    "base_type": "rect",
+    "diameter_mm": 14.0,
+    "hole_depth_mm": 17.0,
+    "hole_cx": 70.0,
+    "hole_cy": 18.0,
+    "length_mm": 95.0,
+    "width_mm": 58.0,
+    "height_mm": 26.0
+  },
+  "fcstd_path": "output/features/blind_holes/blind_hole_20_rect_l95_w58_h26_d14_dp17mm_x70_y18.FCStd",
+  "json_path": "output/features/blind_holes/blind_hole_20_rect_l95_w58_h26_d14_dp17mm_x70_y18.json",
+  "prompts": [
+    "Create a 95 \u00d7 58 \u00d7 26 mm block with a at position (70, 18) 14 mm diameter blind hole 17 mm deep.",
+    "Make a 95 by 58 by 26 millimeter rectangular prism with a \u00d814 mm blind hole drilled 17 mm into the top face, with the hole center at (70, 18).",
+    "Generate a 95 \u00d7 58 \u00d7 26 mm block containing a 14 mm diameter hole that stops after 17 mm, with the hole center at (70, 18).",
+    "I need a 95 mm \u00d7 58 mm \u00d7 26 mm block with a at position (70, 18) 14 mm blind hole 17 mm deep from the top face.",
+    "Build a rectangular solid measuring 95 \u00d7 58 \u00d7 26 mm with a 14 mm blind hole drilled to a depth of 17 mm, with the hole center at (70, 18)."
+  ],
+  "passed_validation": true
+}

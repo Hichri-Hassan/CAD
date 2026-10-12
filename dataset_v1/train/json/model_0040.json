@@ -1,0 +1,179 @@
+{
+  "model_id": "model_0040",
+  "title": "Rectangular Block with Holes",
+  "description": "This part is a rectangular block with a height of 10.5 mm featuring a chamfered edge and a blind hole with a diameter of 4.224 mm that extends 25.0 mm deep.",
+  "tags": [
+    "block",
+    "hole",
+    "chamfer",
+    "rectangular",
+    "mechanical part"
+  ],
+  "prompts": [
+    "Can you create a rectangular block with a blind hole?",
+    "I need a rectangular part that's 10.5 mm tall, with a 4.224 mm diameter hole going 25 mm deep and a chamfered edge.",
+    "Please make a rectangular block with a chamfered edge and one circular hole on the top face.",
+    "I'd like a rectangular block, 10.5 mm in height, featuring a chamfer of 2 mm and a single blind hole of 4.224 mm diameter.",
+    "Generate a solid rectangular piece with a 4.224 mm hole that goes 25 mm deep, and include a 2 mm chamfer on one edge."
+  ],
+  "metadata": {
+    "version": "1.0",
+    "unit": "mm",
+    "source_format": "FCStd",
+    "parser_version": "0.1",
+    "source_path": "/Users/hassenhicheri/Desktop/CAD/examples/002236.FCStd",
+    "source_label": "T_type_square_nut"
+  },
+  "operations": [
+    {
+      "id": "op_001",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Line",
+          "start": [
+            -5.25,
+            0.0
+          ],
+          "end": [
+            5.25,
+            0.0
+          ]
+        },
+        {
+          "id": "e_002",
+          "type": "Line",
+          "start": [
+            5.25,
+            0.0
+          ],
+          "end": [
+            5.25,
+            3.75
+          ]
+        },
+        {
+          "id": "e_003",
+          "type": "Line",
+          "start": [
+            5.25,
+            3.75
+          ],
+          "end": [
+            3.0,
+            3.75
+          ]
+        },
+        {
+          "id": "e_004",
+          "type": "Line",
+          "start": [
+            3.0,
+            3.75
+          ],
+          "end": [
+            3.0,
+            5.0
+          ]
+        },
+        {
+          "id": "e_005",
+          "type": "Line",
+          "start": [
+            3.0,
+            5.0
+          ],
+          "end": [
+            -3.0,
+            5.0
+          ]
+        },
+        {
+          "id": "e_006",
+          "type": "Line",
+          "start": [
+            -3.0,
+            5.0
+          ],
+          "end": [
+            -3.0,
+            3.75
+          ]
+        },
+        {
+          "id": "e_007",
+          "type": "Line",
+          "start": [
+            -3.0,
+            3.75
+          ],
+          "end": [
+            -5.25,
+            3.75
+          ]
+        },
+        {
+          "id": "e_008",
+          "type": "Line",
+          "start": [
+            -5.25,
+            3.75
+          ],
+          "end": [
+            -5.25,
+            0.0
+          ]
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_002",
+      "type": "Pad",
+      "profile": "op_001",
+      "length": 10.5,
+      "symmetric": true
+    },
+    {
+      "id": "op_003",
+      "type": "Chamfer",
+      "distance": 2.0,
+      "edges": [
+        {
+          "reference": "op_002",
+          "selector": "Edge1"
+        },
+        {
+          "reference": "op_002",
+          "selector": "Edge2"
+        }
+      ]
+    },
+    {
+      "id": "op_004",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Circle",
+          "center": [
+            0.0,
+            0.0
+          ],
+          "radius": 1.0
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_005",
+      "type": "Hole",
+      "profile": "op_004",
+      "diameter": 4.224,
+      "depth": 25.0
+    }
+  ]
+}

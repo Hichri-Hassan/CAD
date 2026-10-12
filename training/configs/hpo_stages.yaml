@@ -1,0 +1,41 @@
+# Hierarchical hyperparameter optimization stages for CAD Copilot V1.
+#
+# Rationale: small specialized dataset (40 models, 200 examples), structured JSON
+# generation, LoRA on Qwen2.5-3B-Instruct. High-impact parameters are optimized
+# first; secondary and fine-tuning parameters follow in later stages.
+
+stages:
+  stage1:
+    name: Primary hyperparameters
+    description: >
+      LoRA rank and learning rate dominate capacity and convergence speed on small
+      instruction-tuning datasets. Optimized first while holding epochs, dropout,
+      and alpha at defaults.
+    search:
+      lora_r: [8, 16, 32]
+      learning_rate: [1.0e-4, 2.0e-4, 3.0e-4]
+    selection_metric: val_loss
+    selection_direction: min
+
+  stage2:
+    name: Secondary hyperparameters
+    description: >
+      After primary parameters are fixed, training duration and regularization
+      (epochs, LoRA dropout) address overfitting risk on a 200-example dataset.
+    depends_on: stage1
+    search:
+      num_epochs: [2, 3, 5, 8]
+      lora_dropout: [0.0, 0.05, 0.1]
+    selection_metric: val_loss
+    selection_direction: min
+
+  stage3:
+    name: Fine adjustment
+    description: >
+      LoRA alpha scales adapter updates relative to rank. Tuned last because it
+      has lower impact once rank and learning rate are established.
+    depends_on: stage2
+    search:
+      lora_alpha: [16, 32, 64]
+    selection_metric: val_loss
+    selection_direction: min

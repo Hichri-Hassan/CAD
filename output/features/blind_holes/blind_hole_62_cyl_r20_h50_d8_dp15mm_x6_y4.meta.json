@@ -1,0 +1,24 @@
+{
+  "shape_id": "blind_hole_62_cyl_r20_h50_d8_dp15mm_x6_y4",
+  "shape_type": "blind_hole",
+  "index": 62,
+  "dimensions": {
+    "base_type": "cylinder",
+    "diameter_mm": 8.0,
+    "hole_depth_mm": 15.0,
+    "hole_cx": 6.0,
+    "hole_cy": 4.0,
+    "cyl_radius_mm": 20.0,
+    "cyl_height_mm": 50.0
+  },
+  "fcstd_path": "output/features/blind_holes/blind_hole_62_cyl_r20_h50_d8_dp15mm_x6_y4.FCStd",
+  "json_path": "output/features/blind_holes/blind_hole_62_cyl_r20_h50_d8_dp15mm_x6_y4.json",
+  "prompts": [
+    "Create a cylinder 40 mm in diameter and 50 mm high with a at position (6, 4) 8 mm diameter blind hole 15 mm deep.",
+    "Make a cylindrical solid (radius 20 mm, height 50 mm) with a \u00d88 mm blind hole drilled 15 mm from the top face, with the hole center at (6, 4).",
+    "Generate a cylinder with diameter 40 mm and height 50 mm containing a 8 mm blind hole that stops after 15 mm, with the hole center at (6, 4).",
+    "I need a cylinder 40 mm in diameter, 50 mm tall, with a at position (6, 4) 8 mm blind hole 15 mm deep from the top.",
+    "Build a 40 mm diameter, 50 mm high cylinder with a 8 mm blind hole drilled to a depth of 15 mm, with the hole center at (6, 4)."
+  ],
+  "passed_validation": true
+}

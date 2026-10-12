@@ -1,0 +1,184 @@
+{
+  "model_id": "model_0023",
+  "title": "Extruded Prismatic Solid",
+  "description": "A extruded prismatic solid with 0 hole(s) and 0 pocket(s).",
+  "tags": [
+    "mechanical",
+    "partdesign",
+    "extruded-prismatic-solid"
+  ],
+  "prompts": [
+    "Create a extruded prismatic solid.",
+    "Design a extruded prismatic solid suitable for mechanical assembly.",
+    "Build a functional extruded prismatic solid for general engineering use.",
+    "Make a extruded prismatic solid with overall height 120.0 mm.",
+    "I need a extruded prismatic solid matching the described geometry."
+  ],
+  "metadata": {
+    "version": "1.0",
+    "unit": "mm",
+    "source_format": "FCStd",
+    "parser_version": "0.1",
+    "source_path": "/Users/hassenhicheri/Desktop/CAD/examples/000568.FCStd",
+    "source_label": "kitchenHood_900mm"
+  },
+  "operations": [
+    {
+      "id": "op_001",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Line",
+          "start": [
+            0.0,
+            0.0
+          ],
+          "end": [
+            900.0,
+            0.0
+          ]
+        },
+        {
+          "id": "e_002",
+          "type": "Line",
+          "start": [
+            900.0,
+            0.0
+          ],
+          "end": [
+            900.0,
+            550.0
+          ]
+        },
+        {
+          "id": "e_003",
+          "type": "Line",
+          "start": [
+            900.0,
+            550.0
+          ],
+          "end": [
+            0.0,
+            550.0
+          ]
+        },
+        {
+          "id": "e_004",
+          "type": "Line",
+          "start": [
+            0.0,
+            550.0
+          ],
+          "end": [
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_002",
+      "type": "Pad",
+      "profile": "op_001",
+      "length": 120.0
+    },
+    {
+      "id": "op_003",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Line",
+          "start": [
+            300.0,
+            550.0
+          ],
+          "end": [
+            600.0,
+            550.0
+          ]
+        },
+        {
+          "id": "e_002",
+          "type": "Line",
+          "start": [
+            600.0,
+            550.0
+          ],
+          "end": [
+            600.0,
+            150.0
+          ]
+        },
+        {
+          "id": "e_003",
+          "type": "Line",
+          "start": [
+            600.0,
+            150.0
+          ],
+          "end": [
+            300.0,
+            150.0
+          ]
+        },
+        {
+          "id": "e_004",
+          "type": "Line",
+          "start": [
+            300.0,
+            150.0
+          ],
+          "end": [
+            300.0,
+            550.0
+          ]
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_004",
+      "type": "Pad",
+      "profile": "op_003",
+      "length": 1000.0
+    },
+    {
+      "id": "op_005",
+      "type": "Fillet",
+      "radius": 50.0,
+      "edges": [
+        {
+          "reference": "op_004",
+          "selector": "Edge7"
+        }
+      ]
+    },
+    {
+      "id": "op_006",
+      "type": "Fillet",
+      "radius": 50.0,
+      "edges": [
+        {
+          "reference": "op_005",
+          "selector": "Edge4"
+        }
+      ]
+    },
+    {
+      "id": "op_007",
+      "type": "Fillet",
+      "radius": 50.0,
+      "edges": [
+        {
+          "reference": "op_006",
+          "selector": "Edge12"
+        }
+      ]
+    }
+  ]
+}

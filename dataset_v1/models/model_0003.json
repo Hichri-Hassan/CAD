@@ -1,0 +1,157 @@
+{
+  "model_id": "model_0003",
+  "title": "Prismatic Solid With Drilled Holes",
+  "description": "A prismatic solid with drilled holes with 1 hole(s) and 0 pocket(s).",
+  "tags": [
+    "mechanical",
+    "partdesign",
+    "prismatic-solid-with-drilled-holes",
+    "holes"
+  ],
+  "prompts": [
+    "Create a prismatic solid with drilled holes.",
+    "Design a prismatic solid with drilled holes suitable for mechanical assembly.",
+    "Build a functional prismatic solid with drilled holes for general engineering use.",
+    "Make a prismatic solid with drilled holes with overall height 1.0 mm.",
+    "I need a prismatic solid with drilled holes matching the described geometry."
+  ],
+  "metadata": {
+    "version": "1.0",
+    "unit": "mm",
+    "source_format": "FCStd",
+    "parser_version": "0.1",
+    "source_path": "/Users/hassenhicheri/Desktop/CAD/examples/000256.FCStd",
+    "source_label": "Wide-170-Angle-Raspi-Camera"
+  },
+  "operations": [
+    {
+      "id": "op_001",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Line",
+          "start": [
+            -12.5,
+            12.0
+          ],
+          "end": [
+            12.5,
+            12.0
+          ]
+        },
+        {
+          "id": "e_002",
+          "type": "Line",
+          "start": [
+            12.5,
+            12.0
+          ],
+          "end": [
+            12.5,
+            -12.0
+          ]
+        },
+        {
+          "id": "e_003",
+          "type": "Line",
+          "start": [
+            12.5,
+            -12.0
+          ],
+          "end": [
+            -12.5,
+            -12.0
+          ]
+        },
+        {
+          "id": "e_004",
+          "type": "Line",
+          "start": [
+            -12.5,
+            -12.0
+          ],
+          "end": [
+            -12.5,
+            12.0
+          ]
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_002",
+      "type": "Pad",
+      "profile": "op_001",
+      "length": 1.0,
+      "reversed": true
+    },
+    {
+      "id": "op_003",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Circle",
+          "center": [
+            -10.5,
+            10.0
+          ],
+          "radius": 1.25
+        },
+        {
+          "id": "e_002",
+          "type": "Circle",
+          "center": [
+            10.5,
+            10.0
+          ],
+          "radius": 1.25
+        },
+        {
+          "id": "e_003",
+          "type": "Circle",
+          "center": [
+            10.5,
+            -3.5
+          ],
+          "radius": 1.25
+        },
+        {
+          "id": "e_004",
+          "type": "Circle",
+          "center": [
+            -10.5,
+            -3.5
+          ],
+          "radius": 1.25
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_004",
+      "type": "Chamfer",
+      "distance": 0.1,
+      "edges": [
+        {
+          "reference": "op_002",
+          "selector": "Face5"
+        },
+        {
+          "reference": "op_002",
+          "selector": "Face6"
+        }
+      ]
+    },
+    {
+      "id": "op_005",
+      "type": "Hole",
+      "profile": "op_003",
+      "diameter": 2.5,
+      "depth": 25.0
+    }
+  ]
+}

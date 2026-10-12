@@ -4,3 +4,15 @@
 # Compiler V0 requires FreeCAD (freecadcmd) installed separately.
 #   macOS: brew install --cask freecad
 #   Set FREECAD_CMD to override the freecadcmd path if needed.
+#
+# Analysis pipeline:
+matplotlib>=3.8
+
+# Environment configuration:
+python-dotenv>=1.0
+
+# Dataset V1 prompt generation (optional — archival OpenAI workflow):
+# openai>=1.0
+
+# Local model training (install separately):
+# pip install -r requirements-training.txt

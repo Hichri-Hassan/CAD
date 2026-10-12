@@ -1,0 +1,20 @@
+{
+  "cad_examples": 235,
+  "primitive_examples": 500,
+  "through_hole_examples": 375,
+  "blind_hole_examples": 340,
+  "raw_total": 1450,
+  "duplicates_removed": 10,
+  "total_unique": 1440,
+  "unique_geometries": 288,
+  "train_examples": 1300,
+  "val_examples": 140,
+  "train_geometries": 260,
+  "val_geometries": 28,
+  "source_counts": {
+    "cad_v1": 225,
+    "primitives_v1": 500,
+    "through_hole_v1": 375,
+    "blind_hole_v1": 340
+  }
+}

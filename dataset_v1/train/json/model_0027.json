@@ -1,0 +1,90 @@
+{
+  "model_id": "model_0027",
+  "title": "Rectangular Block",
+  "description": "A solid rectangular block with a height of 500 mm, featuring a closed rectangular outline on the XY plane.",
+  "tags": [
+    "rectangular block",
+    "solid part",
+    "base part"
+  ],
+  "prompts": [
+    "Can you make a rectangular block that is 500 mm tall?",
+    "I need a solid rectangular block with a closed outline on the XY plane, overall height should be 500 mm.",
+    "Please create a simple rectangular block with a height of 500 mm.",
+    "Design a rectangular block with a closed profile on the XY plane, ensuring it's 500 mm in height.",
+    "Generate a solid base part in the shape of a rectangular block, measuring 500 mm tall."
+  ],
+  "metadata": {
+    "version": "1.0",
+    "unit": "mm",
+    "source_format": "FCStd",
+    "parser_version": "0.1",
+    "source_path": "/Users/hassenhicheri/Desktop/CAD/examples/000607.FCStd",
+    "source_label": "DI Ejercicio 001"
+  },
+  "operations": [
+    {
+      "id": "op_001",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Line",
+          "start": [
+            -12.7,
+            12.7
+          ],
+          "end": [
+            12.7,
+            12.7
+          ]
+        },
+        {
+          "id": "e_002",
+          "type": "Line",
+          "start": [
+            12.7,
+            12.7
+          ],
+          "end": [
+            12.7,
+            -12.7
+          ]
+        },
+        {
+          "id": "e_003",
+          "type": "Line",
+          "start": [
+            12.7,
+            -12.7
+          ],
+          "end": [
+            -12.7,
+            -12.7
+          ]
+        },
+        {
+          "id": "e_004",
+          "type": "Line",
+          "start": [
+            -12.7,
+            -12.7
+          ],
+          "end": [
+            -12.7,
+            12.7
+          ]
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_002",
+      "type": "Pad",
+      "profile": "op_001",
+      "length": 500.0,
+      "reversed": true
+    }
+  ]
+}

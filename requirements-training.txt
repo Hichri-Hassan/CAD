@@ -1,0 +1,16 @@
+# CAD Copilot local model training dependencies.
+#
+# Install with:
+#   pip install -r requirements-training.txt
+#
+# Requires PyTorch for your platform: https://pytorch.org/get-started/locally/
+torch>=2.1
+transformers>=4.46
+peft>=0.13
+accelerate>=1.0
+datasets>=3.0
+pyyaml>=6.0
+safetensors>=0.4
+
+# QLoRA (optional, CUDA only — used in upcoming training stage):
+# bitsandbytes>=0.44

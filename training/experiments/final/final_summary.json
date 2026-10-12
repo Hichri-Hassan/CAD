@@ -1,0 +1,7 @@
+{
+  "status": "completed",
+  "final_run_dir": "/Users/hassenhicheri/Desktop/CAD/training/experiments/final/run_001",
+  "checkpoint": "/Users/hassenhicheri/Desktop/CAD/training/experiments/final/run_001/checkpoints/adapter",
+  "val_loss": 0.005440737586468458,
+  "best_config": "/Users/hassenhicheri/Desktop/CAD/training/best_configs/final_best.yaml"
+}

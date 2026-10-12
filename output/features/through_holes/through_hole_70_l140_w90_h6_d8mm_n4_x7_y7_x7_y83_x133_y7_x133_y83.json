@@ -1,0 +1,128 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "unit": "mm",
+    "source_format": "authored",
+    "feature_family": "through_hole",
+    "source_label": "through_hole_70_l140_w90_h6_d8mm_n4_x7_y7_x7_y83_x133_y7_x133_y83"
+  },
+  "operations": [
+    {
+      "id": "op_001",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Line",
+          "start": [
+            0.0,
+            0.0
+          ],
+          "end": [
+            140.0,
+            0.0
+          ]
+        },
+        {
+          "id": "e_002",
+          "type": "Line",
+          "start": [
+            140.0,
+            0.0
+          ],
+          "end": [
+            140.0,
+            90.0
+          ]
+        },
+        {
+          "id": "e_003",
+          "type": "Line",
+          "start": [
+            140.0,
+            90.0
+          ],
+          "end": [
+            0.0,
+            90.0
+          ]
+        },
+        {
+          "id": "e_004",
+          "type": "Line",
+          "start": [
+            0.0,
+            90.0
+          ],
+          "end": [
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_002",
+      "type": "Pad",
+      "profile": "op_001",
+      "length": 6.0
+    },
+    {
+      "id": "op_003",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Circle",
+          "center": [
+            7.0,
+            7.0
+          ],
+          "radius": 4.0
+        },
+        {
+          "id": "e_002",
+          "type": "Circle",
+          "center": [
+            133.0,
+            7.0
+          ],
+          "radius": 4.0
+        },
+        {
+          "id": "e_003",
+          "type": "Circle",
+          "center": [
+            7.0,
+            83.0
+          ],
+          "radius": 4.0
+        },
+        {
+          "id": "e_004",
+          "type": "Circle",
+          "center": [
+            133.0,
+            83.0
+          ],
+          "radius": 4.0
+        }
+      ],
+      "constraints": [],
+      "support": {
+        "type": "face",
+        "reference": "op_002",
+        "selector": "Face6"
+      }
+    },
+    {
+      "id": "op_004",
+      "type": "Hole",
+      "profile": "op_003",
+      "diameter": 8.0,
+      "depth": "through_all"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+operation,count,percentage
+Groove,467,38.4996
+Part::Part2DObjectPython,353,29.1014
+Polar Pattern,145,11.9538
+Mirror,81,6.6777
+Revolution,47,3.8747
+Linear Pattern,34,2.803
+Datum Plane,23,1.8961
+MultiTransform,21,1.7312
+Datum Axis,9,0.742
+Sweep,6,0.4946
+Shape Binder,4,0.3298
+AdditiveCylinder,3,0.2473
+Boolean,3,0.2473
+FeatureBase,3,0.2473
+SubtractiveHelix,3,0.2473
+Thickness,3,0.2473
+Loft,2,0.1649
+Part::SubShapeBinder,2,0.1649
+AdditiveBox,1,0.0824
+App::VarSet,1,0.0824
+Draft,1,0.0824
+Point,1,0.0824

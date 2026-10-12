@@ -1,0 +1,195 @@
+{
+  "model_id": "model_0016",
+  "title": "Prismatic Solid With Milled Features",
+  "description": "A prismatic solid with milled features with 0 hole(s) and 3 pocket(s).",
+  "tags": [
+    "mechanical",
+    "partdesign",
+    "prismatic-solid-with-milled-features",
+    "pockets"
+  ],
+  "prompts": [
+    "Create a prismatic solid with milled features.",
+    "Design a prismatic solid with milled features suitable for mechanical assembly.",
+    "Build a functional prismatic solid with milled features for general engineering use.",
+    "Make a prismatic solid with milled features with overall height 10.0 mm.",
+    "I need a prismatic solid with milled features matching the described geometry."
+  ],
+  "metadata": {
+    "version": "1.0",
+    "unit": "mm",
+    "source_format": "FCStd",
+    "parser_version": "0.1",
+    "source_path": "/Users/hassenhicheri/Desktop/CAD/examples/000505.FCStd",
+    "source_label": "cabin_roof"
+  },
+  "operations": [
+    {
+      "id": "op_001",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Line",
+          "start": [
+            0.0,
+            0.0
+          ],
+          "end": [
+            60.0,
+            0.0
+          ]
+        },
+        {
+          "id": "e_002",
+          "type": "Line",
+          "start": [
+            60.0,
+            0.0
+          ],
+          "end": [
+            60.0,
+            45.0
+          ]
+        },
+        {
+          "id": "e_003",
+          "type": "Line",
+          "start": [
+            60.0,
+            45.0
+          ],
+          "end": [
+            0.0,
+            45.0
+          ]
+        },
+        {
+          "id": "e_004",
+          "type": "Line",
+          "start": [
+            0.0,
+            45.0
+          ],
+          "end": [
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_002",
+      "type": "Pad",
+      "profile": "op_001",
+      "length": 10.0
+    },
+    {
+      "id": "op_003",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Circle",
+          "center": [
+            -40.0,
+            5.0
+          ],
+          "radius": 1.25
+        },
+        {
+          "id": "e_002",
+          "type": "Circle",
+          "center": [
+            -5.0,
+            5.0
+          ],
+          "radius": 1.25
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_004",
+      "type": "Pocket",
+      "profile": "op_003",
+      "depth": 10.0
+    },
+    {
+      "id": "op_005",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Circle",
+          "center": [
+            5.0,
+            5.0
+          ],
+          "radius": 1.25
+        },
+        {
+          "id": "e_002",
+          "type": "Circle",
+          "center": [
+            40.0,
+            5.0
+          ],
+          "radius": 1.25
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_006",
+      "type": "Pocket",
+      "profile": "op_005",
+      "depth": 10.0
+    },
+    {
+      "id": "op_007",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Circle",
+          "center": [
+            15.0,
+            22.5
+          ],
+          "radius": 1.25
+        },
+        {
+          "id": "e_002",
+          "type": "Circle",
+          "center": [
+            45.0,
+            22.5
+          ],
+          "radius": 1.25
+        },
+        {
+          "id": "e_003",
+          "type": "Circle",
+          "center": [
+            30.0,
+            5.0
+          ],
+          "radius": 1.25
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_008",
+      "type": "Pocket",
+      "profile": "op_007",
+      "depth": 10.0
+    }
+  ]
+}

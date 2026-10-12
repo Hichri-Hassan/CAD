@@ -1,0 +1,64 @@
+{
+  "stage": "stage1",
+  "run_id": "run_007",
+  "run_dir": "/Users/hassenhicheri/Desktop/CAD/training/experiments/stage1/run_007",
+  "status": "completed",
+  "completed_at": "2026-07-04T10:48:40.020620+00:00",
+  "config": {
+    "stage": "stage1",
+    "run_id": "run_007",
+    "searchable": {
+      "lora_r": 32,
+      "learning_rate": 0.0001,
+      "num_epochs": 3,
+      "lora_dropout": 0.05,
+      "lora_alpha": 32
+    },
+    "fixed": {
+      "weight_decay": 0.01,
+      "max_seq_length": 4096,
+      "optimizer": "adamw_torch",
+      "scheduler": "cosine",
+      "warmup_ratio": 0.1,
+      "per_device_train_batch_size": 2,
+      "per_device_eval_batch_size": 2,
+      "gradient_accumulation_steps": 4,
+      "logging_steps": 10,
+      "eval_steps": 50,
+      "save_steps": 100,
+      "target_modules": [
+        "q_proj",
+        "k_proj",
+        "v_proj",
+        "o_proj",
+        "gate_proj",
+        "up_proj",
+        "down_proj"
+      ]
+    },
+    "reproducibility": {
+      "seed": 42,
+      "dataset_version": "dataset_v1_train_200",
+      "dataset_path": "dataset_v1/train/training_data.jsonl",
+      "model_version": "Qwen/Qwen2.5-3B-Instruct",
+      "base_config": "training/configs/qwen_3b.yaml"
+    },
+    "created_at": "2026-07-01T16:06:20.668531+00:00"
+  },
+  "metrics": {
+    "core": {
+      "train_loss": 0.15047880212465922,
+      "val_loss": 0.08124898374080658,
+      "training_time_seconds": 72703.38146185875,
+      "trainable_parameters": 59867136,
+      "checkpoint_path": "/Users/hassenhicheri/Desktop/CAD/training/experiments/stage1/run_007/checkpoints/adapter"
+    },
+    "cad": {
+      "json_validity": null,
+      "compilation_success": null,
+      "operation_accuracy": null,
+      "geometry_similarity": null
+    },
+    "custom": {}
+  }
+}

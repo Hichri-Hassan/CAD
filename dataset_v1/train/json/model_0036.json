@@ -1,0 +1,90 @@
+{
+  "model_id": "model_0036",
+  "title": "Rectangular Block",
+  "description": "This part is a simple rectangular block with a uniform height of 2.0 mm.",
+  "tags": [
+    "block",
+    "rectangular",
+    "solid",
+    "base part"
+  ],
+  "prompts": [
+    "Can you make a rectangular block that is 2.0 mm tall?",
+    "I'd like a solid base piece with a closed rectangular outline on the XY plane, with a height of 2 mm.",
+    "Please create a rectangular block with dimensions that give it a height of 2.0 mm.",
+    "Make a flat rectangular block, ensuring it has a total height of 2 mm.",
+    "Generate a solid rectangular part with a consistent thickness of 2 mm across its height."
+  ],
+  "metadata": {
+    "version": "1.0",
+    "unit": "mm",
+    "source_format": "FCStd",
+    "parser_version": "0.1",
+    "source_path": "/Users/hassenhicheri/Desktop/CAD/examples/000649.FCStd",
+    "source_label": "plate-thin_bottom"
+  },
+  "operations": [
+    {
+      "id": "op_001",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Line",
+          "start": [
+            -2907.75,
+            1149.0
+          ],
+          "end": [
+            2907.75,
+            1149.0
+          ]
+        },
+        {
+          "id": "e_002",
+          "type": "Line",
+          "start": [
+            2907.75,
+            1149.0
+          ],
+          "end": [
+            2907.75,
+            -1149.0
+          ]
+        },
+        {
+          "id": "e_003",
+          "type": "Line",
+          "start": [
+            2907.75,
+            -1149.0
+          ],
+          "end": [
+            -2907.75,
+            -1149.0
+          ]
+        },
+        {
+          "id": "e_004",
+          "type": "Line",
+          "start": [
+            -2907.75,
+            -1149.0
+          ],
+          "end": [
+            -2907.75,
+            1149.0
+          ]
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_002",
+      "type": "Pad",
+      "profile": "op_001",
+      "length": 2.0
+    }
+  ]
+}

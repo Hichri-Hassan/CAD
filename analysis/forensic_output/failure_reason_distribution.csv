@@ -1,0 +1,8 @@
+failure_reason,count,percentage
+Part Workbench instead of PartDesign,2218,69.3342
+Parsed successfully,717,22.4133
+No PartDesign Body,209,6.5333
+Multiple PartDesign Bodies,18,0.5627
+Assembly structure,15,0.4689
+Unknown,14,0.4376
+PartDesign Body not named 'Body',8,0.2501

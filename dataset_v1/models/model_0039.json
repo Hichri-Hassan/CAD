@@ -1,0 +1,340 @@
+{
+  "model_id": "model_0039",
+  "title": "Prismatic Solid With Milled Features",
+  "description": "A prismatic solid with milled features with 0 hole(s) and 4 pocket(s).",
+  "tags": [
+    "mechanical",
+    "partdesign",
+    "prismatic-solid-with-milled-features",
+    "pockets"
+  ],
+  "prompts": [
+    "Create a prismatic solid with milled features.",
+    "Design a prismatic solid with milled features suitable for mechanical assembly.",
+    "Build a functional prismatic solid with milled features for general engineering use.",
+    "Make a prismatic solid with milled features with overall height 45.0 mm.",
+    "I need a prismatic solid with milled features matching the described geometry."
+  ],
+  "metadata": {
+    "version": "1.0",
+    "unit": "mm",
+    "source_format": "FCStd",
+    "parser_version": "0.1",
+    "source_path": "/Users/hassenhicheri/Desktop/CAD/examples/002235.FCStd",
+    "source_label": "SKXX"
+  },
+  "operations": [
+    {
+      "id": "op_001",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Line",
+          "start": [
+            -74.0,
+            -0.0
+          ],
+          "end": [
+            74.0,
+            -0.0
+          ]
+        },
+        {
+          "id": "e_002",
+          "type": "Line",
+          "start": [
+            74.0,
+            -0.0
+          ],
+          "end": [
+            74.0,
+            18.0
+          ]
+        },
+        {
+          "id": "e_003",
+          "type": "Line",
+          "start": [
+            74.0,
+            18.0
+          ],
+          "end": [
+            45.0,
+            18.0
+          ]
+        },
+        {
+          "id": "e_004",
+          "type": "Line",
+          "start": [
+            45.0,
+            18.0
+          ],
+          "end": [
+            45.0,
+            136.0
+          ]
+        },
+        {
+          "id": "e_005",
+          "type": "Line",
+          "start": [
+            45.0,
+            136.0
+          ],
+          "end": [
+            -45.0,
+            136.0
+          ]
+        },
+        {
+          "id": "e_006",
+          "type": "Line",
+          "start": [
+            -45.0,
+            136.0
+          ],
+          "end": [
+            -45.0,
+            18.0
+          ]
+        },
+        {
+          "id": "e_007",
+          "type": "Line",
+          "start": [
+            -45.0,
+            18.0
+          ],
+          "end": [
+            -74.0,
+            18.0
+          ]
+        },
+        {
+          "id": "e_008",
+          "type": "Line",
+          "start": [
+            -74.0,
+            18.0
+          ],
+          "end": [
+            -74.0,
+            0.0
+          ]
+        },
+        {
+          "id": "e_009",
+          "type": "Point",
+          "position": [
+            0.0,
+            136.0
+          ]
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_002",
+      "type": "Pad",
+      "profile": "op_001",
+      "length": 45.0,
+      "symmetric": true
+    },
+    {
+      "id": "op_003",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Circle",
+          "center": [
+            -60.0,
+            0.0
+          ],
+          "radius": 7.0
+        },
+        {
+          "id": "e_002",
+          "type": "Circle",
+          "center": [
+            60.0,
+            0.0
+          ],
+          "radius": 7.0
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_004",
+      "type": "Pocket",
+      "profile": "op_003",
+      "depth": 5.0
+    },
+    {
+      "id": "op_005",
+      "type": "Chamfer",
+      "distance": 2.8,
+      "edges": [
+        {
+          "reference": "op_004",
+          "selector": "Edge23"
+        },
+        {
+          "reference": "op_004",
+          "selector": "Edge25"
+        }
+      ]
+    },
+    {
+      "id": "op_006",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Circle",
+          "center": [
+            0.0,
+            80.0
+          ],
+          "radius": 30.0
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_007",
+      "type": "Pocket",
+      "profile": "op_006",
+      "depth": 5.0
+    },
+    {
+      "id": "op_008",
+      "type": "Chamfer",
+      "distance": 1.5,
+      "edges": [
+        {
+          "reference": "op_007",
+          "selector": "Edge22"
+        },
+        {
+          "reference": "op_007",
+          "selector": "Edge28"
+        }
+      ]
+    },
+    {
+      "id": "op_009",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Circle",
+          "center": [
+            123.0,
+            0.0
+          ],
+          "radius": 6.0
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_010",
+      "type": "Pocket",
+      "profile": "op_009",
+      "depth": 5.0
+    },
+    {
+      "id": "op_011",
+      "type": "Chamfer",
+      "distance": 2.4,
+      "edges": [
+        {
+          "reference": "op_010",
+          "selector": "Edge29"
+        },
+        {
+          "reference": "op_010",
+          "selector": "Edge32"
+        }
+      ]
+    },
+    {
+      "id": "op_012",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Line",
+          "start": [
+            -2.25,
+            22.5
+          ],
+          "end": [
+            -2.25,
+            -22.5
+          ]
+        },
+        {
+          "id": "e_002",
+          "type": "Line",
+          "start": [
+            -2.25,
+            -22.5
+          ],
+          "end": [
+            2.25,
+            -22.5
+          ]
+        },
+        {
+          "id": "e_003",
+          "type": "Line",
+          "start": [
+            2.25,
+            -22.5
+          ],
+          "end": [
+            2.25,
+            22.5
+          ]
+        },
+        {
+          "id": "e_004",
+          "type": "Line",
+          "start": [
+            2.25,
+            22.5
+          ],
+          "end": [
+            -2.25,
+            22.5
+          ]
+        },
+        {
+          "id": "e_005",
+          "type": "Point",
+          "position": [
+            -0.0,
+            -0.0
+          ]
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_013",
+      "type": "Pocket",
+      "profile": "op_012",
+      "depth": 56.0
+    }
+  ]
+}

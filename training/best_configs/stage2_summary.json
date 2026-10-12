@@ -1,0 +1,11 @@
+{
+  "stage": "stage2",
+  "total_runs": 8,
+  "completed": 8,
+  "failed": 0,
+  "report": "/Users/hassenhicheri/Desktop/CAD/training/experiments/stage2/stage2_report.md",
+  "best_config": "/Users/hassenhicheri/Desktop/CAD/training/best_configs/stage2_best.yaml",
+  "best_experiment": "stage2/run_008",
+  "best_val_loss": 0.008039772510528564,
+  "best_train_loss": 0.050346124850006564
+}

@@ -1,0 +1,629 @@
+{
+  "model_id": "model_0046",
+  "title": "Rectangular Plate with Recessed Pocket",
+  "description": "This part features a rectangular plate with a significant height and a recessed pocket. It includes a rounded corner for a smoother edge.",
+  "tags": [
+    "rectangular plate",
+    "recessed pocket",
+    "rounded corner",
+    "mechanical part"
+  ],
+  "prompts": [
+    "Can you make a rectangular plate with a recessed pocket?",
+    "I need a plate that is 300 mm tall with a pocket that goes 300 mm deep and has one rounded corner.",
+    "Please design a rectangular block that has a deep recess and a smooth rounded edge.",
+    "Create a 300 mm high rectangular plate featuring a circular recessed pocket and a fillet radius of 0.3 mm on one corner.",
+    "I\u2019d like a rectangular plate with a single recessed area and a rounded corner for a clean finish."
+  ],
+  "metadata": {
+    "version": "1.0",
+    "unit": "mm",
+    "source_format": "FCStd",
+    "parser_version": "0.1",
+    "source_path": "/Users/hassenhicheri/Desktop/CAD/examples/003145.FCStd",
+    "source_label": "makerbeam_profile"
+  },
+  "operations": [
+    {
+      "id": "op_001",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Line",
+          "start": [
+            1.5,
+            5.0
+          ],
+          "end": [
+            5.0,
+            5.0
+          ]
+        },
+        {
+          "id": "e_002",
+          "type": "Line",
+          "start": [
+            5.0,
+            5.0
+          ],
+          "end": [
+            5.0,
+            1.5
+          ]
+        },
+        {
+          "id": "e_003",
+          "type": "Line",
+          "start": [
+            5.0,
+            1.5
+          ],
+          "end": [
+            4.0,
+            1.5
+          ]
+        },
+        {
+          "id": "e_004",
+          "type": "Line",
+          "start": [
+            1.5,
+            5.0
+          ],
+          "end": [
+            1.5,
+            4.0
+          ]
+        },
+        {
+          "id": "e_005",
+          "type": "Line",
+          "start": [
+            0.0,
+            1.5
+          ],
+          "end": [
+            1.0,
+            1.5
+          ]
+        },
+        {
+          "id": "e_006",
+          "type": "Line",
+          "start": [
+            1.5,
+            0.0
+          ],
+          "end": [
+            1.5,
+            1.0
+          ]
+        },
+        {
+          "id": "e_007",
+          "type": "Line",
+          "start": [
+            1.5,
+            4.0
+          ],
+          "end": [
+            3.5,
+            4.0
+          ]
+        },
+        {
+          "id": "e_008",
+          "type": "Line",
+          "start": [
+            3.5,
+            4.0
+          ],
+          "end": [
+            1.0,
+            1.5
+          ]
+        },
+        {
+          "id": "e_009",
+          "type": "Line",
+          "start": [
+            1.5,
+            1.0
+          ],
+          "end": [
+            4.0,
+            3.5
+          ]
+        },
+        {
+          "id": "e_010",
+          "type": "Line",
+          "start": [
+            4.0,
+            3.5
+          ],
+          "end": [
+            4.0,
+            1.5
+          ]
+        },
+        {
+          "id": "e_011",
+          "type": "Line",
+          "start": [
+            -1.5,
+            5.0
+          ],
+          "end": [
+            -5.0,
+            5.0
+          ]
+        },
+        {
+          "id": "e_012",
+          "type": "Line",
+          "start": [
+            -5.0,
+            5.0
+          ],
+          "end": [
+            -5.0,
+            1.5
+          ]
+        },
+        {
+          "id": "e_013",
+          "type": "Line",
+          "start": [
+            -5.0,
+            1.5
+          ],
+          "end": [
+            -4.0,
+            1.5
+          ]
+        },
+        {
+          "id": "e_014",
+          "type": "Line",
+          "start": [
+            -1.5,
+            5.0
+          ],
+          "end": [
+            -1.5,
+            4.0
+          ]
+        },
+        {
+          "id": "e_015",
+          "type": "Line",
+          "start": [
+            0.0,
+            1.5
+          ],
+          "end": [
+            -1.0,
+            1.5
+          ]
+        },
+        {
+          "id": "e_016",
+          "type": "Line",
+          "start": [
+            -1.5,
+            0.0
+          ],
+          "end": [
+            -1.5,
+            1.0
+          ]
+        },
+        {
+          "id": "e_017",
+          "type": "Line",
+          "start": [
+            -1.5,
+            4.0
+          ],
+          "end": [
+            -3.5,
+            4.0
+          ]
+        },
+        {
+          "id": "e_018",
+          "type": "Line",
+          "start": [
+            -3.5,
+            4.0
+          ],
+          "end": [
+            -1.0,
+            1.5
+          ]
+        },
+        {
+          "id": "e_019",
+          "type": "Line",
+          "start": [
+            -1.5,
+            1.0
+          ],
+          "end": [
+            -4.0,
+            3.5
+          ]
+        },
+        {
+          "id": "e_020",
+          "type": "Line",
+          "start": [
+            -4.0,
+            3.5
+          ],
+          "end": [
+            -4.0,
+            1.5
+          ]
+        },
+        {
+          "id": "e_021",
+          "type": "Line",
+          "start": [
+            1.5,
+            -5.0
+          ],
+          "end": [
+            5.0,
+            -5.0
+          ]
+        },
+        {
+          "id": "e_022",
+          "type": "Line",
+          "start": [
+            5.0,
+            -5.0
+          ],
+          "end": [
+            5.0,
+            -1.5
+          ]
+        },
+        {
+          "id": "e_023",
+          "type": "Line",
+          "start": [
+            5.0,
+            -1.5
+          ],
+          "end": [
+            4.0,
+            -1.5
+          ]
+        },
+        {
+          "id": "e_024",
+          "type": "Line",
+          "start": [
+            1.5,
+            -5.0
+          ],
+          "end": [
+            1.5,
+            -4.0
+          ]
+        },
+        {
+          "id": "e_025",
+          "type": "Line",
+          "start": [
+            0.0,
+            -1.5
+          ],
+          "end": [
+            1.0,
+            -1.5
+          ]
+        },
+        {
+          "id": "e_026",
+          "type": "Line",
+          "start": [
+            1.5,
+            0.0
+          ],
+          "end": [
+            1.5,
+            -1.0
+          ]
+        },
+        {
+          "id": "e_027",
+          "type": "Line",
+          "start": [
+            1.5,
+            -4.0
+          ],
+          "end": [
+            3.5,
+            -4.0
+          ]
+        },
+        {
+          "id": "e_028",
+          "type": "Line",
+          "start": [
+            3.5,
+            -4.0
+          ],
+          "end": [
+            1.0,
+            -1.5
+          ]
+        },
+        {
+          "id": "e_029",
+          "type": "Line",
+          "start": [
+            1.5,
+            -1.0
+          ],
+          "end": [
+            4.0,
+            -3.5
+          ]
+        },
+        {
+          "id": "e_030",
+          "type": "Line",
+          "start": [
+            4.0,
+            -3.5
+          ],
+          "end": [
+            4.0,
+            -1.5
+          ]
+        },
+        {
+          "id": "e_031",
+          "type": "Line",
+          "start": [
+            -1.5,
+            -5.0
+          ],
+          "end": [
+            -5.0,
+            -5.0
+          ]
+        },
+        {
+          "id": "e_032",
+          "type": "Line",
+          "start": [
+            -5.0,
+            -5.0
+          ],
+          "end": [
+            -5.0,
+            -1.5
+          ]
+        },
+        {
+          "id": "e_033",
+          "type": "Line",
+          "start": [
+            -5.0,
+            -1.5
+          ],
+          "end": [
+            -4.0,
+            -1.5
+          ]
+        },
+        {
+          "id": "e_034",
+          "type": "Line",
+          "start": [
+            -1.5,
+            -5.0
+          ],
+          "end": [
+            -1.5,
+            -4.0
+          ]
+        },
+        {
+          "id": "e_035",
+          "type": "Line",
+          "start": [
+            0.0,
+            -1.5
+          ],
+          "end": [
+            -1.0,
+            -1.5
+          ]
+        },
+        {
+          "id": "e_036",
+          "type": "Line",
+          "start": [
+            -1.5,
+            0.0
+          ],
+          "end": [
+            -1.5,
+            -1.0
+          ]
+        },
+        {
+          "id": "e_037",
+          "type": "Line",
+          "start": [
+            -1.5,
+            -4.0
+          ],
+          "end": [
+            -3.5,
+            -4.0
+          ]
+        },
+        {
+          "id": "e_038",
+          "type": "Line",
+          "start": [
+            -3.5,
+            -4.0
+          ],
+          "end": [
+            -1.0,
+            -1.5
+          ]
+        },
+        {
+          "id": "e_039",
+          "type": "Line",
+          "start": [
+            -1.5,
+            -1.0
+          ],
+          "end": [
+            -4.0,
+            -3.5
+          ]
+        },
+        {
+          "id": "e_040",
+          "type": "Line",
+          "start": [
+            -4.0,
+            -3.5
+          ],
+          "end": [
+            -4.0,
+            -1.5
+          ]
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_002",
+      "type": "Pad",
+      "profile": "op_001",
+      "length": 300.0
+    },
+    {
+      "id": "op_003",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Circle",
+          "center": [
+            0.0,
+            0.0
+          ],
+          "radius": 1.25
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_004",
+      "type": "Pocket",
+      "profile": "op_003",
+      "depth": 300.0,
+      "reversed": true
+    },
+    {
+      "id": "op_005",
+      "type": "Fillet",
+      "radius": 0.3,
+      "edges": [
+        {
+          "reference": "op_004",
+          "selector": "Edge87"
+        },
+        {
+          "reference": "op_004",
+          "selector": "Edge5"
+        },
+        {
+          "reference": "op_004",
+          "selector": "Edge89"
+        },
+        {
+          "reference": "op_004",
+          "selector": "Edge91"
+        },
+        {
+          "reference": "op_004",
+          "selector": "Edge1"
+        },
+        {
+          "reference": "op_004",
+          "selector": "Edge103"
+        },
+        {
+          "reference": "op_004",
+          "selector": "Edge111"
+        },
+        {
+          "reference": "op_004",
+          "selector": "Edge109"
+        },
+        {
+          "reference": "op_004",
+          "selector": "Edge105"
+        },
+        {
+          "reference": "op_004",
+          "selector": "Edge107"
+        },
+        {
+          "reference": "op_004",
+          "selector": "Edge118"
+        },
+        {
+          "reference": "op_004",
+          "selector": "Edge120"
+        },
+        {
+          "reference": "op_004",
+          "selector": "Edge116"
+        },
+        {
+          "reference": "op_004",
+          "selector": "Edge102"
+        },
+        {
+          "reference": "op_004",
+          "selector": "Edge100"
+        },
+        {
+          "reference": "op_004",
+          "selector": "Edge98"
+        },
+        {
+          "reference": "op_004",
+          "selector": "Edge114"
+        },
+        {
+          "reference": "op_004",
+          "selector": "Edge96"
+        },
+        {
+          "reference": "op_004",
+          "selector": "Edge94"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "shape_id": "through_hole_41_l76_w54_h21_d12mm_x25_y18",
+  "shape_type": "through_hole",
+  "index": 41,
+  "dimensions": {
+    "length_mm": 76.0,
+    "width_mm": 54.0,
+    "height_mm": 21.0,
+    "diameter_mm": 12.0,
+    "hole_centers_xy": [
+      [
+        25.0,
+        18.0
+      ]
+    ],
+    "hole_count": 1
+  },
+  "fcstd_path": "output/features/through_holes/through_hole_41_l76_w54_h21_d12mm_x25_y18.FCStd",
+  "json_path": "output/features/through_holes/through_hole_41_l76_w54_h21_d12mm_x25_y18.json",
+  "prompts": [
+    "Create a 76 \u00d7 54 \u00d7 21 mm rectangular block with a 12 mm diameter through-hole located 25 mm from the left edge and 18 mm from the bottom edge.",
+    "Generate a 76 by 54 by 21 millimeter prism with a through-hole of 12 mm passing fully through, with the hole center at (25, 18).",
+    "Make a 76 mm long, 54 mm wide, and 21 mm high block with a 12 mm diameter hole through all. Position it 25 mm from the left edge and 18 mm from the bottom edge.",
+    "Build a rectangular solid measuring 76 \u00d7 54 \u00d7 21 mm with a 12 mm through hole at hole center (25, 18).",
+    "I need a 76 \u00d7 54 \u00d7 21 mm prism featuring a 12 mm hole through all. The hole center is at (25, 18)."
+  ],
+  "passed_validation": true
+}

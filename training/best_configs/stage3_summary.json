@@ -1,0 +1,12 @@
+{
+  "stage": "stage3",
+  "total_runs": 3,
+  "completed": 3,
+  "failed": 0,
+  "report": "/Users/hassenhicheri/Desktop/CAD/training/experiments/stage3/stage3_report.md",
+  "best_config": "/Users/hassenhicheri/Desktop/CAD/training/best_configs/stage3_best.yaml",
+  "best_experiment": "stage3/run_003",
+  "best_val_loss": 0.005440737586468458,
+  "best_train_loss": 0.04455399930787583,
+  "best_lora_alpha": 64
+}

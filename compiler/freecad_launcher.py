@@ -35,7 +35,12 @@ def find_freecadcmd() -> Path | None:
     return None
 
 
-def run_in_freecad(script_path: Path, args: list[str]) -> subprocess.CompletedProcess[str]:
+def run_in_freecad(
+    script_path: Path,
+    args: list[str],
+    *,
+    project_root: Path | None = None,
+) -> subprocess.CompletedProcess[str]:
     """Run a Python script inside the FreeCAD environment."""
     freecadcmd = find_freecadcmd()
     if freecadcmd is None:
@@ -44,7 +49,9 @@ def run_in_freecad(script_path: Path, args: list[str]) -> subprocess.CompletedPr
             "Install FreeCAD or set FREECAD_CMD to the FreeCADCmd binary."
         )
 
-    project_root = script_path.resolve().parent.parent
+    if project_root is None:
+        project_root = script_path.resolve().parent.parent
+
     env = os.environ.copy()
     env["CAD_COMPILER_ROOT"] = str(project_root)
 

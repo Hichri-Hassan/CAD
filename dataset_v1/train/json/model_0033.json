@@ -1,0 +1,81 @@
+{
+  "model_id": "model_0033",
+  "title": "Chamfered Rectangular Block",
+  "description": "This part is a rectangular block with a height of 5.0 mm and has two chamfered edges, each with a distance of 1.0 mm.",
+  "tags": [
+    "rectangular block",
+    "chamfer",
+    "solid part"
+  ],
+  "prompts": [
+    "Can you make a rectangular block with a height of 5 mm and two chamfered edges?",
+    "I'd like a solid rectangular piece that is 5 mm tall, featuring chamfers on two edges.",
+    "Please create a rectangular block with a circular profile on the top and chamfers of 1 mm on two edges.",
+    "Design a block with a height of 5 mm, including a 1 mm chamfer on each of the corners.",
+    "Generate a solid rectangular part with a circular face on the XY plane and chamfered edges measuring 1 mm."
+  ],
+  "metadata": {
+    "version": "1.0",
+    "unit": "mm",
+    "source_format": "FCStd",
+    "parser_version": "0.1",
+    "source_path": "/Users/hassenhicheri/Desktop/CAD/examples/000635.FCStd",
+    "source_label": "door-rod-ring"
+  },
+  "operations": [
+    {
+      "id": "op_001",
+      "type": "Sketch",
+      "entities": [
+        {
+          "id": "e_001",
+          "type": "Circle",
+          "center": [
+            0.0,
+            0.0
+          ],
+          "radius": 16.85
+        },
+        {
+          "id": "e_002",
+          "type": "Circle",
+          "center": [
+            0.0,
+            0.0
+          ],
+          "radius": 22.5
+        }
+      ],
+      "constraints": [],
+      "plane": "XY"
+    },
+    {
+      "id": "op_002",
+      "type": "Pad",
+      "profile": "op_001",
+      "length": 5.0
+    },
+    {
+      "id": "op_003",
+      "type": "Chamfer",
+      "distance": 1.0,
+      "edges": [
+        {
+          "reference": "op_002",
+          "selector": "Edge6"
+        }
+      ]
+    },
+    {
+      "id": "op_004",
+      "type": "Chamfer",
+      "distance": 1.0,
+      "edges": [
+        {
+          "reference": "op_003",
+          "selector": "Edge3"
+        }
+      ]
+    }
+  ]
+}
